@@ -1,0 +1,20 @@
+# Page Setup
+title: Xabier Gabiña Barañano
+url: https://xabierland.github.io/
+baseurl: ""
+description: "Xabier Gabiña Barañano's personal website"
+
+# Gems
+
+# Author
+author:
+  name: Xabier Gabiña Barañano
+  email: xabierland@gmail.com
+  url: https://github.com/Xabierland
+
+# Navbar
+nav:
+  - title: Contact
+    url: /contact/
+  - title: Publications
+    url: /publications/
