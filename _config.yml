@@ -4,7 +4,6 @@ url: https://xabierland.github.io/
 baseurl: ""
 description: "Xabier Gabiña Barañano's personal website"
 
-# Gems
 
 # Author
 author:
@@ -14,7 +13,7 @@ author:
 
 # Navbar
 nav:
-  - title: Contact
-    url: /contact/
   - title: Publications
     url: /publications/
+  - title: Contact
+    url: /contact/
