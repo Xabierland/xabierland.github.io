@@ -1,19 +1,5 @@
 # Page Setup
 title: Xabier Gabiña Barañano
 url: https://xabierland.github.io/
-baseurl: ""
 description: "Xabier Gabiña Barañano's personal website"
-
-
-# Author
-author:
-  name: Xabier Gabiña Barañano
-  email: xabierland@gmail.com
-  url: https://github.com/Xabierland
-
-# Navbar
-nav:
-  - title: Publications
-    url: /publications/
-  - title: Contact
-    url: /contact/
+theme: jekyll-theme-cayman
