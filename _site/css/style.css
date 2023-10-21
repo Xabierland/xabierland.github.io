@@ -1,0 +1,83 @@
+html, body
+{
+    font-family: 'Hack Nerd Font', monospace;
+
+    color: #00FF00;
+
+    background: 
+    linear-gradient(135deg, black 25%, transparent 25%) -50px 0,
+    linear-gradient(225deg, black 25%, transparent 25%) -50px 0,
+    linear-gradient(315deg, black 25%, transparent 25%),
+    linear-gradient(45deg, black 25%, transparent 25%);	
+    background-size: 2em 2em;
+    background-color: #232323;
+}
+
+body
+{
+    position: relative;
+}
+
+/*header*/
+h1
+{
+    font-size: 36px;
+}
+
+nav 
+{
+    text-align: center; /* Centrar el contenido horizontalmente */
+    background-color: rgba(0, 0, 0, 0.4); /* Fondo negro con opacidad (valor alfa de 0.7) */
+    padding: 10px; /* Espacio interior alrededor del menú */
+}
+  
+nav ul 
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centrar los elementos de la lista horizontalmente */
+}
+  
+nav li 
+{
+    margin-right: 20px; /* Aumenta el espacio entre elementos li */
+}
+  
+nav a 
+{
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    font-size: 20px; /* Aumenta el tamaño de fuente */
+    font-weight: bold; /* Añade negrita al texto */
+}
+
+a
+{
+    color: #00AA00 !important;
+}
+
+h2
+{
+    width: 38vw
+}
+
+/*main*/
+main
+{
+    background-color: rgba(0, 0, 0, 0.6); 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*footer*/
+footer 
+{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;   /* Height of the footer */
+    background: rgb(0, 0, 0, 0.4);
+}
