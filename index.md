@@ -3,4 +3,6 @@ layout: default
 title: Inicio
 ---
 
-Contenido de la página de inicio.
+## Inicio
+
+Computer Science Engineering student in Management and Information Systems.
