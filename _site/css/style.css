@@ -42,7 +42,8 @@ nav ul
   
 nav li 
 {
-    margin-right: 20px; /* Aumenta el espacio entre elementos li */
+    margin-right: 10px; /* Aumenta el espacio entre elementos li */
+    margin-left: 10px;
 }
   
 nav a 
@@ -57,19 +58,13 @@ a
     color: #00AA00 !important;
 }
 
-h2
-{
-    width: 38vw
-}
-
 /*main*/
 main
 {
-    background-color: rgba(0, 0, 0, 0.6); 
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5); 
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 /*footer*/
