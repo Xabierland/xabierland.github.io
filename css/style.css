@@ -42,7 +42,8 @@ nav ul
   
 nav li 
 {
-    margin-right: 20px; /* Aumenta el espacio entre elementos li */
+    margin-right: 10px; /* Aumenta el espacio entre elementos li */
+    margin-left: 10px;
 }
   
 nav a 
