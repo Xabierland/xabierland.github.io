@@ -57,15 +57,11 @@ a
     color: #00AA00 !important;
 }
 
-h2
-{
-    width: 38vw
-}
-
 /*main*/
 main
 {
     background-color: rgba(0, 0, 0, 0.6); 
+    justify-content: center;
     margin-top: 100px;
     margin-bottom: 100px;
 }
