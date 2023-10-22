@@ -30,7 +30,7 @@ Elegir el sistema operativo es algo increiblemente importante. Si tu sistema ope
 
 ## Navegador
 
-Cuando buscamos un navegador debemos de buscar siempre lo mas sencillo. Los navegadores como Chrome, Mozilla, Brave, Opera... A parte de ser navegadores de naturaleza privada y por lo tanto posiblemente spyware, estos navegadores tienen un monton de funciones que no utiliza practicamente nadie y que puede resultar mas peligroso que util para los usuarios. Entre ellos cabe mencionar todo lo relativo a JavaScript
+Cuando buscamos un navegador debemos de buscar siempre lo mas sencillo. Los navegadores como Chrome, Mozilla, Brave, Opera... A parte de ser navegadores de naturaleza privada y por lo tanto posiblemente spyware, estos navegadores tienen un monton de funciones que no utiliza practicamente nadie y que puede resultar mas peligroso que util para los usuarios. Entre ellos cabe mencionar todo lo relativo a JavaScript.
 
 ## Correo
 
