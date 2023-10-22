@@ -26,12 +26,30 @@ Una vez teniendo el hardware, bien sea, un portatil, un ordenador de sobremesa, 
 
 ## OS
 
-Elegir el sistema operativo es algo increiblemente importante. Si tu sistema operativo recoge y envia toda lo que haces a sus servidores no tienen ningun sentido que uses un navegador seguro, VPNs o servidores proxis porque la base del propio sistema ya esta mal planteada.
-
-
+Elegir el sistema operativo es algo increiblemente importante. Si tu sistema operativo recoge y envia todo lo que haces a sus servidores no tienen ningun sentido que uses un navegador seguro, VPNs o servidores proxis porque la base del propio sistema ya esta mal planteada.
 
 ## Navegador
 
+Cuando buscamos un navegador debemos de buscar siempre lo mas sencillo. Los navegadores como Chrome, Mozilla, Brave, Opera... A parte de ser navegadores de naturaleza privada y por lo tanto posiblemente spyware, estos navegadores tienen un monton de funciones que no utiliza practicamente nadie y que puede resultar mas peligroso que util para los usuarios. Entre ellos cabe mencionar todo lo relativo a JavaScript
+
 ## Correo
 
-## VPN
+## Mensajeria
+
+## Software
+
+### Gestor de archivos
+
+### Editor/Visor de texto
+
+### Editor/Visor de imagenes
+
+### Editor/Visor de PDF
+
+### Editor/Visor de RSS
+
+### Borrador de metadatos
+
+### Gestor de contraseñas
+
+### Terminal
