@@ -18,3 +18,7 @@ title: Contacto
 [Educational Mail](mailto:xgabina001@ehu.eus)
 
 [Personal Mail](mailto:xabierland@gmail.com)
+
+### Donations
+
+[PayPal](https://paypal.me/Xabierland)
