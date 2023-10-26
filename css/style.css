@@ -2,6 +2,8 @@ html, body
 {
     font-family: 'Hack Nerd Font', monospace;
 
+    display: flex;
+
     color: #00FF00;
 
     background: 
