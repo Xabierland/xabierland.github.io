@@ -18,10 +18,16 @@ body
     position: relative;
 }
 
-/*header*/
+/*General*/
 h1
 {
     font-size: 36px;
+    font-weight: bolder;
+}
+
+h2, h3, h4, h5, h6
+{
+    text-decoration: underline;
 }
 
 nav 
@@ -38,6 +44,7 @@ nav ul
     margin: 0;
     display: flex;
     justify-content: center; /* Centrar los elementos de la lista horizontalmente */
+    padding-left: 20px;
 }
   
 nav li 
@@ -61,11 +68,35 @@ a
 /*main*/
 main
 {
-    background-color: rgba(0, 0, 0, 0.5); 
-    justify-content: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    display: flex;
+    align-items: center;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
+
+main p
+{
+    text-align: justify;
+}
+
+main p.no-justify
+{
+    text-align: center;
+}
+
+main ul
+{
+    list-style: none;
+    text-align: center;
+    margin-left: -4px;
+}
+
+main ul li {
+    margin: 0; /* Establece el margen derecho e izquierdo a cero */
+  }
 
 table th
 {

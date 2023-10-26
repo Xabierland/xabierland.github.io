@@ -96,9 +96,8 @@ Un vez que tengas tu VPS monta tu VPN usando WireGuard o OpenVPN y conectate a e
 
 Te dejo links de ambas tecnologias para ayudarte a configurar tu VPN:
 
-[WireGuard](https://www.wireguard.com/)
-
-[OpenVPN](https://openvpn.net/)
+* [WireGuard](https://www.wireguard.com/)
+* [OpenVPN](https://openvpn.net/)
 
 ### Proxy
 
@@ -139,6 +138,18 @@ Especial mencion al proyecto [pipe-viewer](https://github.com/trizen/pipe-viewer
 
 #### Extensiones
 
+Si has elegido uno de los navegadores minimalistas de la lista de arriba, la realidad es que no vas a necesitar o no vas a poder usar extensiones. Si por el contrario te has visto obligado a elegir una opcion como LibreWolf, Ungoogle Chromium o PaleMoon te recomiendo que heches un vistazo a las siguientes extensiones:
+
+* uBlock Origin
+* Bitwareden
+* KeepassXC
+* Canvas Blocker
+* xBrowserSync
+* LibreWolf Updater
+* Privacy Badger
+* User-Agent Switcher
+* Chaff
+
 ### Dominio
 
 ### Correo
@@ -165,4 +176,30 @@ Especial mencion al proyecto [pipe-viewer](https://github.com/trizen/pipe-viewer
 
 ### Gestor de contraseñas
 
+### Shell
+
+Aunque la Shell no tiene mucho que ver con el tema de anonimato y privacidad me parece interesante saber que opciones tenemos a la hora de elegir una Shell. A continuacion te dejo una lista de Shells a tener en cuenta a la hora de elegir la tuya.
+
+| Shell      | Licencia |
+|------------|----------|
+| PowerShell | MS-PL    |
+| Bash       | GPL      |
+| Nu Shell   | Apache   |
+| Glsh       | MIT      |
+| BusyBox    | GPL      |
+| Elvish     | MIT      |
+| rc         | MIT      |
+| Ash        | BSD      |
+| Mksh       | BSD      |
+| Dash       | BSD      |
+| C Shell    | BSD      |
+| Korn Shell | CDDL     |
+| Tcsh       | BSD      |
+| Fish       | GPL      |
+| Zsh        | MIT      |
+
+Quitando PowerShell cualquiera es una buena opcion. Personalmente recomiendo Zsh pero con la que te sientas mas como esta bien.
+
 ### Terminal
+
+Al igual que la Shell, la terminal o cli, no estan muy relacionados con el anonimato y privacidad pero como usuario de Linux es posiblemente la herramienta que mas utilices por lo que elegir una buena terminal es muy importante. A continuacion te dejo una lista de terminales a tener en cuenta a la hora de elegir la tuya.

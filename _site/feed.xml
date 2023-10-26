@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-10-25T21:42:00+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Xabierland</title><subtitle>Blog de Xabier Gabiña Barañano</subtitle><author><name>Xabier Gabiña Barañano</name></author><entry><title type="html">Anonimato total en la red</title><link href="http://localhost:4000/2023/10/21/Anonimato.html" rel="alternate" type="text/html" title="Anonimato total en la red" /><published>2023-10-21T00:00:00+02:00</published><updated>2023-10-21T00:00:00+02:00</updated><id>http://localhost:4000/2023/10/21/Anonimato</id><content type="html" xml:base="http://localhost:4000/2023/10/21/Anonimato.html"><![CDATA[<h2 id="introduccion">Introduccion</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-10-26T14:27:43+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Xabierland</title><subtitle>Blog de Xabier Gabiña Barañano</subtitle><author><name>Xabier Gabiña Barañano</name></author><entry><title type="html">Anonimato total en la red</title><link href="http://localhost:4000/2023/10/21/Anonimato.html" rel="alternate" type="text/html" title="Anonimato total en la red" /><published>2023-10-21T00:00:00+02:00</published><updated>2023-10-21T00:00:00+02:00</updated><id>http://localhost:4000/2023/10/21/Anonimato</id><content type="html" xml:base="http://localhost:4000/2023/10/21/Anonimato.html"><![CDATA[<h2 id="introduccion">Introduccion</h2>
 
 <p>La seguridad en internet es algo que ha ido desapareciendo con el paso del tiempo. Atras queda el tiempo en los que la red era un sitio anonimo y descentralizado, en los que todo era por personas y para personas, dando paso a una red practicamente centralizada y vigilada por agencias guvernamentales o grandes compañias de tecnologia. Este post intentara volver atras en el tiempo en algunos aspectos para asi poder avanzar hacia un futuro mas seguro, privado y anonimo.</p>
 
@@ -203,9 +203,10 @@ Un vez que tengas tu VPS monta tu VPN usando WireGuard o OpenVPN y conectate a e
 
 <p>Te dejo links de ambas tecnologias para ayudarte a configurar tu VPN:</p>
 
-<p><a href="https://www.wireguard.com/">WireGuard</a></p>
-
-<p><a href="https://openvpn.net/">OpenVPN</a></p>
+<ul>
+  <li><a href="https://www.wireguard.com/">WireGuard</a></li>
+  <li><a href="https://openvpn.net/">OpenVPN</a></li>
+</ul>
 
 <h3 id="proxy">Proxy</h3>
 
@@ -366,6 +367,20 @@ Un vez que tengas tu VPS monta tu VPN usando WireGuard o OpenVPN y conectate a e
 
 <h4 id="extensiones">Extensiones</h4>
 
+<p>Si has elegido uno de los navegadores minimalistas de la lista de arriba, la realidad es que no vas a necesitar o no vas a poder usar extensiones. Si por el contrario te has visto obligado a elegir una opcion como LibreWolf, Ungoogle Chromium o PaleMoon te recomiendo que heches un vistazo a las siguientes extensiones:</p>
+
+<ul>
+  <li>uBlock Origin</li>
+  <li>Bitwareden</li>
+  <li>KeepassXC</li>
+  <li>Canvas Blocker</li>
+  <li>xBrowserSync</li>
+  <li>LibreWolf Updater</li>
+  <li>Privacy Badger</li>
+  <li>User-Agent Switcher</li>
+  <li>Chaff</li>
+</ul>
+
 <h3 id="dominio">Dominio</h3>
 
 <h3 id="correo">Correo</h3>
@@ -392,4 +407,83 @@ Un vez que tengas tu VPS monta tu VPN usando WireGuard o OpenVPN y conectate a e
 
 <h3 id="gestor-de-contraseñas">Gestor de contraseñas</h3>
 
-<h3 id="terminal">Terminal</h3>]]></content><author><name>Xabier Gabiña Barañano</name></author><summary type="html"><![CDATA[Introduccion]]></summary></entry></feed>
+<h3 id="shell">Shell</h3>
+
+<p>Aunque la Shell no tiene mucho que ver con el tema de anonimato y privacidad me parece interesante saber que opciones tenemos a la hora de elegir una Shell. A continuacion te dejo una lista de Shells a tener en cuenta a la hora de elegir la tuya.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Shell</th>
+      <th>Licencia</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PowerShell</td>
+      <td>MS-PL</td>
+    </tr>
+    <tr>
+      <td>Bash</td>
+      <td>GPL</td>
+    </tr>
+    <tr>
+      <td>Nu Shell</td>
+      <td>Apache</td>
+    </tr>
+    <tr>
+      <td>Glsh</td>
+      <td>MIT</td>
+    </tr>
+    <tr>
+      <td>BusyBox</td>
+      <td>GPL</td>
+    </tr>
+    <tr>
+      <td>Elvish</td>
+      <td>MIT</td>
+    </tr>
+    <tr>
+      <td>rc</td>
+      <td>MIT</td>
+    </tr>
+    <tr>
+      <td>Ash</td>
+      <td>BSD</td>
+    </tr>
+    <tr>
+      <td>Mksh</td>
+      <td>BSD</td>
+    </tr>
+    <tr>
+      <td>Dash</td>
+      <td>BSD</td>
+    </tr>
+    <tr>
+      <td>C Shell</td>
+      <td>BSD</td>
+    </tr>
+    <tr>
+      <td>Korn Shell</td>
+      <td>CDDL</td>
+    </tr>
+    <tr>
+      <td>Tcsh</td>
+      <td>BSD</td>
+    </tr>
+    <tr>
+      <td>Fish</td>
+      <td>GPL</td>
+    </tr>
+    <tr>
+      <td>Zsh</td>
+      <td>MIT</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Quitando PowerShell cualquiera es una buena opcion. Personalmente recomiendo Zsh pero con la que te sientas mas como esta bien.</p>
+
+<h3 id="terminal">Terminal</h3>
+
+<p>Al igual que la Shell, la terminal o cli, no estan muy relacionados con el anonimato y privacidad pero como usuario de Linux es posiblemente la herramienta que mas utilices por lo que elegir una buena terminal es muy importante. A continuacion te dejo una lista de terminales a tener en cuenta a la hora de elegir la tuya.</p>]]></content><author><name>Xabier Gabiña Barañano</name></author><summary type="html"><![CDATA[Introduccion]]></summary></entry></feed>
