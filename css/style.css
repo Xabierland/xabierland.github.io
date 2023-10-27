@@ -3,6 +3,7 @@ html, body
     font-family: 'Hack Nerd Font', monospace;
 
     display: flex;
+    align-items: center;
 
     color: #00FF00;
 
