@@ -176,6 +176,23 @@ Si has elegido uno de los navegadores minimalistas de la lista de arriba, la rea
 
 ### Gestor de contraseñas
 
+| Gestor de contraseña | Licencia | Opinion |
+|----------------------|----------|---------|
+| LastPass             | Freemium |         |
+| Dashlane             | Freemium |         |
+| Zoho Vault           | Freemium |         |
+| Keeper               | Freemium |         |
+| RoboForm             | Freemium |         |
+| Sticky Password      | Freemium |         |
+| Enpass               | Freemium |         |
+| 1Password            | Freemium |         |
+| Bitwarden            | GPL      |         |
+| passage              | GPL      |         |
+| Keepass              | GPL      |         |
+| KeepassX             | GPL      |         |
+| KeepassXC            | GPL      |         |
+| pass                 | GPL      |         |
+
 ### Shell
 
 Aunque la Shell no tiene mucho que ver con el tema de anonimato y privacidad me parece interesante saber que opciones tenemos a la hora de elegir una Shell. A continuacion te dejo una lista de Shells a tener en cuenta a la hora de elegir la tuya.
