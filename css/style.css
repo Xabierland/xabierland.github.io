@@ -1,9 +1,6 @@
-html, body
-{
+html, body {
     font-family: 'Hack Nerd Font', monospace;
-
     color: #00FF00;
-
     background: 
     linear-gradient(135deg, black 25%, transparent 25%) -50px 0,
     linear-gradient(225deg, black 25%, transparent 25%) -50px 0,
@@ -13,117 +10,97 @@ html, body
     background-color: #232323;
 }
 
-/*General*/
-h1
-{
+/* General */
+h1 {
     font-size: 36px;
     font-weight: bolder;
 }
 
-h2
-{
+h2 {
     font-size: 30px;
     text-decoration: underline;
 }
 
-h3
-{
+h3 {
     font-size: 24px;
 }
 
-h4
-{
+h4 {
     font-size: 20px;
 }
 
-p
-{
+p {
     font-size: 16px;
 }
 
-/*Navegacion*/
-nav 
-{
-    text-align: center; /* Centrar el contenido horizontalmente */
-    background-color: rgba(0, 0, 0, 0.4); /* Fondo negro con opacidad (valor alfa de 0.7) */
-    padding: 10px; /* Espacio interior alrededor del menú */
+/* Navegacion */
+nav {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px;
 }
-  
-nav ul 
-{
+
+nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: center; /* Centrar los elementos de la lista horizontalmente */
+    justify-content: center;
     padding-left: 20px;
 }
-  
-nav li 
-{
-    margin-right: 10px; /* Aumenta el espacio entre elementos li */
+
+nav li {
+    margin-right: 10px;
     margin-left: 10px;
 }
-  
-nav a 
-{
-    text-decoration: none; /* Elimina el subrayado de los enlaces */
-    font-size: 20px; /* Aumenta el tamaño de fuente */
-    font-weight: bold; /* Añade negrita al texto */
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
 }
 
-a
-{
+a {
     color: #00AA00 !important;
 }
 
-/*main*/
-main
-{
+/* main */
+main {
     background-color: rgba(0, 0, 0, 0.5);
-
-    display: flex;
     align-items: center;
-
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-main p
-{
+main p {
     text-align: justify;
 }
 
-main p.no-justify
-{
+main p.no-justify {
     text-align: center;
 }
 
-main ul
-{
+main ul {
     list-style: none;
     text-align: center;
     margin-left: -4px;
 }
 
 main ul li {
-    margin: 0; /* Establece el margen derecho e izquierdo a cero */
-  }
+    margin: 0;
+}
 
-table th
-{
+table th {
     background-color: #202325;
     color: white;
 }
 
-table tr:nth-child(even)
-{
+table tr:nth-child(even) {
     background-color: #202325;
     color: white;
 }
 
-table tr:nth-child(odd)
-{
+table tr:nth-child(odd) {
     background-color: #000000;
     color: white;
 }
@@ -131,20 +108,63 @@ table tr:nth-child(odd)
 /* Estilos para el contenedor del buscador */
 .search-bar {
     margin: 20px;
-  }
+}
   
-  /* Estilos para el campo de entrada de texto */
-  #searchInput {
+/* Estilos para el campo de entrada de texto */
+#searchInput {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
-  }
+}
 
-/*footer*/
-footer 
-{
+/* Footer */
+footer {
     bottom: 0;
     width: 100%;
-    height: 60px;   /* Height of the footer */
+    height: 60px;
     background: rgb(0, 0, 0, 0.4);
+}
+
+/* Media queries para hacer responsive */
+@media only screen and (max-width: 600px) {
+    table {
+        width: 100%;
+        overflow-x: auto;
+        display: block; /* Hace que la tabla sea responsive al ancho de la pantalla */
+    }
+
+    th, td {
+        padding: 8px;
+        text-align: left;
+    }
+
+    table th, table td {
+        white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+    }
+
+    table th {
+        background-color: #202325;
+        color: white;
+    }
+
+    table tr:nth-child(even) {
+        background-color: #202325;
+        color: white;
+    }
+
+    table tr:nth-child(odd) {
+        background-color: #000000;
+        color: white;
+    }
+
+    /* Aquí puedes agregar reglas específicas para pantallas más pequeñas */
+    nav ul {
+        flex-direction: column; /* Cambia la dirección del flexbox a columna en pantallas pequeñas */
+    }
+
+    nav li {
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 10px; /* Añade un espacio entre los elementos li en pantallas pequeñas */
+    }
 }

@@ -4,8 +4,10 @@ title: Certificados
 ---
 ## Certificados
 
-### System Administration
+Listado de certificados que he obtenido.
 
-### Cybersecurity
+### Administración de Sistemas
+
+### Ciberseguridad
 
 ### DevSecOps
