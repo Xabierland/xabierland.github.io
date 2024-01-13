@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: blog
 title: Init en Linux
 author: Xabier Gabiña Barañano
+date: 2023-12-1
 ---
 
 ## Introduccion

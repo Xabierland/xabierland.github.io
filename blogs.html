@@ -1,0 +1,7 @@
+---
+layout: default
+---
+<h2>Publicaciones</h2>
+{% for blog in site.blogs %}
+    <h3><a href="{{ blog.url }}">{{ blog.title }}</a></h3>
+{% endfor %}

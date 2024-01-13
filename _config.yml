@@ -4,6 +4,13 @@ description: Blog de Xabier Gabiña Barañano
 author: Xabier Gabiña Barañano
 url: https://xabierland.github.io/
 theme: minima
+
+# Build Settings
+collections_dir: ./collections
 collections:
   projects:
     output: true
+    permalink: /proyectos/:title/
+  blogs:
+    output: true
+    permalink: /blogs/:title/
