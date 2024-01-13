@@ -22,7 +22,7 @@ En este articulo voy a hablar de los ordenadores que he tenido a lo largo de mi 
 
 ### Asus K72Jr | 2010 - Actualidad
 
-![Asus K72Jr](..\img\K72Jr.jpg)
+![Asus K72Jr](img\K72Jr.jpg)
 
 #### Caracteristicas
 
@@ -54,7 +54,7 @@ En este articulo voy a hablar de los ordenadores que he tenido a lo largo de mi 
 
 ### Asus Transformer Book T101HA-GR030T | 2018 - Actualidad
 
-![Asus Transformer Book T101HA-GR030T](..\img\T101HA.jpg)
+![Asus Transformer Book T101HA-GR030T](img\T101HA.jpg)
 
 #### Caracteristicas
 
@@ -68,8 +68,8 @@ En este articulo voy a hablar de los ordenadores que he tenido a lo largo de mi 
 
 ### Dell XPS 13 9370 | 2019 - Actualidad
 
-![Dell XPS 13 9370](..\img\XPS13-1.jpg)
-![Mi Dell XPS 13 9370](..\img\XPS13-2.jpg)
+![Dell XPS 13 9370](img\XPS13-1.jpg)
+![Mi Dell XPS 13 9370](img\XPS13-2.jpg)
 
 #### Caracteristicas
 
