@@ -13,11 +13,6 @@ html, body
     background-color: #232323;
 }
 
-body
-{
-    position: relative;
-}
-
 /*General*/
 h1
 {
@@ -25,11 +20,28 @@ h1
     font-weight: bolder;
 }
 
-h2, h3, h4, h5, h6
+h2
 {
+    font-size: 30px;
     text-decoration: underline;
 }
 
+h3
+{
+    font-size: 24px;
+}
+
+h4
+{
+    font-size: 20px;
+}
+
+p
+{
+    font-size: 16px;
+}
+
+/*Navegacion*/
 nav 
 {
     text-align: center; /* Centrar el contenido horizontalmente */

@@ -1,4 +1,227 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-10-26T14:27:43+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Xabierland</title><subtitle>Blog de Xabier Gabiña Barañano</subtitle><author><name>Xabier Gabiña Barañano</name></author><entry><title type="html">Anonimato total en la red</title><link href="http://localhost:4000/2023/10/21/Anonimato.html" rel="alternate" type="text/html" title="Anonimato total en la red" /><published>2023-10-21T00:00:00+02:00</published><updated>2023-10-21T00:00:00+02:00</updated><id>http://localhost:4000/2023/10/21/Anonimato</id><content type="html" xml:base="http://localhost:4000/2023/10/21/Anonimato.html"><![CDATA[<h2 id="introduccion">Introduccion</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-01-13T21:06:46+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Xabierland</title><subtitle>Blog de Xabier Gabiña Barañano</subtitle><author><name>Xabier Gabiña Barañano</name></author><entry><title type="html">Mis ordenadores</title><link href="http://localhost:4000/2024/01/13/Ordenadores.html" rel="alternate" type="text/html" title="Mis ordenadores" /><published>2024-01-13T00:00:00+01:00</published><updated>2024-01-13T00:00:00+01:00</updated><id>http://localhost:4000/2024/01/13/Ordenadores</id><content type="html" xml:base="http://localhost:4000/2024/01/13/Ordenadores.html"><![CDATA[<!-- markdownlint-disable MD024 -->
+
+<h2 id="introduccion">Introduccion</h2>
+
+<p>En este articulo voy a hablar de los ordenadores que he tenido a lo largo de mi vida.</p>
+
+<h2 id="ordenadores">Ordenadores</h2>
+
+<h3 id="build-0--2004">Build 0 | 2004</h3>
+
+<h4 id="caracteristicas">Caracteristicas</h4>
+
+<ul>
+  <li>CPU: Intel Pentium 2</li>
+</ul>
+
+<h4 id="historia">Historia</h4>
+
+<h3 id="asus-k72jr--2010---actualidad">Asus K72Jr | 2010 - Actualidad</h3>
+
+<p><img src="\img\K72Jr.jpg" alt="Asus K72Jr" /></p>
+
+<h4 id="caracteristicas-1">Caracteristicas</h4>
+
+<ul>
+  <li>CPU: Intel Core i5 M 430</li>
+  <li>GPU: ATI Mobility Radeon HD 5470</li>
+  <li>RAM: 4GB DDR3</li>
+  <li>Disco: 500GB HDD
+    <ul>
+      <li>Disco actual: 500GB SSD</li>
+    </ul>
+  </li>
+  <li>Pantalla: 17.3” 1600x900</li>
+  <li>OS: Windows 7 Home Premium
+    <ul>
+      <li>OS actual: Fedora Workstation</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="historia-1">Historia</h4>
+
+<h3 id="build-1--2014---actualidad">Build 1 | 2014 - Actualidad</h3>
+
+<h4 id="caracteristicas-2">Caracteristicas</h4>
+
+<ul>
+  <li>CPU: Intel Core i7-4770K</li>
+  <li>GPU: Nvidia GeForce GTX 770 (Murio)</li>
+  <li>RAM: 16GB DDR3</li>
+  <li>Motherboard:</li>
+  <li>Disco:</li>
+  <li>Monitor: 24” 1920x1080</li>
+  <li>OS: Windows 8.1 Pro
+    <ul>
+      <li>OS actual: Windows 11 Pro</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="historia-2">Historia</h4>
+
+<h3 id="asus-transformer-book-t101ha-gr030t--2018---actualidad">Asus Transformer Book T101HA-GR030T | 2018 - Actualidad</h3>
+
+<p><img src="\img\T101HA.jpg" alt="Asus Transformer Book T101HA-GR030T" /></p>
+
+<h4 id="caracteristicas-3">Caracteristicas</h4>
+
+<ul>
+  <li>CPU: Intel Atom x5-Z8350</li>
+  <li>GPU: Intel HD Graphics</li>
+  <li>RAM: 4GB DDR3</li>
+  <li>Disco: 128GB eMMC</li>
+  <li>Display: 10.1” 1280x800</li>
+</ul>
+
+<h4 id="historia-3">Historia</h4>
+
+<h3 id="dell-xps-13-9370--2019---actualidad">Dell XPS 13 9370 | 2019 - Actualidad</h3>
+
+<p><img src="\img\XPS13-1.jpg" alt="Dell XPS 13 9370" />
+<img src="\img\XPS13-2.jpg" alt="Mi Dell XPS 13 9370" /></p>
+
+<h4 id="caracteristicas-4">Caracteristicas</h4>
+
+<ul>
+  <li>CPU: Intel Core i7-8550U</li>
+  <li>GPU: Intel UHD Graphics 620</li>
+  <li>RAM: 16GB DDR3</li>
+  <li>Disco: 512GB SSD</li>
+  <li>OS: Windows 10 Pro
+    <ul>
+      <li>OS actual: Windows 11 Pro</li>
+    </ul>
+  </li>
+  <li>Pantalla: 13.3” 3840x2160 HDR</li>
+</ul>
+
+<h4 id="historia-4">Historia</h4>
+
+<h3 id="build-2--2021---actualidad">Build 2 | 2021 - Actualidad</h3>
+
+<h4 id="caracteristicas-5">Caracteristicas</h4>
+
+<ul>
+  <li>CPU: AMD Ryzen 9 3950X</li>
+  <li>GPU: Nvidia GeForce RTX 3070</li>
+  <li>RAM: Patriot Viper 4 Blackout Series DDR4 3600 64GB</li>
+  <li>Placa Base: Gigabyte X570 AORUS ELITE</li>
+</ul>
+
+<h3 id="home-server--2023---actualidad">Home Server | 2023 - Actualidad</h3>
+
+<h4 id="caracteristicas-6">Caracteristicas</h4>
+
+<ul>
+  <li>CPU: Intel i3-10105</li>
+  <li>RAM: Corsair Vengeance 16GB DDR4</li>
+  <li>Placa Base: Gigabyte B560M DS3H V2</li>
+  <li>PSU: Corsair CV650 650W 80 Plus Bronze V2</li>
+</ul>
+
+<h4 id="historia-5">Historia</h4>]]></content><author><name>Xabier Gabiña Barañano</name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Init en Linux</title><link href="http://localhost:4000/2023/12/01/Init.html" rel="alternate" type="text/html" title="Init en Linux" /><published>2023-12-01T00:00:00+01:00</published><updated>2023-12-01T00:00:00+01:00</updated><id>http://localhost:4000/2023/12/01/Init</id><content type="html" xml:base="http://localhost:4000/2023/12/01/Init.html"><![CDATA[<h2 id="introduccion">Introduccion</h2>
+
+<h2 id="inits">Inits</h2>
+
+<h3 id="sysv">SysV</h3>
+
+<h3 id="systemd">systemd</h3>
+
+<h3 id="runit">Runit</h3>
+
+<h3 id="openrc">OpenRC</h3>
+
+<h3 id="upstart">Upstart</h3>
+
+<h3 id="launchd">launchd</h3>
+
+<h3 id="otros">Otros</h3>
+
+<ul>
+  <li>minit</li>
+  <li>nosh</li>
+  <li>s6</li>
+  <li>BusyBox init</li>
+  <li>Perp</li>
+  <li>Epoch</li>
+  <li>Serinit</li>
+  <li>Initng</li>
+  <li>Finit</li>
+</ul>
+
+<h2 id="cheatseat-de-comandos">Cheatseat de comandos</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Accion</th>
+      <th>SysV</th>
+      <th>systemd</th>
+      <th>Runit</th>
+      <th>OpenRC</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Start</td>
+      <td>service &lt;nombre&gt; start</td>
+      <td>systemctl start &lt;nombre&gt;</td>
+      <td>sv start &lt;nombre&gt;</td>
+      <td>rc-service &lt;nombre&gt; start</td>
+    </tr>
+    <tr>
+      <td>Stop</td>
+      <td>service &lt;nombre&gt; stop</td>
+      <td>systemctl stop &lt;nombre&gt;</td>
+      <td>sv stop &lt;nombre&gt;</td>
+      <td>rc-service &lt;nombre&gt; stop</td>
+    </tr>
+    <tr>
+      <td>Restart</td>
+      <td>service &lt;nombre&gt; restart</td>
+      <td>systemctl restart &lt;nombre&gt;</td>
+      <td>sv restart &lt;nombre&gt;</td>
+      <td>rc-service &lt;nombre&gt; restart</td>
+    </tr>
+    <tr>
+      <td>Reload</td>
+      <td>service &lt;nombre&gt; reload</td>
+      <td>systemctl reload &lt;nombre&gt;</td>
+      <td>sv reload &lt;nombre&gt;</td>
+      <td>rc-service &lt;nombre&gt; reload</td>
+    </tr>
+    <tr>
+      <td>Status</td>
+      <td>service &lt;nombre&gt; status</td>
+      <td>systemctl status &lt;nombre&gt;</td>
+      <td>sv status &lt;nombre&gt;</td>
+      <td>rc-service &lt;nombre&gt; status</td>
+    </tr>
+    <tr>
+      <td>Enable</td>
+      <td>chkconfig &lt;nombre&gt; on</td>
+      <td>systemctl enable &lt;nombre&gt;</td>
+      <td>ln -s /etc/sv/&lt;nombre&gt; /var/service/&lt;nombre&gt;</td>
+      <td>rc-update add &lt;nombre&gt;</td>
+    </tr>
+    <tr>
+      <td>Disable</td>
+      <td>chkconfig &lt;nombre&gt; off</td>
+      <td>systemctl disable &lt;nombre&gt;</td>
+      <td>rm /var/service/&lt;nombre&gt;</td>
+      <td>rc-update del &lt;nombre&gt;</td>
+    </tr>
+    <tr>
+      <td>List</td>
+      <td>chkconfig –list</td>
+      <td>systemctl list-unit-files</td>
+      <td>ls /etc/service</td>
+      <td>rc-update show</td>
+    </tr>
+  </tbody>
+</table>]]></content><author><name>Xabier Gabiña Barañano</name></author><summary type="html"><![CDATA[Introduccion]]></summary></entry><entry><title type="html">Anonimato total en la red</title><link href="http://localhost:4000/2023/10/21/Anonimato.html" rel="alternate" type="text/html" title="Anonimato total en la red" /><published>2023-10-21T00:00:00+02:00</published><updated>2023-10-21T00:00:00+02:00</updated><id>http://localhost:4000/2023/10/21/Anonimato</id><content type="html" xml:base="http://localhost:4000/2023/10/21/Anonimato.html"><![CDATA[<h2 id="introduccion">Introduccion</h2>
 
 <p>La seguridad en internet es algo que ha ido desapareciendo con el paso del tiempo. Atras queda el tiempo en los que la red era un sitio anonimo y descentralizado, en los que todo era por personas y para personas, dando paso a una red practicamente centralizada y vigilada por agencias guvernamentales o grandes compañias de tecnologia. Este post intentara volver atras en el tiempo en algunos aspectos para asi poder avanzar hacia un futuro mas seguro, privado y anonimo.</p>
 
@@ -406,6 +629,88 @@ Un vez que tengas tu VPS monta tu VPN usando WireGuard o OpenVPN y conectate a e
 <h3 id="borrador-de-metadatos">Borrador de metadatos</h3>
 
 <h3 id="gestor-de-contraseñas">Gestor de contraseñas</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Gestor de contraseña</th>
+      <th>Licencia</th>
+      <th>Opinion</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>LastPass</td>
+      <td>Freemium</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Dashlane</td>
+      <td>Freemium</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Zoho Vault</td>
+      <td>Freemium</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Keeper</td>
+      <td>Freemium</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>RoboForm</td>
+      <td>Freemium</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Sticky Password</td>
+      <td>Freemium</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Enpass</td>
+      <td>Freemium</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>1Password</td>
+      <td>Freemium</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Bitwarden</td>
+      <td>GPL</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>passage</td>
+      <td>GPL</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Keepass</td>
+      <td>GPL</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>KeepassX</td>
+      <td>GPL</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>KeepassXC</td>
+      <td>GPL</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>pass</td>
+      <td>GPL</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
 
 <h3 id="shell">Shell</h3>
 

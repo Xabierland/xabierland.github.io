@@ -5,7 +5,7 @@ title: Contacto
 
 ## Contacto
 
-### Social Media
+### Redes Sociales
 
 * [Twitter](https://twitter.com/Xabierland)
 * [LinkedIn](https://www.linkedin.com/in/xabier-gabina)
@@ -15,7 +15,3 @@ title: Contacto
 
 * [Educational Mail](mailto:xgabina001@ehu.eus)
 * [Personal Mail](mailto:xabierland@gmail.com)
-
-### Donations
-
-* [PayPal](https://paypal.me/Xabierland)
