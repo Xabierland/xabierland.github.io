@@ -3,7 +3,7 @@ layout: default
 title: Inicio
 ---
 
-## Inicio
+## Sobre mi
 
 ¡Hola! Soy Xabier Gabiña, un Ingeniero Informático con una profunda pasión por Linux y el software libre.
 

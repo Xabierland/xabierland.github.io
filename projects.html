@@ -2,6 +2,32 @@
 layout: default
 ---
 <h2>Proyectos</h2>
+
+<div class="search-bar">
+    <input type="text" id="searchInput" placeholder="Buscar..." oninput="search()">
+</div>
+
+<ul id="List">
 {% for project in site.projects %}
-    <h3><a href="{{ project.url }}">{{ project.title }}</a></h3>
+    <li><h3><a href="{{ project.url }}">{{ project.title }}</a></h3></li>
 {% endfor %}
+</ul>
+
+<script>
+    function search() {
+        var input = document.getElementById("searchInput");
+        var filter = input.value.toUpperCase();
+        var ul = document.getElementById("List");
+        var li = ul.getElementsByTagName("li");
+
+        for (var i = 0; i < li.length; i++) {
+            var a = li[i].getElementsByTagName("a")[0];
+            var txtValue = a.textContent || a.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                li[i].style.display = "";
+            } else {
+                li[i].style.display = "none";
+            }
+        }
+    }
+</script>
