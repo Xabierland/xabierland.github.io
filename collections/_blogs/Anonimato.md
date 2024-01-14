@@ -162,7 +162,9 @@ Si has elegido uno de los navegadores minimalistas de la lista de arriba, la rea
 
 Voy a ir directo al grano. Si quieres privacidad y anonimato olvidate de WhatsApp, Telegram, Signal, Discord, Slack... Todas estas aplicaciones estan obligadas por ley a tener que dar informacion sobre sus usuarios a las agencias de inteligencia además de que no son software libre y por lo tanto no se puede garantizar que no tengan spyware.
 
-Las opciones que nos quedan son las siguientes:
+La mejor opcion es usar IRC. IRC es un protocolo de comunicacion que permite la comunicacion entre usuarios mediante texto plano. Es un protocolo muy antiguo y que no ha cambiado mucho desde su creacion. Es un protocolo muy simple y que no tiene muchas funcionalidades pero es muy seguro y privado. Ademas es software libre y hay muchos clientes de IRC disponibles para todos los sistemas operativos.
+
+Otra opcion es usar XMPP. XMPP es un protocolo de comunicacion que permite la comunicacion entre usuarios mediante texto plano. Es un protocolo mas moderno que IRC y que tiene mas funcionalidades. Es un protocolo muy seguro y privado. Ademas es software libre y hay muchos clientes de XMPP disponibles para todos los sistemas operativos.
 
 ### Criptomonedas
 
@@ -173,15 +175,25 @@ Aunque en general el concepto de criptomoneda es bastante seguro y privado, hay 
 
 ### Gestor de archivos
 
+- Ranger
+
 ### Editor/Visor de texto
+
+- Vim
 
 ### Editor/Visor de imagenes
 
+- feh
+
 ### Editor/Visor de PDF
+
+- Zathura
 
 ### Editor/Visor de RSS
 
 ### Borrador de metadatos
+
+- mat2
 
 ### Gestor de contraseñas
 
