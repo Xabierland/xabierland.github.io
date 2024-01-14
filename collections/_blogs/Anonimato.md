@@ -164,7 +164,7 @@ Voy a ir directo al grano. Si quieres privacidad y anonimato olvidate de WhatsAp
 
 La mejor opcion es usar IRC. IRC es un protocolo de comunicacion que permite la comunicacion entre usuarios mediante texto plano. Es un protocolo muy antiguo y que no ha cambiado mucho desde su creacion. Es un protocolo muy simple y que no tiene muchas funcionalidades pero es muy seguro y privado. Ademas es software libre y hay muchos clientes de IRC disponibles para todos los sistemas operativos.
 
-Otra opcion es usar XMPP. XMPP es un protocolo de comunicacion que permite la comunicacion entre usuarios mediante texto plano. Es un protocolo mas moderno que IRC y que tiene mas funcionalidades. Es un protocolo muy seguro y privado. Ademas es software libre y hay muchos clientes de XMPP disponibles para todos los sistemas operativos.
+Otras opciones son XMPP y Matrix. Ambos son protocolos de comunicacion que permiten la comunicacion entre usuarios mediante texto plano. Son protocolos mas modernos que IRC y tienen mas funcionalidades pero tambien son mas complejos y por lo tanto mas dificiles de usar. Aun asi IRC sigue siendo la mejor opcion en cuanto a privacidad y anonimato.
 
 ### Criptomonedas
 
