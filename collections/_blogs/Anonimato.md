@@ -57,48 +57,47 @@ El dispositivo movil es algo muy importante ya que es el dispositivo con mas uso
 
 ### OS
 
-Elegir un buen sistema operativo es un punto decisivo a la hora de conseguir el anonimato en la red. Si eres usuario de Mac o Windows vete haciendo a la idea de que te va a tocar formatear tu ordenador para instalar un sistema operativo **de verdad**.
+Un sistema operativo es un conjunto de programas que permiten la comunicacion entre el usuario y el hardware.
 
-A continuacion te dejo una lista de sistemas operativos a tener en cuenta a la hora de elegir el tuyo. Los he ordenado segun mi criterio de peor a mejor.
+Elegir un sistema operativo es muy complicado, hay muchas opciones y cada una tiene sus ventajas y desventajas. Ademas hay mucho "fandom" en torno a los sistemas operativos y es dificil encontrar una opinion objetiva sobre ellos esta incluida.
 
-| Distro     | Licencia | Privacidad | Dificultad   | Opinion                                                                                                                                                                                       |
-|------------|----------|------------|--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Ubuntu     | GPL      | Ninguna    | Principiante | Si la privacidad y el anonimato te importan no lo uses, posiblemente Amazon y otras empresas reciban informacion de Ubuntu.                                                                   |
-| Pop!_OS    | GPL      | Ninguna    | Principiante | Si Ubuntu tenia poca esta todavia tiene menos.                                                                                                                                                |
-| Deepin     | GPL      | Ninguna    | Principiante | Si quieres que los chinos sepan todo sobre ti para ir teniendo un poco de credito social te lo recomiendo.                                                                                    |
-| Fedora     | GPL      | Ninguna    | Principiante | Si en vez de ser fan de china lo eres de Estados Unidos instala Fedora, asi la NSA leera lo mucho que te gusta su pais.                                                                       |
-| Linux Mint | GPL      | Buena      | Principiante | No lo usaria aunque es una buena opcion para empezar en linux si no tienes ni idea.                                                                                                           |
-| OpenSUSE   | GPL      | Buena      | Principiante | Aunque sigo desconfiando de el no he encontrado ningun indicio de spyware a diferencia de los ya nombrados.                                                                                   |
-| Kali Linux | GPL      | Buena      | Principiante | Buena cantidad de herramientas utiles para el hacking pero no le veo futuro como sistema operativo para todos los dias.                                                                       |
-| Parrot OS  | GPL      | Buena      | Principiante | Lo mismo que Kali Linux.                                                                                                                                                                      |
-| Tails      | GPL      | Excelente  | Principiante | Si lo que buscas es un sistema de escritorio esto no es para ti. Basicamente su unica funcion es la de navegar por la red Tor y que al apagar todo se olvide.                                 |
-| Red Hat    | GPL      | ?          | Intermedia   | Nunca lo he probado asi que no puedo hablar mucho de el pero la premisa de pagar por usarlo ya me hecha para atras.                                                                           |
-| Manjaro    | GPL      | Muy buena  | Intermedia   | Esta basado en Arch pero con la idea de que sea mas facil para el usuario sin tanta experiencia. Si te asusta usar Arch no es una opcion horrible pero teniendo Arch no le veo mucho sentido. |
-| Debian     | GPL      | Muy buena  | Intermedia   | Es el padre de practicamente todos los sistemas de esta lista. Por ello es bastante moldeable y no una mala opcion si vienes de otro sistema basado en Debian.                                |
-| OpenBSD    | BSD      | Excelente  | Avanzado     | Una gran opcion, sin programas inutiles, transparentes, licencias publicas. La unica pega es que no tiene toda la comunidad que puede tener Linux.                                            |
-| Qubes OS   | GPL      | Excelente  | Avanzada     | Bajo la premisa de que nada es seguro la idea de este OS es la de encapsuar en maquinas virtuales todas las aplicaciones para que no interactuen con el resto y se mantengan seguras.         |
-| Arch Linux | GPL      | Excelente  | Avanzada     | Simplemente el equilibrio perfecto entre privacidad, anonimato, usabilidad y personalizacion sin llegar a los extemos de Gentoo o LFS.                                                        |
-| Gentoo     | GPL      | Excelente  | Dificil      | Un paso inferior a LFS pero con la misma idea de si quieres algo haztelo tu mismo.                                                                                                            |
-| LFS        | MIT      | Excelente  | Maxima       | Si tienes lo que hace falta para montarte la distro compilando todo desde el src este amigo mio es tu sistema.                                                                                |
+Para elegir un sistema operativo, yo, intentaria buscar uno que sea libre y que no tenga una empresa detras que pueda tener intereses en recopilar informacion sobre ti. Tambien es importante que el sistema operativo sea lo mas transparente posible y que no tenga programas preinstalados que puedan ser usados para recopilar informacion sobre ti.
 
-Dando por hecho que si estas leyendo este post solo buscas la excelencia, mi recomendacion personal es Arch Linux. Es un sistema operativo que te permite hacer lo que quieras con el y que no te pone limites. Es excelente en todos los aspectos y si tienes un poco de conocimientos de linux no te resultara muy dificil de usar.
+Como no quiero meterme en camisas de once varas y no quiero que este post se convierta en una discusion sobre que sistema operativo es mejor o peor, voy a dejar una lista de sistemas operativos que cumplen con los requisitos anteriores y que son buenas opciones a la hora de elegir un sistema operativo.
 
-La otra opcion por la que me decantaria es Qubes OS usando Whonix para redirigir el trafico mediante la red TOR. Este sistema operativo es excelente en cuanto a seguridad y privacidad pero es mas dificil de usar que Arch Linux y no es tan personalizable.
+- [Debian](https://www.debian.org/)
+- [Arch Linux](https://www.archlinux.org/)
+- [Gentoo](https://www.gentoo.org/)
+- [OpenBSD](https://www.openbsd.org/)
+- [Qubes OS](https://www.qubes-os.org/)
+- [Linux From Scratch](https://www.linuxfromscratch.org/)
 
-Tambien decir que Kali Linux, Parrot OS y Tails son sistemas operativos que aunque no esten muy enfocados en ser la base de un sistema operativo de escritorio son muy utiles para ciertas tareas como puede ser el hacking o la navegacion anonima. Por lo que usarlos como maquinas virtuales en Qubes OS o Arch Linux es una buena opcion.
+### VPS
+
+Un VPS es un servidor virtual privado. Es una maquina virtual que se encuentra en un servidor remoto y que puedes usar para lo que quieras.
+
+A la hora de elegir un proveedor de VPS es importante que elijas uno que no te pida datos personales a la hora de registrarte. Es tambien bueno que permitan el pago con criptomonedas prefereblemente Monero y que permita el acceso mediante Tor. Ademas es importante que el proveedor no este ubicado en un pais que no proteja la privacidad de sus usuarios. Suiza, Estonia e Islandia son buenas opciones.
+
+A continuacion te dejo una lista de proveedores de VPS que cumplen con los requisitos anteriores:
+
+| Servicio | Tor | Cripto |
+| --- | --- | --- |
+| Privex | X | X |
+| Njalla | X | X |
+| IncogNet | X | X |
+| 1984 | | X |
 
 ### VPN
 
 Si estas leyendo este "post" mientras estas conectado a una VPN como puede ser NordVPN, ExpressVPN, ProtonVPN, CyberGhostVPN... dejame que salude a la agencia de inteligencia detras de tu VPN.
 Antes de seguir leyendo, hazte un favor y deconectate de tu VPN para que te pueda contar como hacer las cosas bien.
 
-La forma correcta de montar y utilizar un VPN es mediante un VPS. Yo personalmente te recomiendo que busques alguna en Estonia o Suiza ya que son paises que tienen leyes muy estrictas en cuanto a la privacidad de los datos de sus ciudadanos y por lo tanto es mas dificil que te puedan obligar a dar informacion sobre ti.
-Un vez que tengas tu VPS monta tu VPN usando WireGuard o OpenVPN y conectate a ella desde cualquier dispositivo que quieras usar de forma anonima.
+La forma correcta de montar y utilizar un VPN es mediante un VPS. De esta forma tu eres el dueño del servidor y no tienes que confiar en nadie mas. Ademas es mas facil de configurar y mas barato.
 
 Te dejo links de ambas tecnologias para ayudarte a configurar tu VPN:
 
-* [WireGuard](https://www.wireguard.com/)
-* [OpenVPN](https://openvpn.net/)
+- [WireGuard](https://www.wireguard.com/)
+- [OpenVPN](https://openvpn.net/)
 
 ### Proxy
 
@@ -106,32 +105,32 @@ Te dejo links de ambas tecnologias para ayudarte a configurar tu VPN:
 
 Los navegadores son una herramienta crucial y que usamos a todas horas por lo que elegir uno no es *moco de pavo*. A continuacion te dejo una lista de navegadores a tener en cuenta a la hora de elegir el tuyo. Los he ordenado segun mi criterio de peor a mejor.
 
-| Navegador          | Licencia  | Privacidad | Opinion                                                                                                                 |
-|--------------------|-----------|------------|-------------------------------------------------------------------------------------------------------------------------|
-| Safari             | Privativa | Ninguna    | ¿De verdad hace falta que de mi opinion?                                                                                |
-| Microsoft Edge     | Privativa | Ninguna    | ¿Alguien sabe como hago apt remove Edge?                                                                                |
-| Google Chrome      | Freeware  | Ninguna    | Salir de Chrome es parte de madurar.                                                                                    |
-| Opera              | Freeware  | Ninguna    | Solo con ver lo que invierten en publicidad siendo Freeware ya dice mucho.                                              |
-| Vivaldi            | Freeware  | Ninguna    | Ex-trabajadores de Opera intentando hacer lo mismo.                                                                     |
-| Mozilla Firefox    | MPL       | Mala       | Intenta hacer las cosas bien pero sin hacer trampas no puedes seguir el ritmo a Chrome.                                 |
-| Brave              | MPL       | Mala       | Vamos avanzando, una pena que usen el motor de renderizado de Google.                                                   |
-| LibreWolf          | MPL       | Buena      | Es una buena opcion si estas obligado a usar la Web 3.0 y JS                                                            |
-| Ungoogled Chromium | BSD       | Buena      | Lo mismo que LibreWolf aunque por el tema de la licencia me convence mas.                                               |
-| PaleMoon           | MPL       | Buena      | Si por alguna razon estas obligado a usar Windows o Mac sin duda la mejor opcion para ellos.                            |
-| Iridium            | BSD       | Muy Buena  | Chromium pero con asteroides                                                                                            |
-| Falcon             | GPL       | Muy Buena  | Ligero y bastante seguro. No es mala opcion                                                                             |
-| Netsurf            | GPL       | Muy Buena  | Un navegador muy ligero, portable y seguro pero con peor uso que Falcon.                                                |
-| Tor Browser        | BSD       | Muy Buena  | No es un navegador para todo el dia. Su uso deberia ser exclusivo para navegar por la red Tor.                          |
-| Otter Browser      | GPL       | Excelente  | Es un navegador privado que intenta asimilarse a Opera en la antiguedad. No me llama mucho pero esta bien conocerlo.    |
-| BadWolf            | BSD       | Excelente  | Gran opcion, privada manteniendo la usabilidad que se suele sacrificar con las opciones mas privadas.                   |
-| GNU IceCat         | GPL       | Excelente  | Navegador muy interesante con una implementacion diferente de JS para minimizar el rastreo.                             |
-| Qutebrowser        | GPL       | Excelente  | Navegador que funciona mediante atajo de teclados. Minimalista, seguro y si lo dominas rapido.                          |
-| Lynx               | GPL       | Excelente  | Aunque he de admitir que no es el mas utilizable por el simple hecho de ser CLI tiene un puesto en mi corazon.          |
-| vimb               | GPL       | Excelente  | ¿Te gusta vim? Pues esto es lo mismo pero como navegador. Idea similar a Qutebrowser pero con interfaz mas minimalista, |
-| Surf               | MIT       | Excelente  | Junto con Lynx y vimb es el minimalismo y la configurabilidad al limite.                                                |
-| webbrowser.git     | GPL       | Excelente  | Navegador web basico pero muy efectivo. Equilibrio entre privacidad, minimalismo y usabilidad.                          |
+| Navegador          | Licencia  | Privacidad |
+|--------------------|-----------|------------|
+| Safari             | Privativa | Ninguna    |
+| Microsoft Edge     | Privativa | Ninguna    |
+| Google Chrome      | Freeware  | Ninguna    |
+| Opera              | Freeware  | Ninguna    |
+| Vivaldi            | Freeware  | Ninguna    |
+| Mozilla Firefox    | MPL       | Mala       |
+| Brave              | MPL       | Mala       |
+| LibreWolf          | MPL       | Buena      |
+| Ungoogled Chromium | BSD       | Buena      |
+| PaleMoon           | MPL       | Buena      |
+| Iridium            | BSD       | Muy Buena  |
+| Falcon             | GPL       | Muy Buena  |
+| Netsurf            | GPL       | Muy Buena  |
+| Tor Browser        | BSD       | Muy Buena  |
+| Otter Browser      | GPL       | Excelente  |
+| BadWolf            | BSD       | Excelente  |
+| GNU IceCat         | GPL       | Excelente  |
+| Qutebrowser        | GPL       | Excelente  |
+| Lynx               | GPL       | Excelente  |
+| vimb               | GPL       | Excelente  |
+| Surf               | MIT       | Excelente  |
+| webbrowser.git     | GPL       | Excelente  |
 
-El principal momento al elegir navegador es que cada uno le da un uso muy particular. Si lo que te interesa es la privacidad los siete primeros no son una opcion viable. Brave esta en un punto muerto en que aun teniendo buenas practicas respecto a los puestos superiores de la lista no llega a los estandares de privacidad que buscamos por lo que no puedo recomendarlo en su totalidad. LibreWolf Ungoogle Chromium y PaleMoon no son malas opciones y estan disponibles para todos los sistemas operativos pero la mayoria de ellos traen una cantidad de funcionalidad que no vamos a usar y que son un potencial riesgo para nuestra privacidad. Es por ello que si buscamos la privacidad debemos buscar navegadores minimalistas como puede ser webbrowser. Tor Browser seria un caso aparte ya que esta especialmente diseñado para ser usado cuando se navega por la red Tor.
+LibreWolf Ungoogle Chromium y PaleMoon no son malas opciones y estan disponibles para todos los sistemas operativos pero la mayoria de ellos traen una cantidad de funcionalidad que no vamos a usar y que son un potencial riesgo para nuestra privacidad ademas de lastrar el rendimiento. Es por ello que si buscamos la privacidad debemos buscar navegadores minimalistas como puede ser webbrowser. Tor Browser seria un caso aparte ya que esta especialmente diseñado para ser usado cuando se navega por la red Tor.
 
 Tambien es recomendable que al usar cualquier navegador de la lista desbilitemos JavaScript y las cookies. Ambos son metodos muy usados para rastrear a los usuarios y obtener informacion sobre ellos. Es por ello que los mas recelosos de su seguridad en la web buscan en parte hacer una vuelta atras a los origenes de la web con Web 1.0 y plantenado el uso de XHTML y CSS para hacer nuestras paginas webs. Richar Stallman es un gran defensor de esta idea y critico duramente el uso de JavaScript en la web. [La trampa de JavaScript](https://www.gnu.org/philosophy/javascript-trap.html)
 
@@ -141,15 +140,15 @@ Especial mencion al proyecto [pipe-viewer](https://github.com/trizen/pipe-viewer
 
 Si has elegido uno de los navegadores minimalistas de la lista de arriba, la realidad es que no vas a necesitar o no vas a poder usar extensiones. Si por el contrario te has visto obligado a elegir una opcion como LibreWolf, Ungoogle Chromium o PaleMoon te recomiendo que heches un vistazo a las siguientes extensiones:
 
-* uBlock Origin
-* Bitwareden
-* KeepassXC
-* Canvas Blocker
-* xBrowserSync
-* LibreWolf Updater
-* Privacy Badger
-* User-Agent Switcher
-* Chaff
+- uBlock Origin
+- Bitwareden
+- KeepassXC
+- Canvas Blocker
+- xBrowserSync
+- LibreWolf Updater
+- Privacy Badger
+- User-Agent Switcher
+- Chaff
 
 ### Dominio
 
@@ -161,7 +160,16 @@ Si has elegido uno de los navegadores minimalistas de la lista de arriba, la rea
 
 ### Mensajeria
 
+Voy a ir directo al grano. Si quieres privacidad y anonimato olvidate de WhatsApp, Telegram, Signal, Discord, Slack... Todas estas aplicaciones estan obligadas por ley a tener que dar informacion sobre sus usuarios a las agencias de inteligencia además de que no son software libre y por lo tanto no se puede garantizar que no tengan spyware.
+
+Las opciones que nos quedan son las siguientes:
+
 ### Criptomonedas
+
+Aunque en general el concepto de criptomoneda es bastante seguro y privado, hay ciertas criptomonedas que son mas privadas que otras. Yo, personalmente, recomiendo Monero. Es una criptomoneda que tiene un gran anonimato y privacidad. Ademas es una criptomoneda que esta en constante desarrollo y que tiene una gran comunidad detras. Tambien es una buena opcion Zcash aunque no es tan privada como Monero.
+
+- [Monero](https://www.getmonero.org/)
+- [Zcash](https://z.cash/)
 
 ### Gestor de archivos
 
@@ -177,22 +185,24 @@ Si has elegido uno de los navegadores minimalistas de la lista de arriba, la rea
 
 ### Gestor de contraseñas
 
-| Gestor de contraseña | Licencia | Opinion |
-|----------------------|----------|---------|
-| LastPass             | Freemium |         |
-| Dashlane             | Freemium |         |
-| Zoho Vault           | Freemium |         |
-| Keeper               | Freemium |         |
-| RoboForm             | Freemium |         |
-| Sticky Password      | Freemium |         |
-| Enpass               | Freemium |         |
-| 1Password            | Freemium |         |
-| Bitwarden            | GPL      |         |
-| passage              | GPL      |         |
-| Keepass              | GPL      |         |
-| KeepassX             | GPL      |         |
-| KeepassXC            | GPL      |         |
-| pass                 | GPL      |         |
+| Gestor de contraseña | Licencia |
+|----------------------|----------|
+| LastPass             | Freemium |
+| Dashlane             | Freemium |
+| Zoho Vault           | Freemium |
+| Keeper               | Freemium |
+| RoboForm             | Freemium |
+| Sticky Password      | Freemium |
+| Enpass               | Freemium |
+| 1Password            | Freemium |
+| Bitwarden            | GPL      |
+| passage              | GPL      |
+| Keepass              | GPL      |
+| KeepassX             | GPL      |
+| KeepassXC            | GPL      |
+| pass                 | GPL      |
+
+Personalmente recomiendo Bitwarden o pass. Bitwarden es un gestor de contraseña que funciona tanto en un servidor propio como en la nube. Obviamente recomiendo usarlo en un servidor propio o en tu VPS. pass es un gestor de contraseñas que funciona mediante la terminal y que guarda las contraseñas en archivos encriptados en tu sistema.
 
 ### Shell
 
@@ -216,8 +226,32 @@ Aunque la Shell no tiene mucho que ver con el tema de anonimato y privacidad me 
 | Fish       | GPL      |
 | Zsh        | MIT      |
 
-Quitando PowerShell cualquiera es una buena opcion. Personalmente recomiendo Zsh pero con la que te sientas mas como esta bien.
+Bash, Zsh y Fish son las mas conocidas y usadas por lo que son grandes opciones.
 
 ### Terminal
 
 Al igual que la Shell, la terminal o cli, no estan muy relacionados con el anonimato y privacidad pero como usuario de Linux es posiblemente la herramienta que mas utilices por lo que elegir una buena terminal es muy importante. A continuacion te dejo una lista de terminales a tener en cuenta a la hora de elegir la tuya.
+
+| Terminal | Licencia |
+|----------|----------|
+| Alacritty| MIT      |
+| Kitty    | MIT      |
+| Termite  | MIT      |
+| Xterm    | MIT      |
+| Urxvt    | MIT      |
+| St       | MIT      |
+| Tilda    | GPL      |
+| Terminix | GPL      |
+| Guake    | GPL      |
+| Yakuake  | GPL      |
+| Tilix    | GPL      |
+| Konsole  | GPL      |
+| Gnome-Terminal | GPL      |
+| Xfce4-Terminal | GPL      |
+| Lxterminal | GPL      |
+| Qterminal | GPL      |
+| Terminology | BSD      |
+| Cool-Retro-Term | GPL      |
+| Termux | GPL      |
+
+Alacritty y Kitty suelen ser las que mas recomiendo. Aprovechan las capacidades de las tarjetas graficas para mejorar el rendimiento y la velocidad de la terminal. Ademas de ser muy configurables y tener una gran comunidad detras.
