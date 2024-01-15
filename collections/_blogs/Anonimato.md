@@ -189,8 +189,6 @@ Aunque en general el concepto de criptomoneda es bastante seguro y privado, hay 
 
 - Zathura
 
-### Editor/Visor de RSS
-
 ### Borrador de metadatos
 
 - mat2
