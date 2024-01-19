@@ -29,6 +29,8 @@ Comprar el hardware en una tienda con una tarjeta de regalo anonima. Te en cuent
 
 Comprar el hardware online mediante criptomonedas. Esta es la forma mas dificil de conseguirlo ya que no hay muchas tiendas que acepten criptomonedas y las que lo hacen suelen pedir datos personales.
 
+Comprar el hardware online de segunda mano. Depende mucho de la persona que te lo venda y es complicado encontrar a alguien que no te pida datos personales, acepte criptomonedas y que lo envie de forma anonima a la vez que no te estafe.
+
 Una vez visto los metodos de adquisicion que yo conozco pasemos a ver que hardware es el mas adecuado para conseguir el anonimato total en la red.
 
 ### Ordenador de sobremesa
@@ -49,17 +51,19 @@ Por otro lado sacrificamos la potencia y la capacidad de modificacion.
 
 ### Dispositivo Movil
 
-Dentro de los dispositivos moviles englobo tanto telefonos como tables. Estas por lo general suelen venir con Android por lo que es recomendable cambiar el sistema operativo por uno mas seguro y privado como puede ser LineageOS o GrapheneOS. Tambien es posible encontrar moviles ya fabricados con otros forks de Android con capas de seguridad aunque al estar fabricados por empresas privadas no se puede garantizar que no tengan spyware.
+Dentro de los dispositivos moviles englobo tanto telefonos como tables. Estas por lo general suelen venir con Android por lo que es recomendable cambiar el sistema operativo por uno mas seguro y privado como puede ser  GrapheneOS. Tambien es posible encontrar moviles ya fabricados con otros forks de Android con capas de seguridad aunque al estar fabricados por empresas privadas no se puede garantizar que no tengan spyware.
 
 El dispositivo movil es algo muy importante ya que es el dispositivo con mas uso en el dia a dia y que siempre llevamos con nosotros. Si no tenemos cuidado con el puede ser un gran punto de fuga de informacion.
 
 ## Software
 
+Cuando hablamos de Software anonimo y privado es imposible no hablar de FOSS. FOSS es el acronimo de Free and Open Source Software. Es un movimiento que busca la libertad de los usuarios y la transparencia de los programas. Es por ello que es esta seccion voy a hablar de tipos de software y todos ellos van a ser FOSS.
+
 ### OS
 
 Un sistema operativo es un conjunto de programas que permiten la comunicacion entre el usuario y el hardware.
 
-Elegir un sistema operativo es muy complicado, hay muchas opciones y cada una tiene sus ventajas y desventajas. Ademas hay mucho "fandom" en torno a los sistemas operativos y es dificil encontrar una opinion objetiva sobre ellos esta incluida.
+Elegir un sistema operativo es muy complicado, hay muchas opciones y cada una tiene sus ventajas y desventajas. Ademas hay mucho "fandom" en torno a los sistemas operativos y es dificil encontrar una opinion objetiva sobre ellos, esta incluida.
 
 Para elegir un sistema operativo, yo, intentaria buscar uno que sea libre y que no tenga una empresa detras que pueda tener intereses en recopilar informacion sobre ti. Tambien es importante que el sistema operativo sea lo mas transparente posible y que no tenga programas preinstalados que puedan ser usados para recopilar informacion sobre ti.
 
@@ -70,6 +74,7 @@ Como no quiero meterme en camisas de once varas y no quiero que este post se con
 - [Gentoo](https://www.gentoo.org/)
 - [OpenBSD](https://www.openbsd.org/)
 - [Qubes OS](https://www.qubes-os.org/)
+- [Whonix](https://www.whonix.org/)
 - [Linux From Scratch](https://www.linuxfromscratch.org/)
 
 ### VPS
@@ -92,49 +97,47 @@ A continuacion te dejo una lista de proveedores de VPS que cumplen con los requi
 Si estas leyendo este "post" mientras estas conectado a una VPN como puede ser NordVPN, ExpressVPN, ProtonVPN, CyberGhostVPN... dejame que salude a la agencia de inteligencia detras de tu VPN.
 Antes de seguir leyendo, hazte un favor y deconectate de tu VPN para que te pueda contar como hacer las cosas bien.
 
-La forma correcta de montar y utilizar un VPN es mediante un VPS. De esta forma tu eres el dueño del servidor y no tienes que confiar en nadie mas. Ademas es mas facil de configurar y mas barato.
+La forma correcta de montar y utilizar un VPN es mediante un VPS. De esta forma tu eres el dueño del servidor y no tienes que confiar en nadie mas. Si ademas, como hemos visto en el punto anterior usamos una VPS adquirida de forma anonima, tenemos una VPN mucho mas segura y privada que cualquier VPN comercial.
 
-Te dejo links de ambas tecnologias para ayudarte a configurar tu VPN:
+Te dejo links de dos tecnologias para ayudarte a configurar tu VPN:
 
-- [WireGuard](https://www.wireguard.com/)
 - [OpenVPN](https://openvpn.net/)
+- [WireGuard](https://www.wireguard.com/)
 
 ### Proxy
 
+Antes de hablar de Proxys quiero desmentir el mito de que es inseguro usar una VPN con Proxys. La razon por la que se desaconseja una VPN con Proxys es para cuando usas un VPN comercial ya que estas pueden llegar a recopilar informacion sobre este tipo de conexiones. Si usas una VPN montada por ti mismo en una VPS no hay problema en usar Proxys.
+
+Dicho esto vamos a hablar de Proxys.
+
 ### Navegador
 
-Los navegadores son una herramienta crucial y que usamos a todas horas por lo que elegir uno no es *moco de pavo*. A continuacion te dejo una lista de navegadores a tener en cuenta a la hora de elegir el tuyo. Los he ordenado segun mi criterio de peor a mejor.
+Los navegadores son una herramienta crucial y que usamos a todas horas por lo que elegir uno no es *moco de pavo*. A continuacion te dejo una lista de navegadores a tener en cuenta a la hora de elegir el tuyo.
 
-| Navegador          | Licencia  | Privacidad |
-|--------------------|-----------|------------|
-| Safari             | Privativa | Ninguna    |
-| Microsoft Edge     | Privativa | Ninguna    |
-| Google Chrome      | Freeware  | Ninguna    |
-| Opera              | Freeware  | Ninguna    |
-| Vivaldi            | Freeware  | Ninguna    |
-| Mozilla Firefox    | MPL       | Mala       |
-| Brave              | MPL       | Mala       |
-| LibreWolf          | MPL       | Buena      |
-| Ungoogled Chromium | BSD       | Buena      |
-| PaleMoon           | MPL       | Buena      |
-| Iridium            | BSD       | Muy Buena  |
-| Falcon             | GPL       | Muy Buena  |
-| Netsurf            | GPL       | Muy Buena  |
-| Tor Browser        | BSD       | Muy Buena  |
-| Otter Browser      | GPL       | Excelente  |
-| BadWolf            | BSD       | Excelente  |
-| GNU IceCat         | GPL       | Excelente  |
-| Qutebrowser        | GPL       | Excelente  |
-| Lynx               | GPL       | Excelente  |
-| vimb               | GPL       | Excelente  |
-| Surf               | MIT       | Excelente  |
-| webbrowser.git     | GPL       | Excelente  |
+| Navegador          | Licencia  |
+|--------------------|-----------|
+| Mozilla Firefox    | MPL       |
+| LibreWolf          | MPL       |
+| Ungoogled Chromium | BSD       |
+| PaleMoon           | MPL       |
+| Iridium            | BSD       |
+| Falcon             | GPL       |
+| Netsurf            | GPL       |
+| Tor Browser        | BSD       |
+| Otter Browser      | GPL       |
+| BadWolf            | BSD       |
+| GNU IceCat         | GPL       |
+| Qutebrowser        | GPL       |
+| Lynx               | GPL       |
+| vimb               | GPL       |
+| Surf               | MIT       |
+| webbrowser.git     | GPL       |
 
 LibreWolf Ungoogle Chromium y PaleMoon no son malas opciones y estan disponibles para todos los sistemas operativos pero la mayoria de ellos traen una cantidad de funcionalidad que no vamos a usar y que son un potencial riesgo para nuestra privacidad ademas de lastrar el rendimiento. Es por ello que si buscamos la privacidad debemos buscar navegadores minimalistas como puede ser webbrowser. Tor Browser seria un caso aparte ya que esta especialmente diseñado para ser usado cuando se navega por la red Tor.
 
-Tambien es recomendable que al usar cualquier navegador de la lista desbilitemos JavaScript y las cookies. Ambos son metodos muy usados para rastrear a los usuarios y obtener informacion sobre ellos. Es por ello que los mas recelosos de su seguridad en la web buscan en parte hacer una vuelta atras a los origenes de la web con Web 1.0 y plantenado el uso de XHTML y CSS para hacer nuestras paginas webs. Richar Stallman es un gran defensor de esta idea y critico duramente el uso de JavaScript en la web. [La trampa de JavaScript](https://www.gnu.org/philosophy/javascript-trap.html)
+Tambien es recomendable que al usar cualquier navegador de la lista desbilitemos JavaScript y las cookies. Ambos son metodos muy usados para rastrear a los usuarios y obtener informacion sobre ellos. Es por ello que los mas recelosos de su seguridad en la web buscan en parte hacer una vuelta atras a los origenes de la web con Web 1.0 y plantenado el uso de XHTML y CSS para hacer nuestras paginas webs. Richar Stallman es un gran defensor de esta idea y critico duramente el uso de JavaScript en la web. [La trampa de JavaScript](https://www.gnu.org/philosophy/javascript-trap.html){:target="_blank"}
 
-Especial mencion al proyecto [pipe-viewer](https://github.com/trizen/pipe-viewer) un proyecto de GitHub que permite buscar y reproducir videos de YouTube sin necesidad de usar JavaScript.
+Especial mencion al proyecto [pipe-viewer](https://github.com/trizen/pipe-viewer){:target="_blank"} un proyecto de GitHub que permite buscar y reproducir videos de YouTube sin necesidad de usar JavaScript.
 
 #### Extensiones
 
@@ -149,14 +152,11 @@ Si has elegido uno de los navegadores minimalistas de la lista de arriba, la rea
 - Privacy Badger
 - User-Agent Switcher
 - Chaff
+- NoScript
 
 ### Dominio
 
 ### Correo
-
-#### Servidor de correo
-
-#### Cliente de correo
 
 ### Mensajeria
 
@@ -175,44 +175,57 @@ Aunque en general el concepto de criptomoneda es bastante seguro y privado, hay 
 
 ### Gestor de archivos
 
-- Ranger
+| Gestor de archivos | Licencia |
+|--------------------|----------|
+| Ranger | GPL |
+| Yazi | MIT |
+| lf | MIT |
+| fff | MIT |
+| xplr | MIT |
 
 ### Editor/Visor de texto
 
-- Vim
+| Editor/Visor de texto | Licencia |
+|-----------------------|----------|
+| Vi | BSD |
+| Vim | GPL |
+| Neovim | Apache |
+| Emacs | GPL |
 
 ### Editor/Visor de imagenes
 
-- feh
+| Editor/Visor de imagenes | Licencia |
+|--------------------------|----------|
+| feh | GPL |
+| sxiv | GPL |
 
 ### Editor/Visor de PDF
 
-- Zathura
+| Editor/Visor de PDF | Licencia |
+|---------------------|----------|
+| Zathura | GPL |
 
 ### Borrador de metadatos
 
-- mat2
+| Borrador de metadatos | Licencia |
+|-----------------------|----------|
+| mat2 | GPL |
 
 ### Gestor de contraseñas
 
+Es importante usar contraseñas seguras ademas de usar una contraseña diferente para cada servicio. Esto puede resultar complicado si tenemos que acordarnos de todas las contraseñas. Es por ello que es recomendable usar un gestor de contraseñas. A continuacion te dejo una lista de gestores de contraseñas a tener en cuenta a la hora de elegir el tuyo.
+
 | Gestor de contraseña | Licencia |
 |----------------------|----------|
-| LastPass             | Freemium |
-| Dashlane             | Freemium |
-| Zoho Vault           | Freemium |
-| Keeper               | Freemium |
-| RoboForm             | Freemium |
-| Sticky Password      | Freemium |
-| Enpass               | Freemium |
-| 1Password            | Freemium |
 | Bitwarden            | GPL      |
-| passage              | GPL      |
 | Keepass              | GPL      |
 | KeepassX             | GPL      |
 | KeepassXC            | GPL      |
 | pass                 | GPL      |
 
-Personalmente recomiendo Bitwarden o pass. Bitwarden es un gestor de contraseña que funciona tanto en un servidor propio como en la nube. Obviamente recomiendo usarlo en un servidor propio o en tu VPS. pass es un gestor de contraseñas que funciona mediante la terminal y que guarda las contraseñas en archivos encriptados en tu sistema.
+Bitwarden es una gran opcion ya que permite crear un servidor de contraseñas en local y acceder a el mediante un extension o la aplicacion propia. De esta forma no tenemos que confiar en ningun servidor externo para almacenar nuestras contraseñas.
+Keepass y sus forks son gestores de contraseñas mas tradiciones que almacenan las contraseñas en una base de datos local escriptada con una contraseña maestra.
+pass en cambio, esta enfocado en la filosofia Unix y almacena las contraseñas dentro de ficheros de texto plano encriptados con GPG.
 
 ### Shell
 
@@ -220,23 +233,11 @@ Aunque la Shell no tiene mucho que ver con el tema de anonimato y privacidad me 
 
 | Shell      | Licencia |
 |------------|----------|
-| PowerShell | MS-PL    |
 | Bash       | GPL      |
-| Nu Shell   | Apache   |
-| Glsh       | MIT      |
-| BusyBox    | GPL      |
-| Elvish     | MIT      |
-| rc         | MIT      |
-| Ash        | BSD      |
-| Mksh       | BSD      |
-| Dash       | BSD      |
-| C Shell    | BSD      |
-| Korn Shell | CDDL     |
-| Tcsh       | BSD      |
 | Fish       | GPL      |
 | Zsh        | MIT      |
 
-Bash, Zsh y Fish son las mas conocidas y usadas por lo que son grandes opciones.
+Mi preferida es Zsh ya que es muy personalizable, muchas funcionalidades y trae mucha personalizacion.
 
 ### Terminal
 
@@ -246,22 +247,7 @@ Al igual que la Shell, la terminal o cli, no estan muy relacionados con el anoni
 |----------|----------|
 | Alacritty| MIT      |
 | Kitty    | MIT      |
-| Termite  | MIT      |
-| Xterm    | MIT      |
-| Urxvt    | MIT      |
 | St       | MIT      |
-| Tilda    | GPL      |
-| Terminix | GPL      |
-| Guake    | GPL      |
-| Yakuake  | GPL      |
-| Tilix    | GPL      |
-| Konsole  | GPL      |
-| Gnome-Terminal | GPL      |
-| Xfce4-Terminal | GPL      |
-| Lxterminal | GPL      |
-| Qterminal | GPL      |
-| Terminology | BSD      |
-| Cool-Retro-Term | GPL      |
-| Termux | GPL      |
 
-Alacritty y Kitty suelen ser las que mas recomiendo. Aprovechan las capacidades de las tarjetas graficas para mejorar el rendimiento y la velocidad de la terminal. Ademas de ser muy configurables y tener una gran comunidad detras.
+Si buscas la simplicidad y funcionalidad st es tu terminal.
+Por el otro lado, si buscas gran personalizacion y utilizar GPU Alacritty y Kitty son las opciones a elegir.

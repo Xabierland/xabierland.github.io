@@ -1,8 +1,6 @@
 # Page Setup
-title: Xabierland
-description: Blog de Xabier Gabiña Barañano
-author: Xabier Gabiña Barañano
 url: https://xabierland.github.io/
+author: Xabier Gabiña Barañano
 theme: minima
 
 # Build Settings

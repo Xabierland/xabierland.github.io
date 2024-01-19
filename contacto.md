@@ -7,11 +7,11 @@ title: Contacto
 
 ### Redes Sociales
 
-* [Twitter](https://twitter.com/Xabierland)
-* [LinkedIn](https://www.linkedin.com/in/xabier-gabina)
-* [GitHub](https://github.com/Xabierland)
+* [Twitter](https://twitter.com/Xabierland){:target="_blank"}
+* [LinkedIn](https://www.linkedin.com/in/xabier-gabina){:target="_blank"}
+* [GitHub](https://github.com/Xabierland){:target="_blank"}
 
 ### Email
 
-* [Educational Mail](mailto:xgabina001@ehu.eus)
-* [Personal Mail](mailto:xabierland@gmail.com)
+* [Educational Mail](mailto:xgabina001@ikasle.ehu.eus){:target="_blank"}
+* [Personal Mail](mailto:xabierland@gmail.com){:target="_blank"}

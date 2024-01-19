@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Proyectos
 ---
 <h2>Proyectos</h2>
 
@@ -8,9 +9,9 @@ layout: default
 </div>
 
 <ul id="List">
-{% for project in site.projects %}
-    <li><h3><a href="{{ project.url }}">{{ project.title }}</a></h3></li>
-{% endfor %}
+    {% for project in site.projects %}
+        <li><h3><a href="{{ project.url }}">{{ project.title }}</a></h3></li>
+    {% endfor %}
 </ul>
 
 <script>
