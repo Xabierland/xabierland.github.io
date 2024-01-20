@@ -121,7 +121,7 @@ Los navegadores son una herramienta crucial y que usamos a todas horas por lo qu
 | Ungoogled Chromium | BSD       |
 | PaleMoon           | MPL       |
 | Iridium            | BSD       |
-| Falcon             | GPL       |
+| Falkon             | GPL       |
 | Netsurf            | GPL       |
 | Tor Browser        | BSD       |
 | Otter Browser      | GPL       |
@@ -133,7 +133,11 @@ Los navegadores son una herramienta crucial y que usamos a todas horas por lo qu
 | Surf               | MIT       |
 | webbrowser.git     | GPL       |
 
-LibreWolf Ungoogle Chromium y PaleMoon no son malas opciones y estan disponibles para todos los sistemas operativos pero la mayoria de ellos traen una cantidad de funcionalidad que no vamos a usar y que son un potencial riesgo para nuestra privacidad ademas de lastrar el rendimiento. Es por ello que si buscamos la privacidad debemos buscar navegadores minimalistas como puede ser webbrowser. Tor Browser seria un caso aparte ya que esta especialmente diseñado para ser usado cuando se navega por la red Tor.
+Firefox es el navegador mas conocido de la lista pero hay que tener en cuenta que no esta enfocado en la privacidad ni el anonimato. Es posible configurarlo e instalarle extensiones para "hardenearlo" pero aun asi no es la mejor de las opciones.
+
+LibreWolf Ungoogle Chromium y PaleMoon no son malas opciones respecto a la privacidad y estan disponibles para todos los sistemas operativos pero la mayoria de ellos traen una cantidad de funcionalidad que no vamos a usar y que son un potencial riesgo para nuestra privacidad en caso de "exploits" ademas de lastrar el rendimiento. Es por ello que si buscamos la privacidad debemos buscar navegadores minimalistas que cumplan con los requisitos minimos para navegar por la red.
+
+Tor Browser seria un caso aparte ya que esta especialmente diseñado para ser usado cuando se navega por la red Tor pero no es recomendable usarlo para navegar por la red normal ademas de que no es su funcion.
 
 Tambien es recomendable que al usar cualquier navegador de la lista desbilitemos JavaScript y las cookies. Ambos son metodos muy usados para rastrear a los usuarios y obtener informacion sobre ellos. Es por ello que los mas recelosos de su seguridad en la web buscan en parte hacer una vuelta atras a los origenes de la web con Web 1.0 y plantenado el uso de XHTML y CSS para hacer nuestras paginas webs. Richar Stallman es un gran defensor de esta idea y critico duramente el uso de JavaScript en la web. [La trampa de JavaScript](https://www.gnu.org/philosophy/javascript-trap.html){:target="_blank"}
 
@@ -156,7 +160,15 @@ Si has elegido uno de los navegadores minimalistas de la lista de arriba, la rea
 
 ### Dominio
 
+
+
 ### Correo
+
+Los servicios de correos como Gmail, Outlook, Yahoo... son servicios que no deberiamos usar nunca. Estos servicios estan obligados por ley a tener que dar informacion sobre sus usuarios a las agencias de inteligencia ademas de que no son software libre y por lo tanto no se puede garantizar que no tengan spyware.
+
+Otras opciones como ProtonMail o Tutanota son mejores opciones en cuanto a privacidad y anonimato pero como empresas siguen estando obligadas por ley a tener que dar informacion sobre sus usuarios a las agencias de inteligencia.
+
+Usar un servicio oculto de correo mediante Tor es una buena opcion pero tampoco es la mejor.
 
 ### Mensajeria
 
@@ -248,6 +260,10 @@ Al igual que la Shell, la terminal o cli, no estan muy relacionados con el anoni
 | Alacritty| MIT      |
 | Kitty    | MIT      |
 | St       | MIT      |
+| tmux     | BSD      |
 
 Si buscas la simplicidad y funcionalidad st es tu terminal.
 Por el otro lado, si buscas gran personalizacion y utilizar GPU Alacritty y Kitty son las opciones a elegir.
+Si buscas una terminal multiplexada tmux es tu terminal.
+
+A mi, personalmente, me gustan y he probado todas asi que te recomiendo que las pruebes y elijas la que mas te guste y mejor se adapte a tus necesidades.
