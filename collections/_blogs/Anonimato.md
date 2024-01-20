@@ -158,7 +158,7 @@ Si has elegido uno de los navegadores minimalistas de la lista de arriba, la rea
 - Chaff
 - NoScript
 
-### Dominio
+<!--### Dominio
 
 
 
@@ -168,7 +168,7 @@ Los servicios de correos como Gmail, Outlook, Yahoo... son servicios que no debe
 
 Otras opciones como ProtonMail o Tutanota son mejores opciones en cuanto a privacidad y anonimato pero como empresas siguen estando obligadas por ley a tener que dar informacion sobre sus usuarios a las agencias de inteligencia.
 
-Usar un servicio oculto de correo mediante Tor es una buena opcion pero tampoco es la mejor.
+Usar un servicio oculto de correo mediante Tor es una buena opcion pero tampoco es la mejor.-->
 
 ### Mensajeria
 
