@@ -105,6 +105,15 @@ table tr:nth-child(odd) {
     color: white;
 }
 
+pre {
+    background-color: #202325;
+    text-align: center;
+}
+
+code {
+    background-color: #202325;
+}
+
 /* Estilos para el contenedor del buscador */
 .search-bar {
     margin: 20px;
