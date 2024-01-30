@@ -114,6 +114,11 @@ code {
     background-color: #202325;
 }
 
+img {
+    display: block;
+    margin: auto;
+}
+
 /* Estilos para el contenedor del buscador */
 .search-bar {
     margin: 20px;
