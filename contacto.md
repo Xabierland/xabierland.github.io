@@ -13,8 +13,7 @@ title: Contacto
 
 ### Email
 
-* [Educational Mail](mailto:xgabina001@ikasle.ehu.eus){:target="_blank"}
-* [Personal Mail](mailto:xabierland@gmail.com){:target="_blank"}
+* [eMail](mailto:xgabina001@ikasle.ehu.eus){:target="_blank"}
 
 ### GPG Key
 
