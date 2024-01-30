@@ -83,6 +83,8 @@ tsy2MjCe/K5DeQg=
 
 ### Monero Address
 
+![Monero Address](/img/monero.png)
+
 ```moneroaddress
 87KQFwAN9GKAMGZjRYbsarPDFQEAfTqiqCBddFChMPxVVtR5QiCGVXSLbGtfgzGagPdduUztJQbdx4RSzXg4NjQC6Q3Toym
 ```
