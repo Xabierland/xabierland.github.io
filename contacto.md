@@ -15,7 +15,7 @@ title: Contacto
 
 * [eMail](mailto:xgabina001@ikasle.ehu.eus){:target="_blank"}
 
-### GPG Key
+### PGP Key
 
 #### Fingerprint
 
@@ -82,7 +82,7 @@ tsy2MjCe/K5DeQg=
 
 ### Monero Address
 
-![Monero Address](/img/monero.png)
+![Monero Address](\img\Monero\monero.png)
 
 ```moneroaddress
 87KQFwAN9GKAMGZjRYbsarPDFQEAfTqiqCBddFChMPxVVtR5QiCGVXSLbGtfgzGagPdduUztJQbdx4RSzXg4NjQC6Q3Toym

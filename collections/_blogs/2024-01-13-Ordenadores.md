@@ -29,7 +29,7 @@ Supongo que este ordenador fue el que me hizo interesarme por la informatica asi
 
 ### Asus K72Jr | 2010 - Actualidad
 
-![Asus K72Jr](\img\K72Jr.jpg)
+![Asus K72Jr](\img\Ordenadores\K72Jr.jpg)
 
 #### Caracteristicas
 
@@ -69,7 +69,7 @@ Este ordenador acabaria en manos de mi padre tras ponerle un SSD en el que insta
 
 ### Asus Transformer Book T101HA-GR030T | 2018 - 2021
 
-![Asus Transformer Book T101HA-GR030T](\img\T101HA.jpg)
+![Asus Transformer Book T101HA-GR030T](\img\Ordenadores\T101HA.jpg)
 
 #### Caracteristicas
 
@@ -85,8 +85,8 @@ Sin duda el peor ordenador que he tenido. Se compro cuando empece bachillerato p
 
 ### Dell XPS 13 9370 | 2019 - Actualidad
 
-![Dell XPS 13 9370](\img\XPS13-1.jpg)
-![Mi Dell XPS 13 9370](\img\XPS13-2.jpg)
+![Dell XPS 13 9370](\img\Ordenadores\XPS13-1.jpg)
+![Mi Dell XPS 13 9370](\img\Ordenadores\XPS13-2.jpg)
 
 #### Caracteristicas
 

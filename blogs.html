@@ -9,7 +9,8 @@ title: Publicaciones
 </div>
 
 <ul id="List">
-    {% for blog in site.blogs %}
+    {% assign sortedBlogs = site.blogs | sort: 'date' | reverse %}
+    {% for blog in sortedBlogs %}
         <li><h3><a href="{{ blog.url }}">{{ blog.title }}</a></h3></li>
     {% endfor %}
 </ul>
