@@ -9,8 +9,11 @@ title: Proyectos
 </div>
 
 <ul id="List">
-    {% for project in site.projects %}
-        <li><h3><a href="{{ project.url }}">{{ project.title }}</a></h3></li>
+    {% assign sortedProject = site.projects | sort: 'date' | reverse %}
+    {% for project in sortedProject %}
+        {% if project.view == true %}
+            <li><h3><a href="{{ project.url }}">{{ project.title }}</a></h3></li>
+        {% endif %}
     {% endfor %}
 </ul>
 

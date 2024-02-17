@@ -11,7 +11,9 @@ title: Publicaciones
 <ul id="List">
     {% assign sortedBlogs = site.blogs | sort: 'date' | reverse %}
     {% for blog in sortedBlogs %}
-        <li><h3><a href="{{ blog.url }}">{{ blog.title }}</a></h3></li>
+        {% if blog.view == true %}
+            <li><h3><a href="{{ blog.url }}">{{ blog.title }}</a></h3></li>
+        {% endif %}
     {% endfor %}
 </ul>
 

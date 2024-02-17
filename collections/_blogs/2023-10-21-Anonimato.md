@@ -3,6 +3,7 @@ layout: blog
 title: Anonimato total en la red
 author: Xabier Gabiña Barañano
 date: 2023-10-21
+view: true
 ---
 
 ## Introduccion
