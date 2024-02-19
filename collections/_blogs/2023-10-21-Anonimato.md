@@ -73,7 +73,7 @@ Como no quiero meterme en camisas de once varas y no quiero que este post se con
 - [Debian](https://www.debian.org/)
 - [Arch Linux](https://www.archlinux.org/)
 - [Gentoo](https://www.gentoo.org/)
-- [OpenBSD](https://www.openbsd.org/)
+- [FreeBSD](https://www.freebsd.org/)
 - [Qubes OS](https://www.qubes-os.org/)
 - [Whonix](https://www.whonix.org/)
 - [Linux From Scratch](https://www.linuxfromscratch.org/)
