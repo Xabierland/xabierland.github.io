@@ -58,7 +58,7 @@ El dispositivo movil es algo muy importante ya que es el dispositivo con mas uso
 
 ## Software
 
-Cuando hablamos de Software anonimo y privado es imposible no hablar de FOSS. FOSS es el acronimo de Free and Open Source Software. Es un movimiento que busca la libertad de los usuarios y la transparencia de los programas. Es por ello que es esta seccion voy a hablar de tipos de software y todos ellos van a ser FOSS.
+Cuando hablamos de Software anonimo y privado es imposible no hablar de software libre y de software abierto. Aunque no son lo mismo, ambos comparten la filosofia de la libertad y la privacidad. Es por ello que todos los programas que voy a recomendar en este post son software libre y/o software abierto.
 
 ### OS
 
@@ -106,44 +106,50 @@ Te dejo links de dos tecnologias para ayudarte a configurar tu VPN:
 - [OpenVPN](https://openvpn.net/)
 - [WireGuard](https://www.wireguard.com/)
 
+Si aun asi quieres usar una VPN comercial, la unica opcion que te puedo recomendar es Mullvad. Es una VPN que no pide datos personales a la hora de registrarte y que acepta Monero como metodo de pago. Ademas ofrece tuneles con resistencia cuantica.
+
+- [Mullvad](https://mullvad.net/)
+
 ### Proxy
 
-Antes de hablar de Proxys quiero desmentir el mito de que es inseguro usar una VPN con Proxys. La razon por la que se desaconseja una VPN con Proxys es para cuando usas un VPN comercial ya que estas pueden llegar a recopilar informacion sobre este tipo de conexiones. Si usas una VPN montada por ti mismo en una VPS no hay problema en usar Proxys.
+Un proxy es un servidor que actua como intermediario entre el cliente y otros servidores. Es una forma de ocultar tu IP y de acceder a contenido bloqueado en tu pais.
 
-Dicho esto vamos a hablar de Proxys.
+Las redes de proxys mas conocidas son Tor y I2P. Ambas son redes descentralizadas y anonimas que permiten a los usuarios acceder a la red de forma anonima y privada.
+
+- [Tor](https://www.torproject.org/)
+- [I2P](https://geti2p.net/)
+
+Tambien quiero aprovechar para dar respuesta a la pregunta de ¿Es recomendable usar Tor con una VPN? La respuesta es no. La unica razon por la que querrias hacer esto es que vivas en un pais en el que el uso de Tor no solo este prohibido si no que este bloqueado como puede ser China e Iran. En este caso, si se podria llegar a recomendar usar una VPN aunque Tor ofrece Bridges que es una forma de acceder a la red Tor en paises en los que esta bloqueada aunque China ha demostrado ser capaz de bloquear tambien los Bridges. En cualquier otro caso, que una VPN se conecte a Tor solo levantaria sospechas.
 
 ### Navegador
 
 Los navegadores son una herramienta crucial y que usamos a todas horas por lo que elegir uno no es *moco de pavo*. A continuacion te dejo una lista de navegadores a tener en cuenta a la hora de elegir el tuyo.
 
-| Navegador          | Licencia  |
-|--------------------|-----------|
-| Mozilla Firefox    | MPL       |
-| LibreWolf          | MPL       |
-| Ungoogled Chromium | BSD       |
-| PaleMoon           | MPL       |
-| Iridium            | BSD       |
-| Falkon             | GPL       |
-| Netsurf            | GPL       |
-| Tor Browser        | BSD       |
-| Otter Browser      | GPL       |
-| BadWolf            | BSD       |
-| GNU IceCat         | GPL       |
-| Qutebrowser        | GPL       |
-| Lynx               | GPL       |
-| vimb               | GPL       |
-| Surf               | MIT       |
-| webbrowser.git     | GPL       |
+| Navegador          | Licencia | UI  |
+|--------------------|----------|-----|
+| Mozilla Firefox    | MPL      | GUI |
+| LibreWolf          | MPL      | GUI |
+| Ungoogled Chromium | BSD      | GUI |
+| PaleMoon           | MPL      | GUI |
+| Iridium            | BSD      | GUI |
+| Falkon             | GPL      | GUI |
+| Tor Browser        | BSD      | GUI |
+| Otter Browser      | GPL      | GUI |
+| BadWolf            | BSD      | GUI |
+| GNU IceCat         | GPL      | GUI |
+| Qutebrowser        | GPL      | GUI |
+| w3m                | MIT      | CLI |
+| Links              | GPL      | CLI |
+| Lynx               | GPL      | CLI |
 
 Firefox es el navegador mas conocido de la lista pero hay que tener en cuenta que no esta enfocado en la privacidad ni el anonimato. Es posible configurarlo e instalarle extensiones para "hardenearlo" pero aun asi no es la mejor de las opciones.
 
-LibreWolf Ungoogle Chromium y PaleMoon no son malas opciones respecto a la privacidad y estan disponibles para todos los sistemas operativos pero la mayoria de ellos traen una cantidad de funcionalidad que no vamos a usar y que son un potencial riesgo para nuestra privacidad en caso de "exploits" ademas de lastrar el rendimiento. Es por ello que si buscamos la privacidad debemos buscar navegadores minimalistas que cumplan con los requisitos minimos para navegar por la red.
+LibreWolf es un fork de Firefox enfocado en la privacidad y el anonimato. Viene preconfigurado con muchas extensiones y configuraciones para proteger la privacidad y el anonimato del usuario.
+Yo es uno de los navegadores que uso y recomiendo en caso de no querer complicarse mucho la vida.
 
-Tor Browser seria un caso aparte ya que esta especialmente diseñado para ser usado cuando se navega por la red Tor pero no es recomendable usarlo para navegar por la red normal ademas de que no es su funcion.
+w3m, Links y Lynx son navegadores de texto que no soportan JavaScript ni CSS. Son muy utiles para navegar por la web de forma anonima y privada ya que no permiten que las webs rastreen al usuario. Tambien son muy utiles para navegar por la web en dispositivos con poca potencia o sin interfaz grafica.
 
 Tambien es recomendable que al usar cualquier navegador de la lista desbilitemos JavaScript y las cookies. Ambos son metodos muy usados para rastrear a los usuarios y obtener informacion sobre ellos. Es por ello que los mas recelosos de su seguridad en la web buscan en parte hacer una vuelta atras a los origenes de la web con Web 1.0 y plantenado el uso de XHTML y CSS para hacer nuestras paginas webs. Richar Stallman es un gran defensor de esta idea y critico duramente el uso de JavaScript en la web. [La trampa de JavaScript](https://www.gnu.org/philosophy/javascript-trap.html){:target="_blank"}
-
-Especial mencion al proyecto [pipe-viewer](https://github.com/trizen/pipe-viewer){:target="_blank"} un proyecto de GitHub que permite buscar y reproducir videos de YouTube sin necesidad de usar JavaScript.
 
 #### Extensiones
 
@@ -160,15 +166,14 @@ Si has elegido uno de los navegadores minimalistas de la lista de arriba, la rea
 - Chaff
 - NoScript
 
-<!--### Dominio
-
 ### Correo
 
 Los servicios de correos como Gmail, Outlook, Yahoo... son servicios que no deberiamos usar nunca. Estos servicios estan obligados por ley a tener que dar informacion sobre sus usuarios a las agencias de inteligencia ademas de que no son software libre y por lo tanto no se puede garantizar que no tengan spyware.
 
-Otras opciones como ProtonMail o Tutanota son mejores opciones en cuanto a privacidad y anonimato pero como empresas siguen estando obligadas por ley a tener que dar informacion sobre sus usuarios a las agencias de inteligencia.
+La verdad es que es dificil dar una recomendacion realmente buena sobre como usar el correo de forma anonima y privada. Las dos opciones que se me ocurren son usar un servidor de correo propio sobre Tor o usar el servicio de correo de ProtonMail.
 
-Usar un servicio oculto de correo mediante Tor es una buena opcion pero tampoco es la mejor.-->
+- [ProtonMail](https://protonmail.com/)
+- [OnionMail](https://onionmail.info/paper.html)
 
 ### Mensajeria
 
@@ -187,6 +192,8 @@ Aunque en general el concepto de criptomoneda es bastante seguro y privado, hay 
 
 ### Gestor de archivos
 
+Aunque no es una herramienta que se suela asociar con la privacidad y el anonimato, es recomendable usar un gestor de archivos que sea software libre.
+
 | Gestor de archivos | Licencia |
 |--------------------|----------|
 | Ranger | GPL |
@@ -195,7 +202,11 @@ Aunque en general el concepto de criptomoneda es bastante seguro y privado, hay 
 | fff | MIT |
 | xplr | MIT |
 
+Aunque Ranger es el mas conocido y usado de la lista, yo personalmente recomiendo Yazi. Es un gestor de archivos muy ligero y facil de usar. Ademas es muy personalizable y tiene muchas funcionalidades.
+
 ### Editor/Visor de texto
+
+Al igual que el gestor de archivos, el editor/visor de texto no es una herramienta que se suela asociar con la privacidad y el anonimato, pero es recomendable usar un editor/visor de texto que sea software libre.
 
 | Editor/Visor de texto | Licencia |
 |-----------------------|----------|
@@ -203,25 +214,30 @@ Aunque en general el concepto de criptomoneda es bastante seguro y privado, hay 
 | Vim | GPL |
 | Neovim | Apache |
 | Emacs | GPL |
+| Nano | GPL |
+
+Cualquier editor/visor de texto de la lista es una gran opcion. Pruébalos y elige el que mas te guste y mejor se adapte a tus necesidades.
 
 ### Editor/Visor de imagenes
+
+Y siguiendo con las recomendaciones de software libre tenemos los siguientes editores/visores de imagenes.
 
 | Editor/Visor de imagenes | Licencia |
 |--------------------------|----------|
 | feh | GPL |
 | sxiv | GPL |
 
-### Editor/Visor de PDF
-
-| Editor/Visor de PDF | Licencia |
-|---------------------|----------|
-| Zathura | GPL |
+Yo suelo usar feh ya que se adapta muy bien con Yazi y es muy facil de usar.
 
 ### Borrador de metadatos
+
+Es importante, sobre todo a la hora de compartir archivos, borrar los metadatos de los mismos. A continuacion te dejo una lista de borradores de metadatos a tener en cuenta a la hora de elegir el tuyo.
 
 | Borrador de metadatos | Licencia |
 |-----------------------|----------|
 | mat2 | GPL |
+| ExifTool | GPL |
+| ExifCleaner | GPL |
 
 ### Gestor de contraseñas
 
@@ -230,8 +246,6 @@ Es importante usar contraseñas seguras ademas de usar una contraseña diferente
 | Gestor de contraseña | Licencia |
 |----------------------|----------|
 | Bitwarden            | GPL      |
-| Keepass              | GPL      |
-| KeepassX             | GPL      |
 | KeepassXC            | GPL      |
 | pass                 | GPL      |
 
@@ -249,7 +263,7 @@ Aunque la Shell no tiene mucho que ver con el tema de anonimato y privacidad me 
 | Fish       | GPL      |
 | Zsh        | MIT      |
 
-Mi preferida es Zsh ya que es muy personalizable, muchas funcionalidades y trae mucha personalizacion.
+Existen muchas mas Shells pero tampoco quiero hacer una lista interminable. Mi preferida es Zsh ya que es muy personalizable, muchas funcionalidades y trae mucha personalizacion.
 
 ### Terminal
 
@@ -260,6 +274,7 @@ Al igual que la Shell, la terminal o cli, no estan muy relacionados con el anoni
 | Alacritty| MIT      |
 | Kitty    | MIT      |
 | St       | MIT      |
+| urxvt    | MIT      |
 | tmux     | BSD      |
 
 Si buscas la simplicidad y funcionalidad st es tu terminal.
