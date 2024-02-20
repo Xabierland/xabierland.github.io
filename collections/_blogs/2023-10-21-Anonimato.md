@@ -237,7 +237,6 @@ Es importante, sobre todo a la hora de compartir archivos, borrar los metadatos 
 |-----------------------|----------|
 | mat2 | GPL |
 | ExifTool | GPL |
-| ExifCleaner | GPL |
 
 ### Gestor de contraseñas
 
