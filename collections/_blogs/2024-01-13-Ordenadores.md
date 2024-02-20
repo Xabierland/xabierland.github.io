@@ -5,12 +5,11 @@ author: Xabier Gabiña Barañano
 date: 2024-01-13
 view: true
 ---
-
 <!-- markdownlint-disable MD024 -->
 
 ## Introduccion
 
-En este articulo voy a hablar de los ordenadores que he tenido a lo largo de mi vida.
+En este articulo voy a hablar de los ordenadores que he tenido a lo largo de mi vida. Es simplemente una forma de recordarlos y de ver como ha ido evolucionando el hardware.
 
 ## Ordenadores
 
@@ -27,6 +26,14 @@ Lo que si recuerdo es que tenia un juego, "El planeta del tesoro", que me encant
 No entendia nada del ordenador, solo sabia que tenia que darle al boton de encendido y abrir el juego. No tenia conexion a internet, asi que no podia hacer nada mas.
 
 Supongo que este ordenador fue el que me hizo interesarme por la informatica asi que aunque no era mio, es el primero que voy a poner en esta lista.
+
+### Acer Aspire 5920G | 2008 - Actualidad
+
+![Acer Aspire 5920G](\img\Ordenadores\5920G.jpg)
+
+#### Caracteristicas
+
+#### Historia
 
 ### Asus K72Jr | 2010 - Actualidad
 
@@ -57,11 +64,14 @@ Este ordenador acabaria en manos de mi padre tras ponerle un SSD en el que insta
 
 #### Caracteristicas
 
+- GPU: Nvidia GeForce GTX 770 OC 2GB GDDR5 (Murio)
 - CPU: Intel Core i7-4770K
-- GPU: Nvidia GeForce GTX 770 (Murio)
-- RAM: 16GB DDR3
 - Motherboard:
-- Disco:
+- RAM: G.Skill Ripjaws X DDR3 1866 16GB
+- SSD: Samsung 840 EVO 250GB
+- HDD: Seagate Desktop 2TB
+- DVD: Liteon iHAS124-14
+- PSI:
 - Monitor: 24" 1920x1080
 - OS: Windows 8.1 Pro
   - OS actual: Windows 11 Pro
@@ -107,12 +117,22 @@ Ahora mismo lo tengo un poco parado a la espera de comprar una bateria nueva ya 
 
 ### Build 2 | 2021 - Actualidad
 
+![Build 2](\img\Ordenadores\Build2.2.jpg)
+
 #### Caracteristicas
 
+- GPU: GeForce RTX 3070 Dual OC Edition 8GB GDDR6
 - CPU: AMD Ryzen 9 3950X
-- GPU: Nvidia GeForce RTX 3070
+- MotherBoard: X570 Aorus Elite
 - RAM: Patriot Viper 4 Blackout Series DDR4 3600 64GB
-- Placa Base: Gigabyte X570 AORUS ELITE
+- SSD: Corsair Force Series Gen4 MP600 NVMe M.2 2TB
+- HDD: Seagate BarraCuda Pro, 8TB
+- Refrigeracion: NZXT Kraken Z63 280mm
+- PSU: Be Quiet! Straight Power 11 750W Platinum
+- Box: Lian Li PC-O11 Black
+- OS: Microsoft Windows 11 Pro
+
+#### Historia
 
 ### Home Server | 2023 - Actualidad
 
