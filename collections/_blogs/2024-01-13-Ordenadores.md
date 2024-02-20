@@ -13,7 +13,7 @@ En este articulo voy a hablar de los ordenadores que he tenido a lo largo de mi 
 
 ## Ordenadores
 
-### Build 0 | 2004
+### PC 0 | 2004
 
 #### Caracteristicas
 
@@ -34,6 +34,8 @@ Supongo que este ordenador fue el que me hizo interesarme por la informatica asi
 #### Caracteristicas
 
 #### Historia
+
+Este ordenador al igual que el anterior, no era mio. Era de mi madre. Aun asi, lo usaba mucho sobre todo para jugar a los SIMS 3 y al Minecraft haya por la 1.2.5. Fuera de eso, no creo haberle dado mucho uso ya que no teniamos internet en casa y no tenia mucho mas que jugar.
 
 ### Asus K72Jr | 2010 - Actualidad
 
@@ -134,6 +136,10 @@ Ahora mismo lo tengo un poco parado a la espera de comprar una bateria nueva ya 
 
 #### Historia
 
+Tras el fallo de la GTX 770, decidi que era hora de montar un nuevo ordenador. Por desgracia, el covid complico mucho la compra de componentes y la grafica que queria, la RTX 3080 no tenia stock en ningun sitio. Y tras esperar 4 meses, decidi comprar la RTX 3070 el dia que salio a la venta.
+
+Fuera de eso, el ordenador es una maravilla. Es potente, bastante silencioso y no me ha dado ningun problema. Espero que me dure muchos años.
+
 ### Home Server | 2023 - Actualidad
 
 #### Caracteristicas
@@ -144,3 +150,6 @@ Ahora mismo lo tengo un poco parado a la espera de comprar una bateria nueva ya 
 - PSU: Corsair CV650 650W 80 Plus Bronze V2
 
 #### Historia
+
+Este ordenador lo monte para tener un servidor en casa. Lo uso para hacer backups, servidores de juegos y cacharrear un poco en general. No es nada del otro mundo pero cumple su funcion a las mil maravillas.
+Me gustaria tambien montar un servidor NAS y un servidor Proxmox pero tiempo al tiempo.
