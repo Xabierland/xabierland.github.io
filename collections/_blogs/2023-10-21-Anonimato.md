@@ -138,9 +138,9 @@ Los navegadores son una herramienta crucial y que usamos a todas horas por lo qu
 | BadWolf            | BSD      | GUI |
 | GNU IceCat         | GPL      | GUI |
 | Qutebrowser        | GPL      | GUI |
-| w3m                | MIT      | CLI |
-| Links              | GPL      | CLI |
-| Lynx               | GPL      | CLI |
+| w3m                | MIT      | TUI |
+| Links              | GPL      | TUI |
+| Lynx               | GPL      | TUI |
 
 Firefox es el navegador mas conocido de la lista pero hay que tener en cuenta que no esta enfocado en la privacidad ni el anonimato. Es posible configurarlo e instalarle extensiones para "hardenearlo" pero aun asi no es la mejor de las opciones.
 
