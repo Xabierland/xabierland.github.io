@@ -105,13 +105,18 @@ table tr:nth-child(odd) {
     color: white;
 }
 
-pre {
-    background-color: #202325;
+.language-bash.highlighter-rouge * {
+    background-color: #1d1d1d;
+    text-align: left;
+}
+
+.language-text.highlighter-rouge * {
+    background-color: #1d1d1d;
     text-align: center;
 }
 
 code {
-    background-color: #202325;
+    background-color: #1d1d1d;
 }
 
 img {
@@ -182,3 +187,4 @@ footer {
         margin-bottom: 10px; /* Añade un espacio entre los elementos li en pantallas pequeñas */
     }
 }
+

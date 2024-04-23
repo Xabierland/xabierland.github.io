@@ -19,13 +19,13 @@ title: Contacto
 
 #### Fingerprint
 
-```fingerprint
+```text
 372F 2E58 758B 8CE7 5299  4824 17FD 61B2 0325 B5F0
 ```
 
 #### Public Key
 
-```publickey
+```text
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 
 mQINBGW41+MBEAC7sS+5kM266xZtpnuK483RQHB1l/+OzN6bAdvZ5OCV673vQi8c
@@ -84,6 +84,6 @@ tsy2MjCe/K5DeQg=
 
 ![Monero Address](\img\Otros\monero.png)
 
-```moneroaddress
+```text
 87KQFwAN9GKAMGZjRYbsarPDFQEAfTqiqCBddFChMPxVVtR5QiCGVXSLbGtfgzGagPdduUztJQbdx4RSzXg4NjQC6Q3Toym
 ```
