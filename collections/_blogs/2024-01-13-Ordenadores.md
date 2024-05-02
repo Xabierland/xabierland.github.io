@@ -3,7 +3,7 @@ layout: blog
 title: Mis ordenadores
 author: Xabier Gabiña Barañano
 date: 2024-01-13
-view: true
+view: false
 ---
 <!-- markdownlint-disable MD024 -->
 
