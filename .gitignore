@@ -2,3 +2,6 @@ _site/
 Gemfile.lock
 .jekyll-cache/
 .vscode/
+.aux
+.bbl
+.bcf
