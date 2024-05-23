@@ -13,7 +13,7 @@ title: Contacto
 
 ### Email
 
-* [eMail](mailto:xgabina001@ikasle.ehu.eus){:target="_blank"}
+* [eMail](mailto:contact@xabierland.com){:target="_blank"}
 
 ### PGP Key
 
