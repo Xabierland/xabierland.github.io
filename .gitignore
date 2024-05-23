@@ -2,6 +2,13 @@ _site/
 Gemfile.lock
 .jekyll-cache/
 .vscode/
-.aux
-.bbl
-.bcf
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
