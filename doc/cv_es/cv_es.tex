@@ -1,26 +1,3 @@
-%-----------------------------------------------------------------------------------------------------------------------------------------------%
-%	The MIT License (MIT)
-%
-%	Copyright (c) 2024 Xabier Gabiñas
-%
-%	Permission is hereby granted, free of charge, to any person obtaining a copy
-%	of this software and associated documentation files (the "Software"), to deal
-%	in the Software without restriction, including without limitation the rights
-%	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-%	copies of the Software, and to permit persons to whom the Software is
-%	furnished to do so, subject to the following conditions:
-%	
-%	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-%	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-%	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-%	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-%	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-%	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-%	THE SOFTWARE.
-%	
-%
-%-----------------------------------------------------------------------------------------------------------------------------------------------%
-
 %----------------------------------------------------------------------------------------
 %	DOCUMENT DEFINITION
 %----------------------------------------------------------------------------------------
@@ -64,6 +41,7 @@
 %http://stefano.italians.nl/archives/26
 \titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
 \titlespacing{\section}{0pt}{10pt}{10pt}
+\titleformat{\subsection}{\large\scshape\raggedright}{}{0em}{}
 
 %for publications
 \usepackage[style=authoryear,sorting=ynt, maxbibnames=2]{biblatex}
@@ -94,8 +72,8 @@
 %----------------------------------------------------------------------------------------
 
 \begin{tabularx}{\linewidth}{@{} C @{}}
-\Huge{Xabier Gabiña} \\[7.5pt]
-%\href{https://github.com/Xabierland}{\raisebox{-0.05\height}\faGithub\ Xabierland} \ $|$ \ 
+\Huge{Xabier Gabiña Barañano} \\[7.5pt]
+\href{https://github.com/Xabierland}{\raisebox{-0.05\height}\faGithub\ Xabierland} \ $|$ \ 
 \href{https://linkedin.com/in/xabier-gabina}{\raisebox{-0.05\height}\faLinkedin\ Xabier Gabiña} \ $|$ \ 
 \href{https://www.xabierland.com/}{\raisebox{-0.05\height}\faGlobe \ www.xabierland.com} \ $|$ \ 
 \href{mailto:contact@xabierland.com}{\raisebox{-0.05\height}\faEnvelope \ contact@xabierland.com} \ %$|$ \ 
@@ -108,53 +86,78 @@
 
 %Interests/ Keywords/ Summary
 \section{Resumen}
-Soy \textbf{Xabier Gabiña}, un \textbf{Ingeniero Informático} con una profunda pasión por Linux y el software libre.
+Soy \textbf{Xabier Gabiña}, un estudiante de \textbf{Ingeniería Informática} con una profunda pasión por Linux y el software libre.
 
-Con un enfoque particular en la \textbf{administración de sistemas}, la \textbf{ciberseguridad} y el \textbf{DevSecOps}, mi objetivo es seguir creciendo en estas áreas, contribuyendo al diseño y mantenimiento de sistemas eficientes y seguros.
+Con un enfoque particular en la \textbf{administración de sistemas}, la \textbf{ciberseguridad} y el \textbf{DevSecOps}, mi objetivo es seguir formándome en estas áreas, contribuyendo así al diseño y mantenimiento de sistemas eficientes y seguros.
 
 %Experience
-\section{Experiencia Laboral}
-
+%\section{Experiencia Laboral}
+%
 %\begin{tabularx}{\linewidth}{ @{}l r@{} }
-%\textbf{Designation} & \hfill Jan 2021 - present \\[3.75pt]
-%\multicolumn{2}{@{}X@{}}{long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width}  \\
+%\textbf{Profesor Particular} & \hfill 2022 - presente \\[3.75pt]
+%\multicolumn{2}{@{}X@{}}{ He impartido clases de refuerzo tanto a compañeros de la carrera como a alumnos de bachillerato de diferentes asignaturas relacionadas con la informática. }  \\
 %\end{tabularx}
 
 %Projects
-\section{Projectos}
+\section{Proyectos destacados}
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Compra/venta de coches} & \hfill \href{https://github.com/Xabierland/AS-Proyecto}{Link al repositorio} \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{ 
+    Este proyecto consiste en el desarrollo de una pequeña página web destinada a la publicación de anuncios de compra y venta de coches. Todo el sistema está empaquetado en contenedores Docker, con el objetivo de desplegarlo posteriormente en Google Cloud Platform mediante Kubernetes y poner así en práctica lo aprendido sobre DevOps.
+}
+\end{tabularx}
 
-%\begin{tabularx}{\linewidth}{ @{}l r@{} }
-%\textbf{Some Project} & \hfill \href{https://some-link.com}{Link to Demo} \\[3.75pt]
-%\multicolumn{2}{@{}X@{}}{long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width}  \\
-%\end{tabularx}
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Alquiler de películas} & \hfill \href{https://github.com/Xabierland/SGSSI-Proyecto}{Link al repositorio} \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{ 
+    Este proyecto, al igual que el anterior, se trata de una página web dedicada al alquiler de películas, pero con el propósito de desarrollarla de manera intencionalmente insegura. El objetivo era probar distintos ataques y vulnerabilidades contra la aplicación, para luego corregirlos y así poner a prueba nuestros conocimientos en ciberseguridad.
+}
+\end{tabularx}
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION
 %----------------------------------------------------------------------------------------
 \section{Educación}
-\begin{tabularx}{\linewidth}{@{}l X@{}}	
-Ingeniería Informática de Gestión y Sistemas de Información & \hfill\textbf{Universidad del País Vasco} \\[3.75pt]
-
-Bachillerato de Ciencias y Tecnología & \hfill\textbf{Nuestra Señora de La Antigua} \\[3.75pt]
+\begin{tabularx}{\linewidth}{ @{}l X r@{} }	
+\textbf{Ingeniería Informática de Gestión y Sistemas de Información} & & \hfill Bilbao, País Vasco \\[0.1pt]
+\textit{Universidad del País Vasco} & & \hfill \textit{2021-Presente}\\
 \end{tabularx}
 
 %----------------------------------------------------------------------------------------
 %	PUBLICATIONS
 %----------------------------------------------------------------------------------------
-\section{Publicaciones}
-\begin{refsection}[citations.bib]
-\nocite{*}
-\printbibliography[heading=none]
-\end{refsection}
+%\section{Publicaciones}
+%\begin{refsection}[citations.bib]
+%\nocite{*}
+%\printbibliography[heading=none]
+%\end{refsection}
 
 %----------------------------------------------------------------------------------------
 %	SKILLS
 %----------------------------------------------------------------------------------------
 \section{Habilidades}
-%\begin{tabularx}{\linewidth}{@{}l X@{}}
-%Some Skills &  \normalsize{This, That, Some of this and that etc.}\\
-%Some More Skills  &  \normalsize{Also some more of this, Some more that, And some of this and that etc.}\\  
-%\end{tabularx}
+
+\subsection*{Idiomas}
+\begin{tabular}{@{}l l @{\hskip 50pt} l l @{\hskip 50pt} l l@{}}
+Español & \normalsize{Nativo} & Inglés & \normalsize{B2} & Euskera & \normalsize{B2} \\
+\end{tabular}
+
+\subsection*{Lenguajes de Programación}
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\multicolumn{2}{@{}X@{}}{ 
+    Durante la carrera he trabajado con distintos lenguajes de programación entre los que destacaría \textbf{Python}, \textbf{Java} y \textbf{Bash}.
+    También se han usado otros lenguajes como \textbf{PHP}, \textbf{SQL}, \textbf{JavaScript} y \textbf{C}, aunque en menor medida.
+    Por mi cuenta he aprendido lo básico de \textbf{Rust}, principalmente resolviendo problemas en \textit{LeetCode}.
+}
+\end{tabularx}
+
+\subsection*{Tecnologías}
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\multicolumn{2}{@{}X@{}}{
+    En cuanto a tecnologías en materia de administración de sistemas, he trabajado con \textbf{Docker}, \textbf{Kubernetes} y diferentes \textbf{hipervisores}, además de estar familiarizado con \textbf{Linux}.
+    En el ámbito de la ciberseguridad, he trabajado con \textbf{Metasploit}, \textbf{Nmap}, \textbf{Wireshark} y \textbf{Burp Suite}, entre las principales, y las he puesto en práctica tanto en proyectos de la Universidad como en máquinas virtuales de \textit{HackTheBox}.
+}
+\end{tabularx}
 
 \vfill
 \center{\footnotesize Última modificación: \today}
