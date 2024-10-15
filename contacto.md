@@ -15,9 +15,10 @@ title: Contacto
 
 * [eMail](mailto:contact@xabierland.com){:target="_blank"}
 
-### Curriculo
+### Curriculum
 
-* [Curriculo ES](/doc/cv_es/cv_es.pdf){:target="_blank"}
+* [Curriculum ES](/doc/cv_es/cv_es.pdf){:target="_blank"}
+* [Curriculum EN](/doc/cv_en/cv_en.pdf){:target="_blank"}
 
 ### PGP Key
 
