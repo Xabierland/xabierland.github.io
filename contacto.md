@@ -17,8 +17,8 @@ title: Contacto
 
 ### Curriculum
 
-* [Curriculum ES](/doc/cv_es/cv_es.pdf){:target="_blank"}
-* [Curriculum EN](/doc/cv_en/cv_en.pdf){:target="_blank"}
+* [Curriculum ES](/doc/cv/cv_es/cv_es.pdf){:target="_blank"}
+* [Curriculum EN](/doc/cv/cv_en/cv_en.pdf){:target="_blank"}
 
 ### PGP Key
 
