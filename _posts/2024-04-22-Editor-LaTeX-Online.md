@@ -1,9 +1,11 @@
 ---
-title: Empieza a usar LaTeX
+title: Editor LaTeX Online
 author: Xabierland
+description: >-
+  Usa LaTeX en tu propia instancia de Overleaf/ShareLaTeX.
 date: 2024-04-22
-categories: [Blog, LaTeX]
-tags: [LaTeX, Documentación, Escritura]
+categories: [Tutorial]
+tags: [LaTeX, Documentación, Escritura, Overleaf, ShareLaTeX]
 ---
 <!-- markdownlint-disable MD029 -->
 ## ¿Que es LaTeX?
