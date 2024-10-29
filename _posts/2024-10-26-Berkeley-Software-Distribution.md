@@ -3,7 +3,7 @@ title: Berkeley Software Distribution (BSD)
 author: Xabierland
 description: >-
   Conoce la historia, características y usos de los sistemas operativos BSD.
-date: 2024-04-22
+date: 2024-10-26
 categories: [Blog]
 tags: [BSD, Unix, Operative System, Free Software]
 ---
