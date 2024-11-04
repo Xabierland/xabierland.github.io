@@ -18,6 +18,25 @@ K3s es una distribución ligera de Kubernetes diseñada para entornos de desarro
 
 ### ¿Por qué K3s?
 
+K3s tiene varias ventajas sobre otras distribuciones de Kubernetes como son:
+
+- Ligereza y eficiencia
+- Fácil instalación y configuración
+- Compatibilidad con ARM
+- Gestión simplificada
+- Actualizaciones rápidas y soporte para la comunidad
+
+K3s también tiene algunas desventajas:
+
+- Limitaciones en entornos de producción grandes
+  - K3s puede ser usado en entornos de producción, pero no esta diseñado para clústeres de gran escala.
+- Soporte y personalización
+  - K3s gana ligereza eliminando algunas características de Kubernetes, lo que puede limitar la personalización o el uso de herramientas específicas.
+- Menor comunidad y soporte empresarial
+  - Aunque K3s tiene una comunidad activa, esta, no tiene gran tamaño ni soporte empresarial.
+- Limitaciones en la persistencia de datos
+  - Al usar SQLite en lugar de etcd para almacenar los datos del clúster de Kubernetes, K3s puede tener limitaciones en la persistencia de datos en entornos de producción.
+
 ## Instalación y configuración de K3s
 
 Para instalar K3s en Linux, sigue los siguientes pasos:
@@ -61,7 +80,7 @@ A continuación, se muestran algunos comandos básicos para trabajar con K3s:
 Es posible crear un alias para el comando `sudo k3s kubectl` para facilitar su uso. Para ello, añade la siguiente línea al archivo `.bashrc`:
 
 ```bash
-alias kubectl='sudo k3s kubectl' >> ~/.bashrc
+echo "alias kubectl='sudo k3s kubectl'" >> ~/.bashrc
 source ~/.bashrc
 ```
 
