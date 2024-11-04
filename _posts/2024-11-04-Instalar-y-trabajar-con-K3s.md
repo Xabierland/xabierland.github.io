@@ -1,0 +1,68 @@
+---
+title: Instalar y trabajar con K3s
+author: Xabierland
+description: >-
+    Aprende a instalar y trabajar con K3s
+date: 2024-11-04 10:04
+categories: [Tutorial, Contenedores y Orquestación]
+tags: [Kubernetes, Containers]
+---
+
+## Introducción
+
+Hoy en día, Kubernetes es una de las herramientas de orquestación de contenedores más populares y utilizadas en el mundo de la informática y la programación. En este tutorial, aprenderás qué es K3s, por qué es tan popular y cómo instalarlo y trabajar con él.
+
+### ¿Qué es K3s?
+
+K3s es una distribución ligera de Kubernetes diseñada para entornos de desarrollo, pruebas y producción. K3s está optimizado para ejecutarse en máquinas con recursos limitados, como portátiles, servidores de borde y dispositivos IoT. No obstante, a diferencia de Minikube, K3s es adecuado para entornos de producción y puede escalar para admitir clústeres de Kubernetes de cualquier tamaño.
+
+### ¿Por qué K3s?
+
+## Instalación y configuración de K3s
+
+Para instalar K3s en Linux, sigue los siguientes pasos:
+
+```bash
+curl -sfL https://get.k3s.io | sh -
+```
+
+Para añadir workers al clúster de K3s, ejecuta el siguiente comando en el nodo maestro:
+
+```bash
+curl -sfL https://get.k3s.io | K3S_URL=https://<IP>:6443 K3S_TOKEN=<TOKEN> sh -
+```
+
+Recuerda reemplazar `<IP>` y `<TOKEN>` con la dirección IP y el token del nodo maestro.
+
+Para obtener el `<TOKEN>` ejecuta en el nodo maestro:
+
+```bash
+sudo cat /var/lib/rancher/k3s/server/node-token
+```
+
+## Como trabajar con K3s
+
+Una vez que hayas instalado K3s, puedes empezar a trabajar con él utilizando la herramienta de línea de comandos `kubectl`.
+A continuación, se muestran algunos comandos básicos para trabajar con K3s:
+
+- `sudo k3s kubectl get nodes`: Muestra los nodos del clúster de K3s.
+- `sudo k3s kubectl get pods`: Muestra los pods del clúster de K3s.
+- `sudo k3s kubectl get services`: Muestra los servicios del clúster de K3s.
+- `sudo k3s kubectl apply -f <archivo.yaml>`: Aplica la configuración de un archivo YAML en el clúster de K3s.
+- `sudo k3s kubectl delete -f <archivo.yaml>`: Elimina la configuración de un archivo YAML del clúster de K3s.
+- `sudo k3s kubectl exec -it <pod> -- <comando>`: Ejecuta un comando en un pod del clúster de K3s.
+- `sudo k3s kubectl logs <pod>`: Muestra los logs de un pod del clúster de K3s.
+- `sudo k3s kubectl port-forward <pod> <puerto_local>:<puerto_remoto>`: Reenvía un puerto de un pod del clúster de K3s al puerto local.
+- `sudo k3s kubectl describe <recurso> <nombre>`: Muestra información detallada sobre un recurso del clúster de K3s.
+- `sudo k3s kubectl edit <recurso> <nombre>`: Edita la configuración de un recurso del clúster de K3s.
+- `sudo k3s kubectl scale <recurso> <nombre> --replicas=<número>`: Escala un recurso del clúster de K3s a un número específico de réplicas.
+- `sudo k3s kubectl rollout restart <recurso> <nombre>`: Reinicia un recurso del clúster de K3s.
+
+Es posible crear un alias para el comando `sudo k3s kubectl` para facilitar su uso. Para ello, añade la siguiente línea al archivo `.bashrc`:
+
+```bash
+alias kubectl='sudo k3s kubectl' >> ~/.bashrc
+source ~/.bashrc
+```
+
+Estos son solo algunos de los comandos básicos que puedes utilizar para trabajar con K3s. Para obtener más información sobre cómo trabajar con K3s, consulta la [documentación oficial de Kubernetes](https://kubernetes.io/docs/).
