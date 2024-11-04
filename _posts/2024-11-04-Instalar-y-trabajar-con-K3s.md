@@ -84,4 +84,8 @@ echo "alias kubectl='sudo k3s kubectl'" >> ~/.bashrc
 source ~/.bashrc
 ```
 
-Estos son solo algunos de los comandos básicos que puedes utilizar para trabajar con K3s. Para obtener más información sobre cómo trabajar con K3s, consulta la [documentación oficial de Kubernetes](https://kubernetes.io/docs/).
+Estos son solo algunos de los comandos básicos que puedes utilizar para trabajar con K3s. Para obtener más información sobre cómo trabajar con K3s, consulta la [documentación oficial de Kubernetes](https://kubernetes.io/docs/reference/kubectl/).
+
+## Referencias
+
+- [Quick-Start Guide](https://docs.k3s.io/quick-start)

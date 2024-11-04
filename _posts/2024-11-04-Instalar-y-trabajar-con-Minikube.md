@@ -120,3 +120,8 @@ Para acceder a la aplicación, puedes usar el siguiente comando:
 ```bash
 minikube service hello-minikube
 ```
+
+## Referencias
+
+- [minikube start](https://minikube.sigs.k8s.io/docs/start/?arch=%2Flinux%2Fx86-64%2Fstable%2Fbinary+download)
+- [handbook](https://minikube.sigs.k8s.io/docs/handbook/)

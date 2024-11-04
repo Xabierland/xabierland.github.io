@@ -172,3 +172,8 @@ Para ejecutar la aplicación con `podman-compose`, puedes usar el siguiente coma
 ```bash
 podman-compose up -d
 ```
+
+## Referencias
+
+- [Podman Installation Instructions](https://podman.io/docs/installation)
+- [Commands](https://docs.podman.io/en/latest/Commands.html)

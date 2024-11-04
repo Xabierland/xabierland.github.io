@@ -189,7 +189,7 @@ A continuación, se muestran algunos comandos básicos para trabajar con Kuberne
 - `kubectl scale <recurso> <nombre> --replicas=<número>`: Escala un recurso del clúster de K8s a un número específico de réplicas.
 - `kubectl rollout restart <recurso> <nombre>`: Reinicia un recurso del clúster de K8s.
 
-Estos son solo algunos de los comandos básicos que puedes utilizar para trabajar con K8s. Para obtener más información sobre cómo trabajar con K8s, consulta la [documentación oficial de Kubernetes](https://kubernetes.io/docs/).
+Estos son solo algunos de los comandos básicos que puedes utilizar para trabajar con K8s. Para obtener más información sobre cómo trabajar con K8s, consulta la [documentación oficial de Kubernetes](https://kubernetes.io/docs/reference/kubectl/).
 
 ## Referencias
 
