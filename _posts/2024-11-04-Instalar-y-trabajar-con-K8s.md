@@ -72,7 +72,7 @@ Elegir un CRI (Container Runtime Interface):
 - [ ] CRI-O
 - [ ] cri-doclerd
 
-> Ten en cuenta que la elección del CRI puede varias los pasos de instalación y configuración. Si vas a usar otro CRI, consulta la documentación [oficial de Kubernetes]()
+> Ten en cuenta que la elección del CRI puede varias los pasos de instalación y configuración. Si vas a usar otro CRI, consulta la documentación [oficial de Kubernetes](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/#installing-runtime)
 
 Instalar containerd
 
@@ -153,7 +153,7 @@ kubectl create -f https://raw.githubusercontent.com/projectcalico/calico/v3.29.0
 kubectl create -f https://raw.githubusercontent.com/projectcalico/calico/v3.29.0/manifests/custom-resources.yaml
 ```
 
-Con esto, ya deberíamos tener el nodo maestro configurado y listo para recibir trabajos. Ten en cuenta que este nodo no esta configurado para desplegar aplicaciones, solo para gestionar el clúster. Puedes hacer que este nodo también despliegue aplicaciones siguiendo [estos pasos]()
+Con esto, ya deberíamos tener el nodo maestro configurado y listo para recibir trabajos. Ten en cuenta que este nodo no esta configurado para desplegar aplicaciones, solo para gestionar el clúster. Puedes hacer que este nodo también despliegue aplicaciones siguiendo [estos pasos](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/#control-plane-node-isolation)
 
 No obstante lo mejor es seguir con la creación de nodos trabajadores.
 
@@ -190,3 +190,7 @@ A continuación, se muestran algunos comandos básicos para trabajar con Kuberne
 - `kubectl rollout restart <recurso> <nombre>`: Reinicia un recurso del clúster de K8s.
 
 Estos son solo algunos de los comandos básicos que puedes utilizar para trabajar con K8s. Para obtener más información sobre cómo trabajar con K8s, consulta la [documentación oficial de Kubernetes](https://kubernetes.io/docs/).
+
+## Referencias
+
+- [Bootstrapping clusters with kubeadm](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/)
