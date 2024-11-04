@@ -17,7 +17,35 @@ En este tutorial aprenderemos a instalar y trabajar con Kubernetes (K8s) en un e
 
 Kubernetes es un sistema de orquestación de contenedores de código abierto que automatiza la implementación, el escalado y la gestión de aplicaciones en contenedores. Diseñado por Google y lanzado como código abierto en 2014, Kubernetes se ha convertido en el sistema de orquestación de contenedores más popular y ampliamente utilizado.
 
+Kubernetes bare-metal es la instalación de Kubernetes en un entorno on-premise o bare-metal, es decir, en servidores físicos en lugar de en la nube. Aunque Kubernetes es más conocido por su uso en la nube, también se puede instalar y utilizar en entornos bare-metal por varias razones
+
 ### ¿Por qué Kubernetes bare-metal?
+
+Kubernetes bare-metal tiene varias ventajas sobre la implementación en la nube, como:
+
+- Mayor rendimiento
+  - Al eliminar la virtualización de la nube, se puede obtener un mejor rendimiento.
+- Control total del entorno
+  - Acceso directo al hardware y al sistema operativo lo que permite configuraciones avanzadas y adaptadas a las necesidades específicas.
+- Costos reducidos
+  - Al no tener proveedores de nube, se reducen los costos operativos aunque hay que tener en cuenta los costos de hardware y mantenimiento.
+- Seguridad mejorada
+  - Al tener control total del entorno, se pueden implementar medidas de seguridad avanzadas.
+- Evitar el vendor lock-in
+  - Al no depender de un proveedor de nube, es más facil migrar a otro proveedor o mantener el sistema on-premise.
+- Cumplimiento normativo
+  - Es más fácil cumplir con las regulaciones y normativas de seguridad al tener control total del entorno.
+
+No obstante, Kubernetes bare-metal también tiene algunas desventajas, como:
+
+- Mayor complejidad
+  - La instalación y configuración de Kubernetes en bare-metal puede ser más compleja que en la nube.
+- Menos automatización
+  - Al no tener las herramientas de automatización de la nube, se requiere más trabajo manual.
+- Menos escalabilidad
+  - La escalabilidad en bare-metal puede ser más limitada que en la nube al necesitar más hardware físico.
+- Soporte y mantenimiento
+  - Al no tener un proveedor de nube, se requiere más soporte y mantenimiento interno.
 
 ## Instalación y configuración de Kubernetes bare-metal
 
