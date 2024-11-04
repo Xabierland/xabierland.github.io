@@ -233,3 +233,9 @@ docker-compose up -d
 ```
 
 Para más información sobre cómo trabajar con Docker Compose, puedes consultar la [documentación oficial de Docker Compose](https://docs.docker.com/compose/).
+
+## Referencias
+
+- [Install Docker Engine](https://docs.docker.com/engine/install/)
+- [Dockerfile overview](https://docs.docker.com/build/concepts/dockerfile/)
+- [Docker Compose overview](https://docs.docker.com/compose/)
