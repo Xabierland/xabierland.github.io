@@ -20,9 +20,13 @@ OpenVPN es compatible con la mayoría de los sistemas operativos, incluyendo Win
 
 ### ¿OpenVPN o WireGuard?
 
+WireGuard es una tecnología de VPN más moderna y durante mucho tiempo mas rápida que OpenVPN. Sin embargo, OpenVPN ha mejorado enormemente con la llegada de DCO (Data Channel Offload)
 
+DCO cambia la forma en que Access Server maneja los datos que fluyen a través del túnel VPN. Con DCO, el cifrado y descifrado del canal de datos se trasladan al espacio del kernel, permitiendo que sea el kernel quien realice el trabajo en lugar de gestionarlo en el espacio de usuario. Esto ahorra en operaciones de copia entre el espacio del kernel y el espacio de usuario y utiliza la multihilación.[^1]
 
-## Instalación y configuración de OpenVPN
+Esto combinado con la facilidad de uso, la madurez, la compatibilidad y la seguridad extra que ya tenia OpenVPN sobre WireGuard, hacen que para mi, OpenVPN sea la mejor opción a día de hoy.
+
+## Instalación y configuración de OpenVPN [^2]
 
 > Este tutorial asume que tienes un servidpr Proxmox en tu casa y que tienes conocimientos básicos de Linux y redes.
 > Si no tienes un servidor Proxmox, puedes seguir este [tutorial]()
@@ -119,5 +123,5 @@ Si estas en Linux puedes o bien usar la herramienta openvpn o bien configurar Ne
 
 ## Referencias
 
-- [OpenVPN](https://openvpn.net/)
-- [OpenVPN install on Proxmox LXC](https://www.youtube.com/watch?v=nsy9acOKnPo)
+[^1]: [OpenVPN Data Channel Offload](https://openvpn.net/as-docs/openvpn-data-channel-offload.html)
+[^2]: [OpenVPN install on Proxmox LXC](https://www.youtube.com/watch?v=nsy9acOKnPo)
