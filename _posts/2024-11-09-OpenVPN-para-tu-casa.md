@@ -29,7 +29,7 @@ Esto combinado con la facilidad de uso, la madurez, la compatibilidad y la segur
 ## Instalación y configuración de OpenVPN [^2]
 
 > Este tutorial asume que tienes un servidpr Proxmox en tu casa y que tienes conocimientos básicos de Linux y redes.
-> Si no tienes un servidor Proxmox, puedes seguir este [tutorial]()
+> Si no tienes un servidor Proxmox, puedes seguir este [tutorial](https://xabierland.github.io/posts/Monta-un-servidor-con-Proxmox/)
 > Si no tienes conocimientos de Linux y redes te recomiendo formarte antes de seguir con este tutorial.
 {: .prompt-warning }
 
@@ -48,7 +48,7 @@ Una vez creado el contenedor mantenlo apagado y sigue con el siguiente paso.
 
 Una vez creado el contenedor, antes de encederlo, vamos a configurar unas cuantas cosas.
 
-Buscamos el archivo de configuración del contenedor dentro de `/etc/pve/nodes/NOMBRE_SERVIDOR/lxc/NUMERO_CONTENEDOR.conf` y añadimos las siguientes líneas:
+Buscamos el archivo de configuración del contenedor dentro de `/etc/pve/nodes/NODE/lxc/CONTAINER_ID.conf` y añadimos las siguientes líneas:
 
 ```bash
 lxc.cgroup.devices.allow: c 10:200 rwm
