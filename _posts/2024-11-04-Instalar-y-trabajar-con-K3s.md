@@ -14,17 +14,22 @@ Hoy en día, Kubernetes es una de las herramientas de orquestación de contenedo
 
 ### ¿Qué es K3s?
 
-K3s es una distribución ligera de Kubernetes diseñada para entornos de desarrollo, pruebas y producción. K3s está optimizado para ejecutarse en máquinas con recursos limitados, como portátiles, servidores de borde y dispositivos IoT. No obstante, a diferencia de Minikube, K3s es adecuado para entornos de producción y puede escalar para admitir clústeres de Kubernetes de cualquier tamaño.
+K3s es una distribución ligera de Kubernetes diseñada para entornos de desarrollo, pruebas y producción. K3s está optimizado para ejecutarse en máquinas con recursos limitados, como portátiles, servidores de borde y dispositivos IoT. No obstante, a diferencia de Minikube, K3s es adecuado para entornos de producción y puede escalar para admitir clústeres de Kubernetes de tamaño pequeño a mediano.
 
 ### ¿Por qué K3s?
 
 K3s tiene varias ventajas sobre otras distribuciones de Kubernetes como son:
 
 - Ligereza y eficiencia
+  - K3s es una distribución ligera de Kubernetes que está diseñada para ser fácil de instalar y ejecutar en entornos con recursos limitados.
 - Fácil instalación y configuración
+  - K3s se puede instalar con un solo comando y se configura automáticamente para funcionar en la mayoría de los entornos.
 - Compatibilidad con ARM
+  - K3s es compatible con arquitecturas ARM, lo que lo hace ideal para dispositivos IoT y servidores de borde.
 - Gestión simplificada
+  - K3s simplifica la gestión de clústeres de Kubernetes al eliminar la necesidad de configuraciones complejas y herramientas adicionales ademas de permitir integración con herramientas de gestión de clústeres como Rancher.
 - Actualizaciones rápidas y soporte para la comunidad
+  - K3s se actualiza rápidamente y cuenta con una comunidad activa que proporciona soporte y contribuciones a la distribución.
 
 K3s también tiene algunas desventajas:
 
@@ -45,7 +50,7 @@ Para instalar K3s en Linux, sigue los siguientes pasos:
 curl -sfL https://get.k3s.io | sh -
 ```
 
-Para añadir workers al clúster de K3s, ejecuta el siguiente comando en el nodo maestro:
+Para añadir workers al clúster de K3s, ejecuta el siguiente comando en el nodo worker:
 
 ```bash
 curl -sfL https://get.k3s.io | K3S_URL=https://<IP>:6443 K3S_TOKEN=<TOKEN> sh -
