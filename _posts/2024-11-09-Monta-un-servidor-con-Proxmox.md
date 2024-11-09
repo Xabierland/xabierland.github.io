@@ -71,7 +71,7 @@ Una vez creada la máquina virtual, arráncala y sigue las instrucciones del ins
 
 ### 6. Crea un contenedor LXC
 
-Para crear un contenedor LXC en Proxmox lo primero que necesitas es una plantilla. Proxmox viene con varias plantillas preinstaladas que puedes usar para crear contenedores LXC. Yo, te recomiendo tambien activar las plantillas de TurnKey Linux [^1] que son muy útiles ya que vienen con aplicaciones preinstaladas. Para activar las plantillas de TurnKey Linux en caso de que no esten ya, entra en la consola del nodo y ejecuta el siguiente comando:
+Para crear un contenedor LXC en Proxmox lo primero que necesitas es una plantilla. Proxmox viene con varias plantillas preinstaladas que puedes usar para crear contenedores LXC. Yo, te recomiendo tambien activar las plantillas de TurnKey Linux[^1] que son muy útiles ya que vienen con aplicaciones preinstaladas. Para activar las plantillas de TurnKey Linux en caso de que no esten ya, entra en la consola del nodo y ejecuta el siguiente comando:
 
 ```bash
 pveam update
@@ -83,4 +83,4 @@ Algunos servicios pueden requerir de configuraciones adicionales no disponibles 
 
 ## Referencias
 
-[^1] : [TurnKey Linux](https://www.turnkeylinux.org/)
+[^1]: [TurnKey Linux](https://www.turnkeylinux.org/)
