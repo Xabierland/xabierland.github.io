@@ -49,11 +49,16 @@ No obstante, Kubernetes bare-metal también tiene algunas desventajas, como:
 
 ## Instalación y configuración de Kubernetes bare-metal
 
+> Voy a estar instalando Kubernetes version 1.31 en un entorno Debian 12.7.
+> Los comandos y configuraciones pueden variar según la versión de Kubernetes y la distribución de Linux que estés utilizando.
+> Ten esto en cuenta y consulta siempre la documentación oficial de Kubernetes para obtener la información más actualizada. [^1]
+{: .prompt-danger }
+
 ### Requisitos previos
 
 Para instalar Kubernetes en un entorno bare-metal, necesitarás los siguientes requisitos previos:
 
-Instalar las herramientas necesarias
+#### Instalar las herramientas necesarias
 
 ```bash
 sudo apt-get update
@@ -66,38 +71,14 @@ sudo apt-mark hold kubelet kubeadm kubectl
 sudo systemctl enable --now kubelet
 ```
 
-Elegir un CRI (Container Runtime Interface):
-
-- [X] containerd
-- [ ] CRI-O
-- [ ] cri-doclerd
-
-> Ten en cuenta que la elección del CRI puede varias los pasos de instalación y configuración. Si vas a usar otro CRI, consulta la documentación [oficial de Kubernetes](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/#installing-runtime)
-
-Instalar containerd
-
-```bash
-sudo apt-get update && sudo apt-get install -y containerd
-```
-
-Configurar containerd
-
-```bash
-containerd config default | sudo tee /etc/containerd/config.toml > /dev/null 2>&1
-sudo sed -i 's/SystemdCgroup = false/SystemdCgroup = true/g' /etc/containerd/config.toml
-sudo systemctl restart containerd
-```
-
-> Este paso supone que estás usando systemd como init system. Si estás usando otro como openrc, upstart o sysvinit, consulta la documentación de containerd para configurarlo correctamente.
-
-Desactivar el swap
+#### Desactivar el swap
 
 ```bash
 sudo swapoff -a
 sudo sed -i '/ swap / s/^\(.*\)$/#\1/g' /etc/fstab
 ```
 
-Tener una IP estática
+#### Tener una IP estática
 
 ```bash
 sudo bash -c 'cat <<EOF > /etc/network/interfaces.d/static-ip
@@ -113,8 +94,9 @@ sudo systemctl restart networking
 ```
 
 > Ten en cuenta que la dirección IP y la configuración de red pueden variar según tus necesidades.
+{: .prompt-warning }
 
-Activar el IPv4 forwarding
+#### Activar el IPv4 forwarding
 
 ```bash
 cat <<EOF | sudo tee /etc/sysctl.d/k8s.conf
@@ -123,18 +105,85 @@ EOF
 sudo sysctl --system
 ```
 
+#### Elegir un CRI (Container Runtime Interface) [^2]
+
+Este es el componente de Kubernetes que se encarga de ejecutar los contenedores. 
+Las opciones son:
+
+- containerd
+- CRI-O
+- Docker Engine (cri-dockerd)
+
+Instalar containerd
+
+```bash
+sudo apt-get update && sudo apt-get install -y containerd
+containerd config default | sudo tee /etc/containerd/config.toml > /dev/null 2>&1
+sudo sed -i 's/SystemdCgroup = false/SystemdCgroup = true/g' /etc/containerd/config.toml
+sudo systemctl restart containerd
+```
+
+Instalar CRI-O [^3]
+
+```bash
+curl -fsSL https://pkgs.k8s.io/addons:/cri-o:/stable:/v1.31/deb/Release.key | sudo gpg --dearmor -o /etc/apt/keyrings/crio-apt-keyring.gpg
+echo "deb [signed-by=/etc/apt/keyrings/crio-apt-keyring.gpg] https://pkgs.k8s.io/addons:/cri-o:/stable:/v1.31/deb/ /" | sudo tee /etc/apt/sources.list.d/crio.list
+
+sudo apt-get update && sudo apt-get install -y cri-o
+```
+
+Instalar cri-dockerd [^4]
+
+```bash
+# Instalar Docker Engine
+sudo apt-get update
+sudo apt-get install ca-certificates curl
+sudo install -m 0755 -d /etc/apt/keyrings
+sudo curl -fsSL https://download.docker.com/linux/debian/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
+
+echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/debian \
+  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
+  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt-get update
+
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+
+# Instalar cri-dockerd
+curl -L -o cri-dockerd https://github.com/Mirantis/cri-dockerd/releases/download/v0.3.15/cri-dockerd_0.3.15.3-0.debian-bookworm_amd64.deb
+install -o root -g root -m 0755 cri-dockerd /usr/local/bin/cri-dockerd
+curl -L -o cri-dockerd.service https://github.com/Mirantis/cri-dockerd/blob/ebd9de065ad5e5b933cd4a102550125383416efb/packaging/systemd/cri-docker.service
+curl -L -o cri-dockerd.socket https://github.com/Mirantis/cri-dockerd/blob/ebd9de065ad5e5b933cd4a102550125383416efb/packaging/systemd/cri-docker.socket 
+install cri-dockerd.service /etc/systemd/system/cri-docker.service
+install cri-dockerd.socket /etc/systemd/system/cri-docker.socket
+sed -i -e 's,/usr/bin/cri-dockerd,/usr/local/bin/cri-dockerd,' /etc/systemd/system/cri-docker.service
+systemctl daemon-reload
+systemctl enable --now cri-docker.socket
+```
+
+> Este paso supone que estás usando systemd como init system. Si estás usando otro como openrc, upstart o sysvinit, consulta la documentación del CRI para configurarlo correctamente.
+{: .prompt-warning }
+
 ### Crear el clúster maestro usando kubeadm
 
 Para crear el clúster maestro, ejecuta el siguiente comando en el nodo maestro:
 
 ```bash
-sudo kubeadm init --pod-network-cidr=192.168.0.0/16 --cri-socket=unix:///var/run/containerd/containerd.sock
+sudo kubeadm init --pod-network-cidr=192.168.0.0/16 --cri-socket=$PATH_TO_CRI_SOCKET
 ```
 
 > Ten en cuenta que el `--pod-network-cidr` es la dirección de la red de los pods y puede variar según tus necesidades.
 > Si estás usando otro CRI, cambia el `--cri-socket` por el socket correspondiente.
+{: .prompt-warning }
 
-Una vez que el comando se haya completado, se mostrará un mensaje con las instrucciones para unir los nodos al clúster.
+| CRI | $PATH_TO_CRI_SOCKET |
+| --- | ------ |
+| containerd | unix:///run/containerd/containerd.sock |
+| CRI-O | unix:///var/run/crio/crio.sock |
+| Docker Engine | unix:///var/run/cri-dockerd.sock |
+
+Una vez que el comando se haya completado correctamente, se mostrará un mensaje con las instrucciones para unir los nodos al clúster.
 
 Tambien deberás configurar el entorno de kubectl para que pueda comunicarse con el clúster:
 
@@ -145,7 +194,8 @@ sudo chown $(id -u):$(id -g) $HOME/.kube/config
 ```
 
 Ahora nos toca instalar un CNI (Container Network Interface) para que los pods puedan comunicarse entre sí.
-Puede ver la lista de CNI soportados en la [aquí](https://github.com/containernetworking/cni).
+Puede ver la lista de CNI soportados [aquí](https://github.com/containernetworking/cni).
+
 Yo voy a instalar Calico:
 
 ```bash
@@ -169,6 +219,7 @@ sudo kubeadm join <IP>:6443 --token <TOKEN> --discovery-token-ca-cert-hash sha25
 
 > Recuerda reemplazar `<IP>`, `<TOKEN>` y `<HASH>` con la dirección IP, el token y el hash del nodo maestro.
 > Esta información se muestra al finalizar el comando `kubeadm init` en el nodo maestro.
+{: .prompt-warning }
 
 ## Empezar a trabajar con Kubernetes bare-metal
 
@@ -193,4 +244,7 @@ Estos son solo algunos de los comandos básicos que puedes utilizar para trabaja
 
 ## Referencias
 
-- [Bootstrapping clusters with kubeadm](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/)
+[^1]: [Bootstrapping clusters with kubeadm](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/)
+[^2]: [Container Runtime Interface (CRI)](https://v1-30.docs.kubernetes.io/docs/setup/production-environment/container-runtimes/)
+[^3]: [Install CRI-O on Debian](https://github.com/cri-o/packaging/blob/main/README.md#distributions-using-deb-packages)
+[^4]: [Install cri-dockerd](https://mirantis.github.io/cri-dockerd/usage/install/)
