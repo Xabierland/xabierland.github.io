@@ -53,7 +53,7 @@ No obstante, Kubernetes bare-metal también tiene algunas desventajas, como:
 
 Para instalar Kubernetes en un entorno bare-metal, necesitarás los siguientes requisitos previos:
 
-Instalar las herramientas necesarias
+#### Instalar las herramientas necesarias
 
 ```bash
 sudo apt-get update
@@ -66,38 +66,14 @@ sudo apt-mark hold kubelet kubeadm kubectl
 sudo systemctl enable --now kubelet
 ```
 
-Elegir un CRI (Container Runtime Interface):
-
-- [X] containerd
-- [ ] CRI-O
-- [ ] cri-doclerd
-
-> Ten en cuenta que la elección del CRI puede varias los pasos de instalación y configuración. Si vas a usar otro CRI, consulta la documentación [oficial de Kubernetes](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/#installing-runtime)
-
-Instalar containerd
-
-```bash
-sudo apt-get update && sudo apt-get install -y containerd
-```
-
-Configurar containerd
-
-```bash
-containerd config default | sudo tee /etc/containerd/config.toml > /dev/null 2>&1
-sudo sed -i 's/SystemdCgroup = false/SystemdCgroup = true/g' /etc/containerd/config.toml
-sudo systemctl restart containerd
-```
-
-> Este paso supone que estás usando systemd como init system. Si estás usando otro como openrc, upstart o sysvinit, consulta la documentación de containerd para configurarlo correctamente.
-
-Desactivar el swap
+#### Desactivar el swap
 
 ```bash
 sudo swapoff -a
 sudo sed -i '/ swap / s/^\(.*\)$/#\1/g' /etc/fstab
 ```
 
-Tener una IP estática
+#### Tener una IP estática
 
 ```bash
 sudo bash -c 'cat <<EOF > /etc/network/interfaces.d/static-ip
@@ -114,7 +90,7 @@ sudo systemctl restart networking
 
 > Ten en cuenta que la dirección IP y la configuración de red pueden variar según tus necesidades.
 
-Activar el IPv4 forwarding
+#### Activar el IPv4 forwarding
 
 ```bash
 cat <<EOF | sudo tee /etc/sysctl.d/k8s.conf
@@ -122,6 +98,35 @@ net.ipv4.ip_forward = 1
 EOF
 sudo sysctl --system
 ```
+
+#### Elegir un CRI (Container Runtime Interface):
+
+- containerd
+- CRI-O
+- cri-doclerd
+
+> Ten en cuenta que la elección del CRI puede varias los pasos de instalación y configuración. Si vas a usar otro CRI, consulta la documentación [oficial de Kubernetes](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/#installing-runtime)
+
+##### Instalar containerd
+
+```bash
+sudo apt-get update && sudo apt-get install -y containerd
+containerd config default | sudo tee /etc/containerd/config.toml > /dev/null 2>&1
+sudo sed -i 's/SystemdCgroup = false/SystemdCgroup = true/g' /etc/containerd/config.toml
+sudo systemctl restart containerd
+```
+
+##### Instalar CRI-O
+
+```bash
+```
+
+##### Instalar cri-dockerd
+
+```bash
+```
+
+> Este paso supone que estás usando systemd como init system. Si estás usando otro como openrc, upstart o sysvinit, consulta la documentación de containerd para configurarlo correctamente.
 
 ### Crear el clúster maestro usando kubeadm
 
