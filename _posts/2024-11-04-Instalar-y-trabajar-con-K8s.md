@@ -184,7 +184,7 @@ sudo kubeadm init --pod-network-cidr=192.168.0.0/16 --cri-socket=$PATH_TO_CRI_SO
 
 | CRI | $PATH_TO_CRI_SOCKET |
 | --- | ------ |
-| containerd | unix:///run/containerd/containerd.sock |
+| containerd | unix:///var/run/containerd/containerd.sock |
 | CRI-O | unix:///var/run/crio/crio.sock |
 | Docker Engine | unix:///var/run/cri-dockerd.sock |
 
