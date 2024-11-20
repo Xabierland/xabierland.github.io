@@ -82,8 +82,8 @@ sudo sed -i '/ swap / s/^\(.*\)$/#\1/g' /etc/fstab
 
 ```bash
 sudo bash -c 'cat <<EOF > /etc/network/interfaces.d/static-ip
-auto eth0
-iface eth0 inet static
+auto enp6s18
+iface enp6s18 inet static
     address 192.168.1.200
     netmask 255.255.255.0
     gateway 192.168.1.1
@@ -130,6 +130,7 @@ curl -fsSL https://pkgs.k8s.io/addons:/cri-o:/stable:/v1.31/deb/Release.key | su
 echo "deb [signed-by=/etc/apt/keyrings/crio-apt-keyring.gpg] https://pkgs.k8s.io/addons:/cri-o:/stable:/v1.31/deb/ /" | sudo tee /etc/apt/sources.list.d/crio.list
 
 sudo apt-get update && sudo apt-get install -y cri-o
+sudo systemctl enable --now crio
 ```
 
 Instalar cri-dockerd [^4]
@@ -152,14 +153,18 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 
 # Instalar cri-dockerd
 curl -L -o cri-dockerd https://github.com/Mirantis/cri-dockerd/releases/download/v0.3.15/cri-dockerd_0.3.15.3-0.debian-bookworm_amd64.deb
-install -o root -g root -m 0755 cri-dockerd /usr/local/bin/cri-dockerd
-curl -L -o cri-dockerd.service https://github.com/Mirantis/cri-dockerd/blob/ebd9de065ad5e5b933cd4a102550125383416efb/packaging/systemd/cri-docker.service
-curl -L -o cri-dockerd.socket https://github.com/Mirantis/cri-dockerd/blob/ebd9de065ad5e5b933cd4a102550125383416efb/packaging/systemd/cri-docker.socket 
-install cri-dockerd.service /etc/systemd/system/cri-docker.service
-install cri-dockerd.socket /etc/systemd/system/cri-docker.socket
-sed -i -e 's,/usr/bin/cri-dockerd,/usr/local/bin/cri-dockerd,' /etc/systemd/system/cri-docker.service
-systemctl daemon-reload
-systemctl enable --now cri-docker.socket
+sudo dpkg -i cri-dockerd
+sudo mv /usr/bin/cri-dockerd /usr/local/bin/cri-dockerd
+
+# Instalar el servicio y el socket
+curl -L -o cri-docker.service https://raw.githubusercontent.com/Mirantis/cri-dockerd/refs/heads/master/packaging/systemd/cri-docker.service
+curl -L -o cri-docker.socket https://raw.githubusercontent.com/Mirantis/cri-dockerd/refs/heads/master/packaging/systemd/cri-docker.socket 
+sudo install cri-docker.service /etc/systemd/system/cri-docker.service
+sudo install cri-docker.socket /etc/systemd/system/cri-docker.socket
+sudo sed -i -e 's,/usr/bin/cri-dockerd,/usr/local/bin/cri-dockerd,' /etc/systemd/system/cri-docker.service
+sudo systemctl daemon-reload
+sudo systemctl enable cri-docker.service
+sudo systemctl enable --now cri-docker.socket
 ```
 
 > Este paso supone que estás usando systemd como init system. Si estás usando otro como openrc, upstart o sysvinit, consulta la documentación del CRI para configurarlo correctamente.
@@ -193,6 +198,8 @@ sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
 sudo chown $(id -u):$(id -g) $HOME/.kube/config
 ```
 
+#### Instalar un CNI (Container Network Interface)
+
 Ahora nos toca instalar un CNI (Container Network Interface) para que los pods puedan comunicarse entre sí.
 Puede ver la lista de CNI soportados [aquí](https://github.com/containernetworking/cni).
 
@@ -214,10 +221,10 @@ Una vez instaladas las dependencias del nodo de trabajo, puedes unirlos al clús
 Para añadir workers al clúster de K8s, ejecuta el siguiente comando en el nodo maestro:
 
 ```bash
-sudo kubeadm join <IP>:6443 --token <TOKEN> --discovery-token-ca-cert-hash sha256:<HASH>
+sudo kubeadm join $IP:6443 --token $TOKEN --discovery-token-ca-cert-hash sha256:$HASH --cri-socket=$PATH_TO_CRI_SOCKET
 ```
 
-> Recuerda reemplazar `<IP>`, `<TOKEN>` y `<HASH>` con la dirección IP, el token y el hash del nodo maestro.
+> Recuerda reemplazar `$IP`, `$TOKEN` y `$HASH` con la dirección IP, el token y el hash del nodo maestro.
 > Esta información se muestra al finalizar el comando `kubeadm init` en el nodo maestro.
 {: .prompt-warning }
 
