@@ -1,0 +1,165 @@
+%----------------------------------------------------------------------------------------
+%	DOCUMENT DEFINITION
+%----------------------------------------------------------------------------------------
+
+% article class because we want to fully customize the page and not use a cv template
+\documentclass[a4paper,12pt]{article}
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES
+%----------------------------------------------------------------------------------------
+\usepackage{url}
+\usepackage{parskip} 	
+
+%other packages for formatting
+\RequirePackage{color}
+\RequirePackage{graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[scale=0.9]{geometry}
+
+%tabularx environment
+\usepackage{tabularx}
+
+%for lists within experience section
+\usepackage{enumitem}
+
+% centered version of 'X' col. type
+\newcolumntype{C}{>{\centering\arraybackslash}X} 
+
+%to prevent spillover of tabular into next pages
+\usepackage{supertabular}
+\usepackage{tabularx}
+\newlength{\fullcollw}
+\setlength{\fullcollw}{0.47\textwidth}
+
+%custom \section
+\usepackage{titlesec}				
+\usepackage{multicol}
+\usepackage{multirow}
+
+%CV Sections inspired by: 
+%http://stefano.italians.nl/archives/26
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{10pt}{10pt}
+\titleformat{\subsection}{\large\scshape\raggedright}{}{0em}{}
+
+%for publications
+\usepackage[style=authoryear,sorting=ynt, maxbibnames=2]{biblatex}
+
+%Setup hyperref package, and colours for links
+\usepackage[unicode, draft=false]{hyperref}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour}
+\addbibresource{citations.bib}
+\setlength\bibitemsep{1em}
+
+%for social icons
+\usepackage{fontawesome5}
+
+%debug page outer frames
+%\usepackage{showframe}
+
+%----------------------------------------------------------------------------------------
+%	BEGIN DOCUMENT
+%----------------------------------------------------------------------------------------
+\begin{document}
+
+% non-numbered pages
+\pagestyle{empty} 
+
+%----------------------------------------------------------------------------------------
+%	TITLE
+%----------------------------------------------------------------------------------------
+
+\begin{tabularx}{\linewidth}{@{} C @{}}
+\Huge{Xabier Gabiña Barañano} \\[7.5pt]
+\href{https://github.com/Xabierland}{\raisebox{-0.05\height}\faGithub\ Xabierland} \ $|$ \ 
+\href{https://linkedin.com/in/xabier-gabina}{\raisebox{-0.05\height}\faLinkedin\ Xabier Gabiña} \ $|$ \ 
+\href{https://www.xabierland.com/}{\raisebox{-0.05\height}\faGlobe \ www.xabierland.com} \ $|$ \ 
+\href{mailto:contact@xabierland.com}{\raisebox{-0.05\height}\faEnvelope \ contact@xabierland.com} \ %$|$ \ 
+%\href{tel:+34669648465}{\raisebox{-0.05\height}\faMobile \ +34.669648465} \\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+% EXPERIENCE SECTIONS
+%----------------------------------------------------------------------------------------
+
+%Interests/ Keywords/ Summary
+\section{Resumen}
+Soy \textbf{Xabier Gabiña}, un estudiante de \textbf{Ingeniería Informática} con una profunda pasión por Linux y el software libre.
+
+Con un enfoque particular en la \textbf{administración de sistemas}, la \textbf{ciberseguridad} y el \textbf{DevSecOps}, mi objetivo es seguir formándome en estas áreas, contribuyendo así al diseño y mantenimiento de sistemas eficientes y seguros.
+
+%Experience
+%\section{Experiencia Laboral}
+%
+%\begin{tabularx}{\linewidth}{ @{}l r@{} }
+%\textbf{Profesor Particular} & \hfill 2022 - presente \\[3.75pt]
+%\multicolumn{2}{@{}X@{}}{ He impartido clases de refuerzo tanto a compañeros de la carrera como a alumnos de bachillerato de diferentes asignaturas relacionadas con la informática. }  \\
+%\end{tabularx}
+
+%Projects
+\section{Proyectos destacados}
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Compra/venta de coches} & \hfill \href{https://github.com/Xabierland/AS-Proyecto}{Link al repositorio} \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{ 
+    Este proyecto consiste en el desarrollo de una pequeña página web destinada a la publicación de anuncios de compra y venta de coches. Todo el sistema está empaquetado en contenedores Docker, con el objetivo de desplegarlo posteriormente en Google Cloud Platform mediante Kubernetes y poner así en práctica lo aprendido sobre DevOps.
+}
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Alquiler de películas} & \hfill \href{https://github.com/Xabierland/SGSSI-Proyecto}{Link al repositorio} \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{ 
+    Este proyecto, al igual que el anterior, se trata de una página web dedicada al alquiler de películas, pero con el propósito de desarrollarla de manera intencionalmente insegura. El objetivo era probar distintos ataques y vulnerabilidades contra la aplicación, para luego corregirlos y así poner a prueba nuestros conocimientos en ciberseguridad.
+}
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+\section{Educación}
+\begin{tabularx}{\linewidth}{ @{}l X r@{} }	
+\textbf{Ingeniería Informática de Gestión y Sistemas de Información} & & \hfill Bilbao, País Vasco \\[0.1pt]
+\textit{Universidad del País Vasco} & & \hfill \textit{2021-Presente}\\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS
+%----------------------------------------------------------------------------------------
+%\section{Publicaciones}
+%\begin{refsection}[citations.bib]
+%\nocite{*}
+%\printbibliography[heading=none]
+%\end{refsection}
+
+%----------------------------------------------------------------------------------------
+%	SKILLS
+%----------------------------------------------------------------------------------------
+\section{Habilidades}
+
+\subsection*{Idiomas}
+\begin{tabular}{@{}l l @{\hskip 50pt} l l @{\hskip 50pt} l l@{}}
+Español & \normalsize{Nativo} & Inglés & \normalsize{B2} & Euskera & \normalsize{B2} \\
+\end{tabular}
+
+\subsection*{Lenguajes de Programación}
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\multicolumn{2}{@{}X@{}}{ 
+    Durante la carrera he trabajado con distintos lenguajes de programación entre los que destacaría \textbf{Python}, \textbf{Java} y \textbf{Bash}.
+    También se han usado otros lenguajes como \textbf{PHP}, \textbf{SQL}, \textbf{JavaScript} y \textbf{C}, aunque en menor medida.
+    Por mi cuenta he aprendido lo básico de \textbf{Rust}, principalmente resolviendo problemas en \textit{LeetCode}.
+}
+\end{tabularx}
+
+\subsection*{Tecnologías}
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\multicolumn{2}{@{}X@{}}{
+    En cuanto a tecnologías en materia de administración de sistemas, he trabajado con \textbf{Docker}, \textbf{Kubernetes} y diferentes \textbf{hipervisores}, además de estar familiarizado con \textbf{Linux}.
+    En el ámbito de la ciberseguridad, he trabajado con \textbf{Metasploit}, \textbf{Nmap}, \textbf{Wireshark} y \textbf{Burp Suite}, entre las principales, y las he puesto en práctica tanto en proyectos de la Universidad como en máquinas virtuales de \textit{HackTheBox}.
+}
+\end{tabularx}
+
+\vfill
+\center{\footnotesize Última modificación: \today}
+
+\end{document}
