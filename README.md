@@ -33,6 +33,14 @@ bundle install
 
 ### Arrancar el servidor
 
+#### Desarrollo
+
 ```bash
 bundle exec jekyll serve
+```
+
+#### Producción
+
+```bash
+JEKYLL_ENV=production bundle exec jekyll b
 ```
