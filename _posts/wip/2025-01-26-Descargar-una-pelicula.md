@@ -6,6 +6,7 @@ description: >-
 date: 2025-01-26
 categories: [Tutorial]
 tags: [Películas]
+published: false
 ---
 
 Me he pasado el finde semana viendo las mejores peliculas de Maria Schell pero se me ha hecho imposible encontrar la Rose Bernd (1957) en ningun lado ni idioma en paginas "legitimas" como Netflix, HBO, Amazon, Prime Video, SkyShowTime, Disney+, Filmin, Movistar+ y Mubi. Tambien he buscado en todos los distribuidores de Torrents tanto mediante Stremio como mediante la web de RARBG y no he encontrado nada. No obstante no soy de los que se rinden facilmente y he decidido buscar la pelicula a mano. Despues de **horas** en DuckDuckGo he encontrado una pagina web llamada `streamkiste.tv`.
