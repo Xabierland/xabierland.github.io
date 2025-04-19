@@ -7,19 +7,28 @@ Este es el repositorio de mi blog personal, [xabierland.github.io](https://xabie
 ### Instalar Ruby
 
 ```bash
-sudo apt install ruby ruby-dev
+sudo apt install ruby-full build-essential
+```
+
+### Añadir Ruby a la variable PATH
+
+```bash
+echo 'export GEM_HOME="$HOME/.gems"' >> ~/.zshrc
+echo 'export PATH="$HOME/.gems/bin:$PATH"' >> ~/.zshrc
+source ~/.zshrc
 ```
 
 ### Instalar Jekyll
 
 ```bash
-sudo gem install jekyll bundler
+gem install jekyll bundle
 ```
 
 ### Instalar las dependencias de Ruby
 
 ```bash
-bundle install --path vendor/bundle
+bundle config set path 'vendor/bundle'
+bundle install
 ```
 
 ### Arrancar el servidor
