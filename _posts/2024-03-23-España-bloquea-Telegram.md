@@ -2,7 +2,7 @@
 title: España bloquea Telegram
 author: Xabierland
 date: 2024-03-23
-categories: [Noticias]
+categories: [Blog]
 tags: [Telegram, Bloqueo, España, Privacidad]
 ---
 
@@ -33,11 +33,11 @@ En cualquier caso, Telegram seguirá funcionando, simplemente habrá que hacer u
 
 En el caso de que el bloqueo sea a nivel de DNS, simplemente modificando el DNS bien en el router o en el dispositivo que usemos para acceder a Telegram. Cada dispositivo es un mundo, pero en general, en la configuración de red, en la sección de DNS, podemos poner la dirección que queramos. Aqui tienes una lista de DNS que puedes usar:
 
-| DNS | IP1 | IP2 | URL |
-| --- | --- | --- | --- |
-| Google | 8.8.8.8 | 8.8.4.4 | [Google](https://developers.google.com/speed/public-dns?hl=es-419) |
-| Cloudflare | 1.1.1.1 | 1.0.0.1 | [Cloudflare](https://developers.cloudflare.com/) |
-| quad9 | 9.9.9.9 | 149.112.112.112 | [quad9](https://www.quad9.net/) |
+| DNS        | IP1     | IP2             | URL                                                                |
+| ---------- | ------- | --------------- | ------------------------------------------------------------------ |
+| Google     | 8.8.8.8 | 8.8.4.4         | [Google](https://developers.google.com/speed/public-dns?hl=es-419) |
+| Cloudflare | 1.1.1.1 | 1.0.0.1         | [Cloudflare](https://developers.cloudflare.com/)                   |
+| quad9      | 9.9.9.9 | 149.112.112.112 | [quad9](https://www.quad9.net/)                                    |
 
 En el caso de que el bloqueo sea a nivel de BGP, la solución sería usar una VPN o/y un proxy.
 

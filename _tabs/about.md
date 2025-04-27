@@ -109,7 +109,7 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDERSB5A1MelGhg6Dt4UkJ83Jh67CCzJJzUY/TEbYIO
 
 ```
 
-Puedes añadir la clave pública al authorized_keys de tu servidor remoto con el siguiente comando:
+Puedes añadir la clave pública al authorized_keys de tu servidor remoto con los siguiente comando:
 
 ```bash
 # Descargar desde esta web usando curl

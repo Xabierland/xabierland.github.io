@@ -6,7 +6,6 @@ description: >-
 date: 2024-11-04 10:02
 categories: [Tutorial, Contenedores y Orquestación]
 tags: [LXC, Containers]
-published: false
 ---
 
 ## Introducción

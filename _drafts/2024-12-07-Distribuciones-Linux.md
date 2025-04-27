@@ -6,7 +6,6 @@ description: >-
 date: 2024-11-09
 categories: [Blog, Sistemas Operativos]
 tags: [Linux, Distribuciones, Comparativa]
-published: false
 ---
 
 ## Introducción
