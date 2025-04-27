@@ -85,6 +85,23 @@ tsy2MjCe/K5DeQg=
 
 ```
 
+Puedes añadir la clave pública a tu llavero de claves PGP con los siguientes comandos:
+
+```bash
+# Descargar desde esta web usando curl
+curl -s https://raw.githubusercontent.com/xabierland/xabierland.github.io/main/assets/keys/xabierland.asc | gpg --import
+
+# Descargar desde esta web usando wget
+wget -qO- https://raw.githubusercontent.com/xabierland/xabierland.github.io/main/assets/keys/xabierland.asc | gpg --import
+
+# Buscar por correo electrónico
+gpg --keyserver keys.openpgp.org --search-keys 'xabierland@gmail.com'
+
+# Buscar por huella digital (fingerprint)
+gpg --keyserver keys.openpgp.org --search-keys '372F2E58758B8CE75299482417FD61B20325B5F0'
+
+```
+
 ## SSH Key
 
 ```text
@@ -92,16 +109,15 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDERSB5A1MelGhg6Dt4UkJ83Jh67CCzJJzUY/TEbYIO
 
 ```
 
-Tambien puedes descargar la clave mediante el siguiente enlace:
+Puedes añadir la clave pública al authorized_keys de tu servidor remoto con el siguiente comando:
 
 ```bash
-curl -s https://raw.githubusercontent.com/xabierland/xabierland.github.io/main/assets/keys/xabierland.pub -o ~/.ssh/id_rsa.pub
-```
+# Descargar desde esta web usando curl
+curl -s https://raw.githubusercontent.com/xabierland/xabierland.github.io/main/assets/keys/xabierland.pub >> ~/.ssh/authorized_keys
 
-o
+# Descargar desde esta web usando wget
+wget -qO- https://raw.githubusercontent.com/xabierland/xabierland.github.io/main/assets/keys/xabierland.pub >> ~/.ssh/authorized_keys
 
-```bash
-wget -q https://raw.githubusercontent.com/xabierland/xabierland.github.io/main/assets/keys/xabierland.pub -O ~/.ssh/id_rsa.pub
 ```
 
 ## Monero Address
