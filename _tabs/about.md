@@ -82,6 +82,26 @@ Ph9WUwO2t9pFALMSP23IAb6L32UKKpLoJL5PxhfBA4dGI0YEn80idV02eJyJaR0a
 tsy2MjCe/K5DeQg=
 =hupe
 -----END PGP PUBLIC KEY BLOCK-----
+
+```
+
+## SSH Key
+
+```text
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDERSB5A1MelGhg6Dt4UkJ83Jh67CCzJJzUY/TEbYIO1Jw+7VeJ0wm1jq9ZwzrOxTPHyMkUNmJAz+zEphdFwoAYiRF7ZVAUb7YpN8oqW4Txw11K7c6ydSwC4qIPOmy0VnVFsEVy+KpJHqCv7i/21UqLEJYdvFsRUbQc5lh7IvflXg5QadC0lJvDSCbpU5QycORIrrH0HB/3UKDwCimcTNpkZy6aEltbAJuh14NbYnF54359JnwptIzxgFm99d+bnm8qmO9w5Zt66khVJVN71CjpFFvTnCuTeQiDBt91V8Znn8lYaB1uN6DXbK+KJItK4e98Cw9uxhSedZdC1gl20e93XOdWTXq4ARKEcpUwBgGFySG6tLWNyCMFRt38Y5LLo5AVloDtli0lBZAZfQ7qBOM77xTc01sbXoZvPimZGyJRXBsEEzXwZRw3IUofe3coFsn0Els2JIZXWybq4T6toAAxhz3xUCNdzIbkLv+dy4wDZgw9ZFCflBoMotpbazHPfck= xabierland
+
+```
+
+Tambien puedes descargar la clave mediante el siguiente enlace:
+
+```bash
+curl -s https://raw.githubusercontent.com/xabierland/xabierland.github.io/main/assets/keys/xabierland.pub -o ~/.ssh/id_rsa.pub
+```
+
+o
+
+```bash
+wget -q https://raw.githubusercontent.com/xabierland/xabierland.github.io/main/assets/keys/xabierland.pub -O ~/.ssh/id_rsa.pub
 ```
 
 ## Monero Address
