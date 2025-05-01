@@ -35,7 +35,7 @@ Ahora, inicia el contenedor y abre una terminal dentro del mismo para continuar 
 
 ```bash
 # Actualiza el sistema e instala dependencias necesarias
-apt-get update && apt-get dist-upgrade -y && apt-get autoremove -y && apt-get install curl -y
+apt-get update && apt-get dist-upgrade -y && apt-get autoremove -y && apt-get install curl ethtool -y
 
 # Habilita el reenvío de paquetes IP
 sudo tee -a /etc/sysctl.d/99-tailscale.conf << EOF
@@ -43,6 +43,11 @@ net.ipv4.ip_forward = 1
 net.ipv6.conf.all.forwarding = 1
 EOF
 sudo sysctl -p /etc/sysctl.d/99-tailscale.conf
+
+# Habilitar el transport layer offload
+NETDEV=$(ip -o route get 8.8.8.8 | cut -f 5 -d " ")
+sudo ethtool -K $NETDEV rx-udp-gro-forwarding on rx-gro-list off
+
 
 # Instala Tailscale
 curl -fsSL https://tailscale.com/install.sh | sh
