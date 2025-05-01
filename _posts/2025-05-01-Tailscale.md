@@ -64,13 +64,16 @@ tailscale up --advertise-routes=192.168.1.0/24
 
 Este comando mostrará una URL que debes abrir en tu navegador para completar la autenticación del contenedor. Una vez autenticado, debes confirmar la ruta anunciada desde la [consola administrativa de Tailscale](https://login.tailscale.com/admin/machines).
 
-![Tailscale Subnet](../assets/img/posts/tailscale-subnet.png)
+![Tailscale Subnet](/assets/img/posts/tailscale-subnet.png)
+
+> Tambien puedes configurar el servidor como `Exit node` para enrutar todo el tráfico a través de él hacia el internet mediante la flag `--advertise-exit-node`.
+{: .prompt-tip }
 
 Desde este punto, puedes seguir incorporando dispositivos adicionales a tu red instalando Tailscale en cada uno de ellos, permitiéndote acceder a tu red local desde cualquier parte del mundo de forma segura y sencilla.
 
 Si utilizas un servidor DNS local, configura su dirección IP en la sección [DNS de Tailscale](https://login.tailscale.com/admin/dns). Esto te permitirá resolver los nombres de host de tu red local fácilmente.
 
-![Tailscale DNS](../assets/img/posts/tailscale-dns.png)
+![Tailscale DNS](/assets/img/posts/tailscale-dns.png)
 
 ## Conclusión
 
