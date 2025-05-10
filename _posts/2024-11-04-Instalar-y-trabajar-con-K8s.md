@@ -4,7 +4,7 @@ author: Xabierland
 description: >-
     Aprende a instalar y trabajar con K8s bare-metal 
 date: 2024-11-04 10:03
-categories: [Tutorial, Contenedores y Orquestación]
+categories: [Administración de sistemas, Orquestación de contenedores]
 tags: [Kubernetes, Containers]
 ---
 
@@ -182,11 +182,11 @@ sudo kubeadm init --pod-network-cidr=192.168.0.0/16 --cri-socket=$PATH_TO_CRI_SO
 > Si estás usando otro CRI, cambia el `--cri-socket` por el socket correspondiente.
 {: .prompt-warning }
 
-| CRI | $PATH_TO_CRI_SOCKET |
-| --- | ------ |
-| containerd | unix:///var/run/containerd/containerd.sock |
-| CRI-O | unix:///var/run/crio/crio.sock |
-| Docker Engine | unix:///var/run/cri-dockerd.sock |
+| CRI           | $PATH_TO_CRI_SOCKET                        |
+| ------------- | ------------------------------------------ |
+| containerd    | unix:///var/run/containerd/containerd.sock |
+| CRI-O         | unix:///var/run/crio/crio.sock             |
+| Docker Engine | unix:///var/run/cri-dockerd.sock           |
 
 Una vez que el comando se haya completado correctamente, se mostrará un mensaje con las instrucciones para unir los nodos al clúster.
 

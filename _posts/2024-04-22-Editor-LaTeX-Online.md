@@ -4,7 +4,7 @@ author: Xabierland
 description: >-
   Usa LaTeX en tu propia instancia de Overleaf/ShareLaTeX.
 date: 2024-04-22
-categories: [Tutorial, HomeLab]
+categories: []
 tags: [LaTeX, Documentación, Escritura, Overleaf, ShareLaTeX]
 ---
 <!-- markdownlint-disable MD029 -->

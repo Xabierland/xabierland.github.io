@@ -2,7 +2,7 @@
 title: España bloquea Telegram
 author: Xabierland
 date: 2024-03-23
-categories: [Blog]
+categories: [Blogs]
 tags: [Telegram, Bloqueo, España, Privacidad]
 ---
 

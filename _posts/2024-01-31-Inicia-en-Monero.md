@@ -4,7 +4,7 @@ description: >-
   Mi experiencia empezando en el mundo de Monero.
 author: Xabierland
 date: 2024-01-31
-categories: [Blog]
+categories: [Blogs]
 tags: [Monero, Criptomoneda, Privacidad]
 ---
 

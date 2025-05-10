@@ -3,7 +3,7 @@ title: Libertad de contenido con Stremio
 description: Conoce Stremio, una plataforma de *streaming* de contenido pirata mediante *torrents*.  
 author: Xabierland  
 date: 2024-03-08  
-categories: [Blog]  
+categories: [Blogs]  
 tags: [Stremio, Streaming, Piratería]  
 ---
 <!-- markdownlint-disable MD033 -->

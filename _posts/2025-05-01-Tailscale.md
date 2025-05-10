@@ -4,7 +4,7 @@ author: Xabierland
 description: >-
   Aprende a instalar y configurar Tailscale en tu red doméstica para acceder a ella de forma segura, rápida y privada desde cualquier lugar.
 date: 2025-05-01
-categories: [Tutorial, HomeLab]
+categories: [HomeLab]
 tags: [Tailscale, VPN, Redes, Seguridad, Proxmox]
 ---
 

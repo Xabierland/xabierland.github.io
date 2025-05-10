@@ -4,7 +4,7 @@ author: Xabierland
 description: >-
   Monta un servidor con Proxmox en tu casa para tener control sobre tus servicios y aplicaciones.
 date: 2024-01-09
-categories: [Tutorial, HomeLab]
+categories: [HomeLab]
 tags: [Proxmox, Virtualización, Servidor, Redes, Seguridad]
 ---
 

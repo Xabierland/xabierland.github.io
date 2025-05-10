@@ -4,7 +4,7 @@ author: Xabierland
 description: >-
   Descubre las diferencias entre las distribuciones de Linux más populares y elige la que mejor se adapte a tus necesidades.
 date: 2024-11-09
-categories: [Blog, Sistemas Operativos]
+categories: [Blogs]
 tags: [Linux, Distribuciones, Comparativa]
 ---
 

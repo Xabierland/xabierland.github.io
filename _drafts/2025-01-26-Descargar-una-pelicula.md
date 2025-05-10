@@ -4,7 +4,7 @@ author: Xabierland
 description: >-
   
 date: 2025-01-26
-categories: [Tutorial]
+categories: [Blogs]
 tags: [Películas]
 ---
 

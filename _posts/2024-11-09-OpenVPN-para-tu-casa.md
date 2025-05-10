@@ -4,7 +4,7 @@ author: Xabierland
 description: >-
   Instala y configura OpenVPN en tu casa para acceder a tu red local de forma segura y privada desde cualquier lugar.
 date: 2024-11-09
-categories: [Tutorial, HomeLab]
+categories: [HomeLab]
 tags: [OpenVPN, VPN, Redes, Seguridad, Proxmox]
 ---
 

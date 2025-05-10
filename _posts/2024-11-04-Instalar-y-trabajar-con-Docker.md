@@ -4,7 +4,7 @@ author: Xabierland
 description: >-
     Aprende a instalar y trabajar con Docker
 date: 2024-11-04 10:00
-categories: [Tutorial, Contenedores y Orquestación]
+categories: [Administración de sistemas, Contenedores]
 tags: [Docker, Containers]
 ---
 

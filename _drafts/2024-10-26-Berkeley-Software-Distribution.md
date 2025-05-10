@@ -4,7 +4,7 @@ author: Xabierland
 description: >-
   Conoce la historia, características y usos de los sistemas operativos BSD.
 date: 2024-10-26
-categories: [Blog]
+categories: [Blogs]
 tags: [BSD, Unix, Operative System, Free Software]
 ---
 
@@ -71,4 +71,4 @@ Esta es la razon por la que la licencia BSD es muy usada incluso en proyectos pr
 
 ## Referencias
 
-[1] https://es.wikipedia.org/wiki/Licencia_BSD
+[^1]: [Licencia BSD](https://es.wikipedia.org/wiki/Licencia_BSD)
