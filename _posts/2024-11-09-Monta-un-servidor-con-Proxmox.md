@@ -3,7 +3,7 @@ title: Monta un servidor con Proxmox
 author: Xabierland
 description: >-
   Monta un servidor con Proxmox en tu casa para tener control sobre tus servicios y aplicaciones.
-date: 2024-01-09
+date: 2024-11-09 10:00
 categories: [HomeLab]
 tags: [Proxmox, Virtualización, Servidor, Redes, Seguridad]
 ---
@@ -61,7 +61,7 @@ Existen multitud de configuraciones que puedes hacer en Proxmox voy a ir tocando
 
 Lo primero que vamos ha hacer es elegir el sistema operativo que vamos a instalar en la máquina virtual. En mi caso, voy a instalar Debian 12.
 Primero, descarga la imagen ISO de Debian 12 desde la [página oficial](https://www.debian.org/distrib/netinst) y guárdala en tu ordenador.
-Accede a la interfaz web de Proxmox y selecciona el almacenamiento local. En el apartado `ISO Images` haz clic en `Upload` y selecciona la imagen ISO de Debian 12 que has descargado. También puedes pasar la URL de la imagen ISO para que el servidor la descargue automáticamente meidante el botón `Download from URL`.
+Accede a la interfaz web de Proxmox y selecciona el almacenamiento local. En el apartado `ISO Images` haz clic en `Upload` y selecciona la imagen ISO de Debian 12 que has descargado. También puedes pasar la URL de la imagen ISO para que el servidor la descargue automáticamente mediante el botón `Download from URL`.
 
 Una vez tengamos la imagen ISO en el almacenamiento local, vamos a crear una nueva máquina virtual. Haz clic en `Create VM` y sigue los pasos del asistente para configurar la máquina virtual.
 
@@ -71,7 +71,7 @@ Una vez creada la máquina virtual, arráncala y sigue las instrucciones del ins
 
 ### 6. Crea un contenedor LXC
 
-Para crear un contenedor LXC en Proxmox lo primero que necesitas es una plantilla. Proxmox viene con varias plantillas preinstaladas que puedes usar para crear contenedores LXC. Yo, te recomiendo tambien activar las plantillas de TurnKey Linux[^1] que son muy útiles ya que vienen con aplicaciones preinstaladas. Para activar las plantillas de TurnKey Linux en caso de que no esten ya, entra en la consola del nodo y ejecuta el siguiente comando:
+Para crear un contenedor LXC en Proxmox lo primero que necesitas es una plantilla. Proxmox viene con varias plantillas preinstaladas que puedes usar para crear contenedores LXC. Yo, te recomiendo también activar las plantillas de TurnKey Linux[^1] que son muy útiles ya que vienen con aplicaciones preinstaladas. Para activar las plantillas de TurnKey Linux en caso de que no estén ya, entra en la consola del nodo y ejecuta el siguiente comando:
 
 ```bash
 pveam update

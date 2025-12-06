@@ -10,11 +10,11 @@ tags: [Podman, Containers]
 
 ## Introducción
 
-Docker es una herramienta bastante utilizada en el mundo de la informática y la programación y que ha ido cogiendo fuerza con el paso de los tiempos. En este tutorial, aprenderás qué es Docker, por qué es tan popular y cómo instalarlo y trabajar con él.
+Podman es una herramienta bastante utilizada en el mundo de la informática y la programación y que ha ido cogiendo fuerza con el paso de los tiempos. En este tutorial, aprenderás qué es Podman, por qué es tan popular y cómo instalarlo y trabajar con él.
 
 ### ¿Qué es Podman?
 
-Podman es una herramienta de contenedorización que permite ejecutar aplicaciones y sus dependencias de manera aislada en un entorno llamado "contenedor". Esto es util para desarrolladores que quieren ejecutar aplicaciones en diferentes entornos sin tener que preocuparse por las dependencias de la aplicación. Podman también es util para administradores de sistemas que quieren ejecutar aplicaciones en servidores sin tener que preocuparse por las dependencias de la aplicación.
+Podman es una herramienta de contenedorización que permite ejecutar aplicaciones y sus dependencias de manera aislada en un entorno llamado "contenedor". Esto es útil para desarrolladores que quieren ejecutar aplicaciones en diferentes entornos sin tener que preocuparse por las dependencias de la aplicación. Podman también es útil para administradores de sistemas que quieren ejecutar aplicaciones en servidores sin tener que preocuparse por las dependencias de la aplicación.
 
 ### ¿Por qué Podman?
 
@@ -138,7 +138,7 @@ podman run -d -p 8080:80 my-nginx
 
 ### Podman-compose
 
-Podman también soporta la herramienta `podman-compose`, que es similar a `docker compose` y se utiliza para definir y ejecutar aplicaciones multi-contenedor. Aquí tienes un ejemplo de un archivo `podman-compose.yml
+Podman también soporta la herramienta `podman-compose`, que es similar a `docker compose` y se utiliza para definir y ejecutar aplicaciones multi-contenedor. Aquí tienes un ejemplo de un archivo `podman-compose.yml`
 
 ```yaml
 version: '3'

@@ -3,7 +3,7 @@ title: Inicia en Monero
 description: >-
   Mi experiencia empezando en el mundo de Monero.
 author: Xabierland
-date: 2024-01-31
+date: 2024-01-31 10:00
 categories: [Blogs]
 tags: [Monero, Criptomoneda, Privacidad]
 ---
@@ -59,9 +59,9 @@ Una vez que tengas Monero en tu poder, puedes usarlo para comprar bienes y servi
 
 ## Conclusiones
 
-Esta es una guía **muy** básica para empezar en el mundo de Monero. Hay muchas cosas que no he explicado, e incluso que desconozco. Recomiendo que leas la guía oficial de Monero, que dejaré en la bibliografía, y que busques en foros, canales de IRC o Reddit para aprender más sobre Monero.
+Esta es una guía **muy** básica para empezar en el mundo de Monero. Hay muchas cosas que no he explicado, e incluso que desconozco. Recomiendo que leas la guía oficial de Monero, que dejaré en las referencias, y que busques en foros, canales de IRC o Reddit para aprender más sobre Monero.
 
-## Bibliografía
+## Referencias
 
 - [Guía de Monero](https://www.getmonero.org/resources/user-guides/)
 - [How to Run a Full Monero Node Over Tor](https://www.youtube.com/watch?v=nDBHhz00vjI)

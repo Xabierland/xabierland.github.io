@@ -1,10 +1,16 @@
 ---
 title: España bloquea Telegram
 author: Xabierland
-date: 2024-03-23
+description: >-
+  Análisis del bloqueo de Telegram en España ordenado por la Audiencia Nacional y cómo eludirlo.
+date: 2024-03-23 10:00
 categories: [Blogs]
 tags: [Telegram, Bloqueo, España, Privacidad]
 ---
+
+## Introducción
+
+El 23 de marzo de 2024 marcó un precedente preocupante para la libertad en internet en España: el bloqueo judicial de Telegram. Esta medida, justificada en la lucha contra la piratería, plantea serias dudas sobre la proporcionalidad de las acciones gubernamentales y el futuro del acceso libre a las plataformas de comunicación. En este post analizaré qué ha ocurrido, las implicaciones de esta decisión y, sobre todo, cómo podemos mantener el acceso a Telegram pese a las restricciones.
 
 ## ¿Qué ha pasado?
 
@@ -23,7 +29,7 @@ Solo hace falta ver qué países han bloqueado Telegram: Rusia, China, Irán y C
 
 A nivel de la aplicación, Telegram seguirá funcionando, pero no se podrá descargar desde las tiendas de aplicaciones de Google y Apple. Tendremos que descargarla desde la web de Telegram o desde una tienda de aplicaciones de terceros. Esto, para dispositivos Android, no supone un problema, pero para dispositivos iOS sí lo es, ya que Apple no permite instalar aplicaciones de terceros sin hacer *jailbreak*.
 
-A nivel de internet, lo más probable es que las ISP de España eliminen de sus DNS la dirección de Telegram, lo que impedirá acceder a la aplicación a priori. Sin embargo, este bloqueo es fácilmente eludible simplemente cambiando los DNS de nuestro proveedor por los de Google, Cloudflare, Quad9, o incluso montando uno propio en un Pi-hole.
+A nivel de internet, lo más probable es que los ISP de España eliminen de sus DNS la dirección de Telegram, lo que impedirá acceder a la aplicación a priori. Sin embargo, este bloqueo es fácilmente eludible simplemente cambiando los DNS de nuestro proveedor por los de Google, Cloudflare, Quad9, o incluso montando uno propio en un Pi-hole.
 
 En caso de que el bloqueo no sea a nivel de DNS, sino que se bloquee la IP a nivel de BGP, la solución sería usar una VPN o un proxy para acceder a Telegram.
 

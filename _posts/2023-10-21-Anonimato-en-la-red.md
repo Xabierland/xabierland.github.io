@@ -3,13 +3,13 @@ title: Anonimato en la red
 description: >-
   Guía para conseguir el anonimato en la red.
 author: Xabierland
-date: 2023-10-21
+date: 2023-10-21 10:00
 categories: [Blogs]
 tags: [Anonimato, Privacidad, Seguridad]
 pin: true
 ---
 
-## Introduccion
+## Introducción
 
 La seguridad en internet es algo que ha ido desapareciendo con el paso del tiempo. Atrás queda el tiempo en que la red era un sitio anónimo y descentralizado, en el que todo era por personas y para personas, dando paso a una red prácticamente centralizada y vigilada por agencias gubernamentales o grandes compañías de tecnología. Este post intentará volver atrás en el tiempo en algunos aspectos para así poder avanzar hacia un futuro más seguro, privado y anónimo.
 
@@ -40,7 +40,7 @@ El ordenador de sobremesa es quizá el más fácil de conseguir, ya que puedes i
 
 Como desventaja, tenemos que es un ordenador que no es fácil de transportar y ocupa bastante espacio. Al estar en un mismo lugar, es más fácil que pueda ser localizado. También es más difícil de ocultar en caso de que sea necesario.
 
-### Ordenador portatil
+### Ordenador portátil
 
 El ordenador portátil es quizá el más difícil de conseguir de forma anónima, ya que, por lo general, se compra en una tienda física o en línea y suele pagarse con tarjeta de crédito o débito. También es posible comprarlo en efectivo, pero es más difícil encontrar una tienda que acepte efectivo que una que acepte tarjeta.
 
@@ -50,7 +50,7 @@ Entre sus ventajas está su gran movilidad y adaptabilidad. Es fácil de transpo
 
 Por otro lado, sacrificamos la potencia y la capacidad de modificación.
 
-### Dispositivo Movil
+### Dispositivo Móvil
 
 Dentro de los dispositivos móviles englobamos tanto teléfonos como tabletas. Estos, por lo general, suelen venir con Android, por lo que es recomendable cambiar el sistema operativo por uno más seguro y privado, como GrapheneOS. También es posible encontrar móviles ya fabricados con otros forks de Android con capas de seguridad, aunque, al estar fabricados por empresas privadas, no se puede garantizar que no tengan spyware.
 
@@ -160,7 +160,7 @@ También es recomendable que al usar cualquier navegador de la lista deshabilite
 Si has elegido uno de los navegadores minimalistas de la lista de arriba, la realidad es que no vas a necesitar o no vas a poder usar extensiones. Si, por el contrario, te has visto obligado a elegir una opción como LibreWolf, Ungoogled Chromium o PaleMoon, te recomiendo que eches un vistazo a las siguientes extensiones:
 
 - uBlock Origin
-- Bitwareden
+- Bitwarden
 - KeepassXC
 - Canvas Blocker
 - xBrowserSync
@@ -288,6 +288,6 @@ Si buscas una terminal multiplexada, Tmux es tu terminal.
 
 A mí, personalmente, me gustan todas y las he probado, así que te recomiendo que las pruebes y elijas la que más te guste y mejor se adapte a tus necesidades.
 
-## Conclusion
+## Conclusión
 
 Con esta guía, espero haberte ayudado a conseguir el anonimato en la red. Si tienes alguna duda o sugerencia, no dudes en contactar conmigo. Recuerda que la seguridad en internet es un tema muy serio y que debemos ser conscientes de los peligros que nos acechan en la red. Si no tienes conocimientos de informática, te recomiendo que busques ayuda de alguien que los tenga.

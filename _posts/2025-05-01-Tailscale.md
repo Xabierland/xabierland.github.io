@@ -71,7 +71,7 @@ Este comando mostrará una URL que debes abrir en tu navegador para completar la
 
 ![Tailscale Subnet](/assets/img/posts/tailscale-subnet.png)
 
-> Tambien puedes configurar el servidor como `Exit node` para enrutar todo el tráfico a través de él hacia el internet mediante la flag `--advertise-exit-node`.
+> También puedes configurar el servidor como `Exit node` para enrutar todo el tráfico a través de él hacia el internet mediante la flag `--advertise-exit-node`.
 {: .prompt-tip }
 
 Desde este punto, puedes seguir incorporando dispositivos adicionales a tu red instalando Tailscale en cada uno de ellos, permitiéndote acceder a tu red local desde cualquier parte del mundo de forma segura y sencilla.

@@ -3,16 +3,20 @@ title: Editor LaTeX Online
 author: Xabierland
 description: >-
   Usa LaTeX en tu propia instancia de Overleaf/ShareLaTeX.
-date: 2024-04-22
-categories: []
+date: 2024-04-22 10:00
+categories: [HomeLab]
 tags: [LaTeX, Documentación, Escritura, Overleaf, ShareLaTeX]
 ---
 <!-- markdownlint-disable MD029 -->
-## ¿Que es LaTeX?
+## Introducción
+
+LaTeX es el estándar de facto para la composición de documentos científicos y técnicos de alta calidad. Sin embargo, su instalación y configuración puede resultar compleja para algunos usuarios. En este post aprenderás qué es LaTeX, por qué usarlo y cómo montar tu propio servidor de LaTeX online usando Overleaf/ShareLaTeX en tu infraestructura casera, evitando depender de servicios externos.
+
+### ¿Qué es LaTeX?
 
 LaTeX es un sistema de composición de textos que se utiliza para la creación de documentos científicos y técnicos. LaTeX es muy popular en el ámbito académico y científico debido a su capacidad para producir documentos de alta calidad con un formato profesional.
 
-## ¿Por qué usar LaTeX?
+### ¿Por qué usar LaTeX?
 
 LaTeX tiene varias ventajas sobre otros sistemas de procesamiento de texto como Microsoft Word o Google Docs. Algunas de estas ventajas incluyen:
 
@@ -40,7 +44,7 @@ Y para compilar un documento LaTeX, se utiliza el comando `pdflatex`:
 pdflatex documento.tex
 ```
 
-Tambien puedes instalar en VSCode la extensión LaTeX Workshop que te permite compilar y visualizar el documento LaTeX en tiempo real.
+También puedes instalar en VSCode la extensión LaTeX Workshop que te permite compilar y visualizar el documento LaTeX en tiempo real.
 
 ## No quiero instalar LaTeX en local, ¿hay alguna alternativa?
 
@@ -85,7 +89,7 @@ cd overleaf-toolkit
 ```bash
 bin/init
 sed -i 's/127.0.0.1/0.0.0.0/g' config/overleaf.rc
-sed -i 's/OVERLEAF_/SHARELATEX_/g' config/variables.env # No se porque pero el script de init no cambia las variables de entorno
+sed -i 's/OVERLEAF_/SHARELATEX_/g' config/variables.env # No sé por qué, pero el script de init no cambia las variables de entorno
 ```
 
 5 Iniciamos el servidor web de LaTeX con `bin/up`.
@@ -128,3 +132,12 @@ bin/up
 ```
 
 14 Accedemos a la dirección IP de nuestro contenedor LXC mediante http://$IP/login y ya podemos empezar a usar LaTeX.
+
+## Conclusión
+
+Con esta configuración ya tienes tu propio servidor de LaTeX funcionando en tu HomeLab. Esto te permite tener control total sobre tus documentos, evitar depender de servicios externos y disponer de todas las funcionalidades de Overleaf/ShareLaTeX en tu propia infraestructura.
+
+## Referencias
+
+- [Overleaf Toolkit](https://github.com/overleaf/toolkit)
+- [LaTeX Project](https://www.latex-project.org/)
