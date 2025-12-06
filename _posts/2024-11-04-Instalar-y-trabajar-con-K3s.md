@@ -4,7 +4,7 @@ author: Xabierland
 description: >-
     Aprende a instalar y trabajar con K3s
 date: 2024-11-04 10:04
-categories: [Tutorial, Contenedores y Orquestación]
+categories: [Administración de sistemas, Orquestación de contenedores]
 tags: [Kubernetes, Containers]
 ---
 
@@ -34,7 +34,7 @@ K3s tiene varias ventajas sobre otras distribuciones de Kubernetes como son:
 K3s también tiene algunas desventajas:
 
 - Limitaciones en entornos de producción grandes
-  - K3s puede ser usado en entornos de producción, pero no esta diseñado para clústeres de gran escala.
+  - K3s puede ser usado en entornos de producción, pero no está diseñado para clústeres de gran escala.
 - Soporte y personalización
   - K3s gana ligereza eliminando algunas características de Kubernetes, lo que puede limitar la personalización o el uso de herramientas específicas.
 - Menor comunidad y soporte empresarial

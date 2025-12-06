@@ -4,7 +4,7 @@ author: Xabierland
 description: >-
     Aprende a instalar y trabajar con Docker
 date: 2024-11-04 10:00
-categories: [Tutorial, Contenedores y Orquestación]
+categories: [Administración de sistemas, Contenedores]
 tags: [Docker, Containers]
 ---
 
@@ -14,7 +14,7 @@ Docker es una herramienta muy utilizada en el mundo de la informática y la prog
 
 ### ¿Qué es Docker?
 
-Docker es una herramienta de contenedorización que permite ejecutar aplicaciones y sus dependencias de manera aislada en un entorno llamado "contenedor". Esto es util para desarrolladores que quieren ejecutar aplicaciones en diferentes entornos sin tener que preocuparse por las dependencias de la aplicación. Docker también es util para administradores de sistemas que quieren ejecutar aplicaciones en servidores sin tener que preocuparse por las dependencias de la aplicación.
+Docker es una herramienta de contenedorización que permite ejecutar aplicaciones y sus dependencias de manera aislada en un entorno llamado "contenedor". Esto es útil para desarrolladores que quieren ejecutar aplicaciones en diferentes entornos sin tener que preocuparse por las dependencias de la aplicación. Docker también es útil para administradores de sistemas que quieren ejecutar aplicaciones en servidores sin tener que preocuparse por las dependencias de la aplicación.
 
 ### ¿Por qué Docker?
 
@@ -32,7 +32,7 @@ Docker tiene varias ventajas sobre otras herramientas de contenedorización como
 No obstante, no todo son ventajas, Docker tiene tres problemas principales:
 
 - Uso de daemon
-  - Docker requiere un daemon que se ejecute en segundo plano para gestionar los contenedores, lo que puede consumir recursos y ralentizar el sistema ademas de suponer una brecha de seguridad al tener que ejecutarlo como root.
+  - Docker requiere un daemon que se ejecute en segundo plano para gestionar los contenedores, lo que puede consumir recursos y ralentizar el sistema además de suponer una brecha de seguridad al tener que ejecutarlo como root.
 - Licencias
   - La version empresarial de Docker tiene una licencia propietaria que puede ser un problema para algunas empresas.
 - Mayor consumo de recursos

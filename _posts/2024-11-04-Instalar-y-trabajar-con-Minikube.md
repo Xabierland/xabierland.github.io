@@ -4,7 +4,7 @@ author: Xabierland
 description: >-
     Aprende a instalar y trabajar con Minikube
 date: 2024-11-04 10:05
-categories: [Tutorial, Contenedores y Orquestación]
+categories: [Administración de sistemas, Orquestación de contenedores]
 tags: [Kubernetes, Containers]
 ---
 

@@ -3,13 +3,13 @@ title: Anonimato en la red
 description: >-
   Guía para conseguir el anonimato en la red.
 author: Xabierland
-date: 2023-10-21
-categories: [Blog]
+date: 2023-10-21 10:00
+categories: [Blogs]
 tags: [Anonimato, Privacidad, Seguridad]
 pin: true
 ---
 
-## Introduccion
+## Introducción
 
 La seguridad en internet es algo que ha ido desapareciendo con el paso del tiempo. Atrás queda el tiempo en que la red era un sitio anónimo y descentralizado, en el que todo era por personas y para personas, dando paso a una red prácticamente centralizada y vigilada por agencias gubernamentales o grandes compañías de tecnología. Este post intentará volver atrás en el tiempo en algunos aspectos para así poder avanzar hacia un futuro más seguro, privado y anónimo.
 
@@ -40,7 +40,7 @@ El ordenador de sobremesa es quizá el más fácil de conseguir, ya que puedes i
 
 Como desventaja, tenemos que es un ordenador que no es fácil de transportar y ocupa bastante espacio. Al estar en un mismo lugar, es más fácil que pueda ser localizado. También es más difícil de ocultar en caso de que sea necesario.
 
-### Ordenador portatil
+### Ordenador portátil
 
 El ordenador portátil es quizá el más difícil de conseguir de forma anónima, ya que, por lo general, se compra en una tienda física o en línea y suele pagarse con tarjeta de crédito o débito. También es posible comprarlo en efectivo, pero es más difícil encontrar una tienda que acepte efectivo que una que acepte tarjeta.
 
@@ -50,7 +50,7 @@ Entre sus ventajas está su gran movilidad y adaptabilidad. Es fácil de transpo
 
 Por otro lado, sacrificamos la potencia y la capacidad de modificación.
 
-### Dispositivo Movil
+### Dispositivo Móvil
 
 Dentro de los dispositivos móviles englobamos tanto teléfonos como tabletas. Estos, por lo general, suelen venir con Android, por lo que es recomendable cambiar el sistema operativo por uno más seguro y privado, como GrapheneOS. También es posible encontrar móviles ya fabricados con otros forks de Android con capas de seguridad, aunque, al estar fabricados por empresas privadas, no se puede garantizar que no tengan spyware.
 
@@ -88,11 +88,11 @@ A la hora de elegir un proveedor de VPS, es importante que elijas uno que no pid
 A continuación te dejo una lista de proveedores de VPS que cumplen con los requisitos anteriores:
 
 | Servicio | Tor | Cripto |
-| --- | --- | --- |
-| Privex | X | X |
-| Njalla | X | X |
-| IncogNet | X | X |
-| 1984 | | X |
+| -------- | --- | ------ |
+| Privex   | X   | X      |
+| Njalla   | X   | X      |
+| IncogNet | X   | X      |
+| 1984     |     | X      |
 
 ### VPN
 
@@ -131,7 +131,7 @@ Otra opcion es usar Snowflake. Snowflake es un proyecto de Tor que permite a los
 Los navegadores son una herramienta crucial que usamos a todas horas, por lo que elegir uno no es moco de pavo. A continuación, te dejo una lista de navegadores a considerar al elegir el tuyo.
 
 | Navegador          | Licencia | UI  |
-|--------------------|----------|-----|
+| ------------------ | -------- | --- |
 | Mozilla Firefox    | MPL      | GUI |
 | LibreWolf          | MPL      | GUI |
 | Ungoogled Chromium | BSD      | GUI |
@@ -160,7 +160,7 @@ También es recomendable que al usar cualquier navegador de la lista deshabilite
 Si has elegido uno de los navegadores minimalistas de la lista de arriba, la realidad es que no vas a necesitar o no vas a poder usar extensiones. Si, por el contrario, te has visto obligado a elegir una opción como LibreWolf, Ungoogled Chromium o PaleMoon, te recomiendo que eches un vistazo a las siguientes extensiones:
 
 - uBlock Origin
-- Bitwareden
+- Bitwarden
 - KeepassXC
 - Canvas Blocker
 - xBrowserSync
@@ -200,12 +200,12 @@ Aunque en general el concepto de criptomoneda es bastante seguro y privado, hay 
 Aunque no es una herramienta que se suela asociar con la privacidad y el anonimato, es recomendable usar un gestor de archivos que sea software libre.
 
 | Gestor de archivos | Licencia |
-|--------------------|----------|
-| Ranger | GPL |
-| Yazi | MIT |
-| lf | MIT |
-| fff | MIT |
-| xplr | MIT |
+| ------------------ | -------- |
+| Ranger             | GPL      |
+| Yazi               | MIT      |
+| lf                 | MIT      |
+| fff                | MIT      |
+| xplr               | MIT      |
 
 Aunque Ranger es el más conocido y usado de la lista, yo personalmente recomiendo Yazi. Es un gestor de archivos muy ligero y fácil de usar. Además, es muy personalizable y tiene muchas funcionalidades.
 
@@ -214,12 +214,12 @@ Aunque Ranger es el más conocido y usado de la lista, yo personalmente recomien
 Al igual que el gestor de archivos, el editor/visor de texto no es una herramienta que se suela asociar con la privacidad y el anonimato, pero es recomendable usar un editor/visor de texto que sea software libre.
 
 | Editor/Visor de texto | Licencia |
-|-----------------------|----------|
-| Vi | BSD |
-| Vim | GPL |
-| Neovim | Apache |
-| Emacs | GPL |
-| Nano | GPL |
+| --------------------- | -------- |
+| Vi                    | BSD      |
+| Vim                   | GPL      |
+| Neovim                | Apache   |
+| Emacs                 | GPL      |
+| Nano                  | GPL      |
 
 Cualquier editor/visor de texto de la lista es una gran opción. Pruébalos y elige el que más te guste y mejor se adapte a tus necesidades.
 
@@ -228,9 +228,9 @@ Cualquier editor/visor de texto de la lista es una gran opción. Pruébalos y el
 Siguiendo con las recomendaciones de software libre, aquí tienes algunos editores/visores de imágenes.
 
 | Editor/Visor de imagenes | Licencia |
-|--------------------------|----------|
-| feh | GPL |
-| sxiv | GPL |
+| ------------------------ | -------- |
+| feh                      | GPL      |
+| sxiv                     | GPL      |
 
 Yo suelo usar feh, ya que se adapta muy bien con Yazi y es muy fácil de usar.
 
@@ -239,16 +239,16 @@ Yo suelo usar feh, ya que se adapta muy bien con Yazi y es muy fácil de usar.
 Es importante, sobre todo al compartir archivos, borrar los metadatos de los mismos. A continuación, te dejo una lista de borradores de metadatos a considerar.
 
 | Borrador de metadatos | Licencia |
-|-----------------------|----------|
-| mat2 | GPL |
-| ExifTool | GPL |
+| --------------------- | -------- |
+| mat2                  | GPL      |
+| ExifTool              | GPL      |
 
 ### Gestor de contraseñas
 
 Es importante usar contraseñas seguras y una contraseña diferente para cada servicio. Esto puede resultar complicado si tenemos que recordar todas las contraseñas. Por ello, es recomendable usar un gestor de contraseñas. A continuación, te dejo una lista de gestores de contraseñas.
 
 | Gestor de contraseña | Licencia |
-|----------------------|----------|
+| -------------------- | -------- |
 | Bitwarden            | GPL      |
 | KeepassXC            | GPL      |
 | pass                 | GPL      |
@@ -261,12 +261,12 @@ Pass, en cambio, está enfocado en la filosofía Unix y almacena las contraseña
 
 Aunque la Shell no tiene mucho que ver con el tema de anonimato y privacidad, me parece interesante saber qué opciones tenemos a la hora de elegir una Shell. A continuación, te dejo una lista de Shells a considerar.
 
-| Shell      | Licencia |
-|------------|----------|
-| sh         | BSD      |
-| Bash       | GPL      |
-| Fish       | GPL      |
-| Zsh        | MIT      |
+| Shell | Licencia |
+| ----- | -------- |
+| sh    | BSD      |
+| Bash  | GPL      |
+| Fish  | GPL      |
+| Zsh   | MIT      |
 
 Existen muchas más Shells, pero tampoco quiero hacer una lista interminable. Mi preferida es Zsh, ya que es muy personalizable y tiene muchas funcionalidades.
 
@@ -274,13 +274,13 @@ Existen muchas más Shells, pero tampoco quiero hacer una lista interminable. Mi
 
 Al igual que la Shell, la terminal o CLI no están muy relacionadas con el anonimato y la privacidad, pero como usuario de Linux es posiblemente la herramienta que más utilices, por lo que elegir una buena terminal es muy importante. A continuación, te dejo una lista de terminales a considerar.
 
-| Terminal | Licencia |
-|----------|----------|
-| Alacritty| MIT      |
-| Kitty    | MIT      |
-| St       | MIT      |
-| urxvt    | MIT      |
-| tmux     | BSD      |
+| Terminal  | Licencia |
+| --------- | -------- |
+| Alacritty | MIT      |
+| Kitty     | MIT      |
+| St        | MIT      |
+| urxvt     | MIT      |
+| tmux      | BSD      |
 
 Si buscas simplicidad y funcionalidad, St es una buena opción.
 Por otro lado, si buscas gran personalización y utilizar la GPU, Alacritty y Kitty son las opciones a elegir.
@@ -288,6 +288,6 @@ Si buscas una terminal multiplexada, Tmux es tu terminal.
 
 A mí, personalmente, me gustan todas y las he probado, así que te recomiendo que las pruebes y elijas la que más te guste y mejor se adapte a tus necesidades.
 
-## Conclusion
+## Conclusión
 
 Con esta guía, espero haberte ayudado a conseguir el anonimato en la red. Si tienes alguna duda o sugerencia, no dudes en contactar conmigo. Recuerda que la seguridad en internet es un tema muy serio y que debemos ser conscientes de los peligros que nos acechan en la red. Si no tienes conocimientos de informática, te recomiendo que busques ayuda de alguien que los tenga.

@@ -4,7 +4,7 @@ author: Xabierland
 description: >-
   Instala y configura OpenVPN en tu casa para acceder a tu red local de forma segura y privada desde cualquier lugar.
 date: 2024-11-09
-categories: [Tutorial, HomeLab]
+categories: [HomeLab]
 tags: [OpenVPN, VPN, Redes, Seguridad, Proxmox]
 ---
 
@@ -20,7 +20,7 @@ OpenVPN es compatible con la mayoría de los sistemas operativos, incluyendo Win
 
 ### ¿OpenVPN o WireGuard?
 
-WireGuard es una tecnología de VPN más moderna y durante mucho tiempo mas rápida que OpenVPN. Sin embargo, OpenVPN ha mejorado enormemente con la llegada de DCO (Data Channel Offload)
+WireGuard es una tecnología de VPN más moderna y durante mucho tiempo más rápida que OpenVPN. Sin embargo, OpenVPN ha mejorado enormemente con la llegada de DCO (Data Channel Offload)
 
 DCO cambia la forma en que Access Server maneja los datos que fluyen a través del túnel VPN. Con DCO, el cifrado y descifrado del canal de datos se trasladan al espacio del kernel, permitiendo que sea el kernel quien realice el trabajo en lugar de gestionarlo en el espacio de usuario. Esto ahorra en operaciones de copia entre el espacio del kernel y el espacio de usuario y utiliza la multihilación.[^1]
 
@@ -28,7 +28,7 @@ Esto combinado con la facilidad de uso, la madurez, la compatibilidad y la segur
 
 ## Instalación y configuración de OpenVPN [^2]
 
-> Este tutorial asume que tienes un servidpr Proxmox en tu casa y que tienes conocimientos básicos de Linux y redes.
+> Este tutorial asume que tienes un servidor Proxmox en tu casa y que tienes conocimientos básicos de Linux y redes.
 > Si no tienes un servidor Proxmox, puedes seguir este [tutorial](https://xabierland.github.io/posts/Monta-un-servidor-con-Proxmox/)
 > Si no tienes conocimientos de Linux y redes te recomiendo formarte antes de seguir con este tutorial.
 {: .prompt-warning }
@@ -61,7 +61,7 @@ Estas líneas permiten que el contenedor pueda usar el dispositivo `tun` que es 
 Ahora vamos a configurar los permisos de `/dev/net/tun` mediante el siguiente comando:
 
 ```bash
-chwon 100000:100000 /dev/net/tun
+chown 100000:100000 /dev/net/tun
 ```
 
 Con esto ya podemos encender el contenedor.
@@ -97,7 +97,7 @@ Una vez terminado el script, se generará un archivo `.ovpn` que deberás descar
 Este archivo es el que necesitarás para conectarte a tu servidor OpenVPN.
 
 > Si vas a pasarlo entre ordenadores, te recomiendo hacerlo mediante SCP.
-> Si vas a pasarlo a un dispositivo móvil, te recomiendo hacerlo mediante USB o no pasarlo en claro como minimo.
+> Si vas a pasarlo a un dispositivo móvil, te recomiendo hacerlo mediante USB o no pasarlo en claro como mínimo.
 {: .prompt-warning }
 
 ### 4. Configurar el router

@@ -4,7 +4,7 @@ author: Xabierland
 description: >-
     Aprende a instalar y trabajar con K8s bare-metal 
 date: 2024-11-04 10:03
-categories: [Tutorial, Contenedores y Orquestación]
+categories: [Administración de sistemas, Orquestación de contenedores]
 tags: [Kubernetes, Containers]
 ---
 
@@ -32,7 +32,7 @@ Kubernetes bare-metal tiene varias ventajas sobre la implementación en la nube,
 - Seguridad mejorada
   - Al tener control total del entorno, se pueden implementar medidas de seguridad avanzadas.
 - Evitar el vendor lock-in
-  - Al no depender de un proveedor de nube, es más facil migrar a otro proveedor o mantener el sistema on-premise.
+  - Al no depender de un proveedor de nube, es más fácil migrar a otro proveedor o mantener el sistema on-premise.
 - Cumplimiento normativo
   - Es más fácil cumplir con las regulaciones y normativas de seguridad al tener control total del entorno.
 
@@ -182,15 +182,15 @@ sudo kubeadm init --pod-network-cidr=192.168.0.0/16 --cri-socket=$PATH_TO_CRI_SO
 > Si estás usando otro CRI, cambia el `--cri-socket` por el socket correspondiente.
 {: .prompt-warning }
 
-| CRI | $PATH_TO_CRI_SOCKET |
-| --- | ------ |
-| containerd | unix:///var/run/containerd/containerd.sock |
-| CRI-O | unix:///var/run/crio/crio.sock |
-| Docker Engine | unix:///var/run/cri-dockerd.sock |
+| CRI           | $PATH_TO_CRI_SOCKET                        |
+| ------------- | ------------------------------------------ |
+| containerd    | unix:///var/run/containerd/containerd.sock |
+| CRI-O         | unix:///var/run/crio/crio.sock             |
+| Docker Engine | unix:///var/run/cri-dockerd.sock           |
 
 Una vez que el comando se haya completado correctamente, se mostrará un mensaje con las instrucciones para unir los nodos al clúster.
 
-Tambien deberás configurar el entorno de kubectl para que pueda comunicarse con el clúster:
+También deberás configurar el entorno de kubectl para que pueda comunicarse con el clúster:
 
 ```bash
 mkdir -p $HOME/.kube

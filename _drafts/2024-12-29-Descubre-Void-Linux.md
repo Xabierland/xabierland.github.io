@@ -1,10 +1,10 @@
 ---
-title: Void Linux
+title: Descubre Void Linux
 author: Xabierland
 description: >-
   Descubre Void Linux
 date: 2024-11-09
-categories: [Blog, Sistemas Operativos]
+categories: [Administración de sistemas, Sistemas operativos]
 tags: [Linux, Distribuciones, Void Linux]
 ---
 

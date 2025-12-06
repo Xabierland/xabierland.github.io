@@ -1,10 +1,10 @@
 ---
-title: Libertad de contenido con Stremio  
-description: Conoce Stremio, una plataforma de *streaming* de contenido pirata mediante *torrents*.  
-author: Xabierland  
-date: 2024-03-08  
-categories: [Blog]  
-tags: [Stremio, Streaming, Piratería]  
+title: Libertad de contenido con Stremio
+description: Conoce Stremio, una plataforma de *streaming* de contenido pirata mediante *torrents*.
+author: Xabierland
+date: 2024-03-08 10:00
+categories: [Blogs]
+tags: [Stremio, Streaming, Piratería]
 ---
 <!-- markdownlint-disable MD033 -->
 
@@ -42,7 +42,7 @@ sudo dpkg -i stremio.deb
 sudo apt-get install -f
 ```
 
-Tambien podemos instalarlo desde nuestra aplicación de software preferida en formato Flatpak o Snap.
+También podemos instalarlo desde nuestra aplicación de software preferida en formato Flatpak o Snap.
 
 ### Crear una cuenta en Stremio
 
@@ -58,3 +58,9 @@ Ahora que ya tenemos Stremio instalado, accedemos a la [página de addons](https
 - Cyberflix
 
 Para añadirlos, en lugar de pulsar en "Install", seleccionaremos "Configure" y rellenaremos los campos que nos soliciten con las opciones deseadas. Una vez hecho esto, podremos instalar el addon.
+
+## Conclusión
+
+Stremio, junto con los addons adecuados, se convierte en una herramienta poderosa para acceder a contenido de forma libre y sin restricciones geográficas o económicas. Al utilizar la tecnología de torrents, Stremio democratiza el acceso a la cultura y el entretenimiento, permitiendo que más personas puedan disfrutar del contenido independientemente de su ubicación o situación financiera.
+
+Recuerda que el uso de Stremio con estos addons puede estar sujeto a las leyes de tu país en materia de derechos de autor. Utilízalo bajo tu propia responsabilidad y siempre respetando la legalidad vigente en tu jurisdicción.
