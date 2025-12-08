@@ -12,8 +12,6 @@ Con un enfoque particular en la administración de sistemas, la ciberseguridad y
 
 En constante búsqueda de aprendizaje, me esfuerzo por mantenerme actualizado en las últimas tendencias tecnológicas. Estoy convencido de que la educación continua es clave en el campo de la informática, y busco activamente oportunidades para expandir mis conocimientos y habilidades.
 
-Además de mis habilidades técnicas, me destaco como un líder, creyendo en la colaboración efectiva y la comunicación para alcanzar objetivos comunes. Mi participación en la comunidad no solo demuestra mi compromiso con la excelencia técnica, sino también mi capacidad para inspirar a otros y fomentar un ambiente de aprendizaje colaborativo.
-
 ## Curriculum
 
 * [Curriculum ES](/assets/doc/cv/cv_es/cv_es.pdf){:target="_blank"}
