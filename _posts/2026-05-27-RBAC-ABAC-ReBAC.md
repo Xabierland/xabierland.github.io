@@ -1,5 +1,5 @@
 ---
-title: RBAC, ABAC y ReBAC: cómo evoluciona el modelo de autorización según la complejidad de tu sistema
+title: "RBAC, ABAC y ReBAC: cómo evoluciona el modelo de autorización según la complejidad de tu sistema"
 author: Xabierland
 description: >-
     RBAC, ABAC y ReBAC son los tres paradigmas que dominan la autorización moderna. Cada uno responde a un tipo distinto de complejidad organizativa y técnica. Elegir mal el modelo produce tablas de permisos inmanejables, auditorías imposibles o políticas que nadie sabe explicar.
