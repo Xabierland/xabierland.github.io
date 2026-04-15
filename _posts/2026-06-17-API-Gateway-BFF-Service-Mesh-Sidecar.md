@@ -1,5 +1,5 @@
 ---
-title: API Gateway, BFF, Service Mesh y Sidecar: patrones de seguridad en el perímetro y el interior
+title: "API Gateway, BFF, Service Mesh y Sidecar: patrones de seguridad en el perímetro y el interior"
 author: Xabierland
 description: >-
     Los microservicios rompieron la idea del perímetro único. API Gateway, BFF, Service Mesh y Sidecar son cuatro patrones que reparten las responsabilidades de seguridad entre el norte-sur y el este-oeste. Entender qué resuelve cada uno, dónde se solapan y cómo se componen es lo que diferencia una arquitectura defendible de una colección de proxies.

@@ -1,5 +1,5 @@
 ---
-title: Autenticación y autorización: los dos pilares que los arquitectos confunden
+title: "Autenticación y autorización: los dos pilares que los arquitectos confunden"
 author: Xabierland
 description: >-
     Autenticación y autorización son dos procesos distintos que responden a preguntas diferentes: quién eres y qué puedes hacer. Confundirlos en el diseño produce código de seguridad disperso, auditorías imposibles y fugas entre tenants. Entender la separación es el primer paso para construir cualquier arquitectura moderna de seguridad.
