@@ -8,7 +8,7 @@ description: >-
   `usermod` que te dejan el sistema a medias, y cómo los user namespaces lo
   arreglan de verdad. Con las pruebas para que las repitas.
 date: 2026-07-28 10:00
-categories: [Seguridad, Administración de sistemas]
+categories: [DevSecOps, Kubernetes]
 tags: [Linux, Kernel, Contenedores, Kubernetes, UID, User Namespaces, Ansible]
 ---
 
